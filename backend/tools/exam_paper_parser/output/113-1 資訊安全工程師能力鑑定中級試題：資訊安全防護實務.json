@@ -1,0 +1,1485 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "file_name": "113-1 資訊安全工程師能力鑑定中級試題：資訊安全防護實務.html",
+    "format": "html",
+    "parser": "ExamHTMLParser"
+  },
+  "exam": {
+    "title": "113年 - 113-1 資訊安全工程師能力鑑定中級試題：資訊安全防護實務#119309 - 阿摩線上測驗",
+    "groups": [
+      {
+        "group_id": "G1",
+        "title": "【題組 1】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組 1】<br/><img alt=\"661f25d169685.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f25d169685.jpg\"/></p></div>",
+        "prompt_text": "【題組 1】",
+        "question_range": [
+          4,
+          7
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f25d169685.jpg",
+            "alt": "661f25d169685.jpg",
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G2",
+        "title": "【題組 2】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組 2】<br/><img alt=\"661f26fc0852b.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f26fc0852b.jpg\"/></p></div>",
+        "prompt_text": "【題組 2】",
+        "question_range": [
+          15,
+          18
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f26fc0852b.jpg",
+            "alt": "661f26fc0852b.jpg",
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G3",
+        "title": "【題組 3】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組 3】<br/><img alt=\"661f27c903c6e.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f27c903c6e.jpg\"/></p></div>",
+        "prompt_text": "【題組 3】",
+        "question_range": [
+          24,
+          27
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f27c903c6e.jpg",
+            "alt": "661f27c903c6e.jpg",
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G4",
+        "title": "【題組 4】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組 4】<br/><img alt=\"661f286e75dfa.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f286e75dfa.jpg\"/></p></div>",
+        "prompt_text": "【題組 4】",
+        "question_range": [
+          33,
+          36
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f286e75dfa.jpg",
+            "alt": "661f286e75dfa.jpg",
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G5",
+        "title": "【題組 5】",
+        "prompt_html": "<div class=\"break-words\"><p> 【題組 5】<br/><img alt=\"661f28afc05b7.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f28afc05b7.jpg\"/><br/><img alt=\"661f28e44d85c.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f28e44d85c.jpg\"/><br/><img alt=\"661f28f1535a3.jpg\" class=\"ans_img\" src=\"https://img.yamol.tw/file/661f28f1535a3.jpg\"/></p></div>",
+        "prompt_text": "【題組 5】",
+        "question_range": [
+          37,
+          40
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f28afc05b7.jpg",
+            "alt": "661f28afc05b7.jpg",
+            "belongs_to": "group",
+            "local_name": "img_1"
+          },
+          {
+            "src": "https://img.yamol.tw/file/661f28e44d85c.jpg",
+            "alt": "661f28e44d85c.jpg",
+            "belongs_to": "group",
+            "local_name": "img_2"
+          },
+          {
+            "src": "https://img.yamol.tw/file/661f28f1535a3.jpg",
+            "alt": "661f28f1535a3.jpg",
+            "belongs_to": "group",
+            "local_name": "img_3"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question_id": "Q1",
+        "number": 1,
+        "type": "single_select",
+        "stem": "關於 MITRE ATT&CK 中的憑證存取（Credential Access）戰 術（Tactic），下列何項錯誤？",
+        "stem_html": "1. 關於 MITRE ATT&amp;CK 中的憑證存取（Credential Access）戰 術（Tactic），下列何項錯誤？ (A) 中間人攻擊（Adversary-in-the-Middle）屬於此類戰術 (B) 暴力破解攻擊（Brute Force）屬於此類戰術 (C) 密碼政策探索（Password Policy Discovery）屬於此類戰術 (D) 變造網站憑證（Forge Web Credentials）屬於此類戰 術",
+        "options": [
+          {
+            "key": "A",
+            "text": "中間人攻擊（Adversary-in-the-Middle）屬於此類戰術"
+          },
+          {
+            "key": "B",
+            "text": "暴力破解攻擊（Brute Force）屬於此類戰術"
+          },
+          {
+            "key": "C",
+            "text": "密碼政策探索（Password Policy Discovery）屬於此類戰術"
+          },
+          {
+            "key": "D",
+            "text": "變造網站憑證（Forge Web Credentials）屬於此類戰 術"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 1,
+        "raw_text": "1. 關於 MITRE ATT&CK 中的憑證存取（Credential Access）戰 術（Tactic），下列何項錯誤？ (A) 中間人攻擊（Adversary-in-the-Middle）屬於此類戰術 (B) 暴力破解攻擊（Brute Force）屬於此類戰術 (C) 密碼政策探索（Password Policy Discovery）屬於此類戰術 (D) 變造網站憑證（Forge Web Credentials）屬於此類戰 術"
+      },
+      {
+        "question_id": "Q2",
+        "number": 2,
+        "type": "single_select",
+        "stem": "關於弱點掃描，下列敘述何者錯誤？",
+        "stem_html": "2. 關於弱點掃描，下列敘述何者錯誤？\n (A) 網路弱點掃描用在尋找網路環境中的脆弱點，舉凡\n 開放的通訊埠及所代表之服務，其服務是否透過未\n 經加密的進行傳輸，或服務未更新漏洞\n (B) 應用程式弱點掃描主要針對特定應用程式（尤其是\n 網頁伺服器及其資料庫）的程式及應用環境（例\n 如：Apache 版本漏洞），但主要是尋如 SQL 注入、\n 跨站腳本、敏感目錄外洩…等可被攻擊之漏洞\n (C) 主機弱點掃描用在檢查個別主機的脆弱點，例如主\n 機效能負載對外服務能力，或是識別主機防毒系統\n 是否更新\n (D) 常見工具，有 OWASP ZAP, OpenVAS, Nessus…等",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路弱點掃描用在尋找網路環境中的脆弱點，舉凡 開放的通訊埠及所代表之服務，其服務是否透過未 經加密的進行傳輸，或服務未更新漏洞"
+          },
+          {
+            "key": "B",
+            "text": "應用程式弱點掃描主要針對特定應用程式（尤其是 網頁伺服器及其資料庫）的程式及應用環境（例 如：Apache 版本漏洞），但主要是尋如 SQL 注入、 跨站腳本、敏感目錄外洩…等可被攻擊之漏洞"
+          },
+          {
+            "key": "C",
+            "text": "主機弱點掃描用在檢查個別主機的脆弱點，例如主 機效能負載對外服務能力，或是識別主機防毒系統 是否更新"
+          },
+          {
+            "key": "D",
+            "text": "常見工具，有 OWASP ZAP, OpenVAS, Nessus…等"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 2,
+        "raw_text": "2. 關於弱點掃描，下列敘述何者錯誤？\n (A) 網路弱點掃描用在尋找網路環境中的脆弱點，舉凡\n 開放的通訊埠及所代表之服務，其服務是否透過未\n 經加密的進行傳輸，或服務未更新漏洞\n (B) 應用程式弱點掃描主要針對特定應用程式（尤其是\n 網頁伺服器及其資料庫）的程式及應用環境（例\n 如：Apache 版本漏洞），但主要是尋如 SQL 注入、\n 跨站腳本、敏感目錄外洩…等可被攻擊之漏洞\n (C) 主機弱點掃描用在檢查個別主機的脆弱點，例如主\n 機效能負載對外服務能力，或是識別主機防毒系統\n 是否更新\n (D) 常見工具，有 OWASP ZAP, OpenVAS, Nessus…等"
+      },
+      {
+        "question_id": "Q3",
+        "number": 3,
+        "type": "single_select",
+        "stem": "關於在資訊安全中，威脅或攻擊具多種因素與手法的敘述， 下列哪些正確？",
+        "stem_html": "<div>3. 關於在資訊安全中，威脅或攻擊具多種因素與手法的敘述， 下列哪些正確？ (A) 基於地緣政治動機的威脅分類：如政治意識形態； 社會報復等，台灣近期有發生製造業遭勒索加密案例，就屬於這類型態 (B) 內部威脅（Insider threats）：這種威脅來自組織內部 的人員，可能無意或故意地洩漏敏感資訊，或損害系統及公司利益 (C) 零日攻擊（Zero-day attacks）：這類攻擊利用尚未正式公開漏洞，在廠商還沒修補漏洞前，就被利用發動攻擊 (D) 惡意軟體（Malware）：這包括了病毒、蠕蟲、特洛 伊木馬、勒索軟體等，他們可以破壞系統，竊取數據，或無授權地使用系統資源</div>",
+        "options": [
+          {
+            "key": "A",
+            "text": "基於地緣政治動機的威脅分類：如政治意識形態； 社會報復等，台灣近期有發生製造業遭勒索加密案例，就屬於這類型態"
+          },
+          {
+            "key": "B",
+            "text": "內部威脅（Insider threats）：這種威脅來自組織內部 的人員，可能無意或故意地洩漏敏感資訊，或損害系統及公司利益"
+          },
+          {
+            "key": "C",
+            "text": "零日攻擊（Zero-day attacks）：這類攻擊利用尚未正式公開漏洞，在廠商還沒修補漏洞前，就被利用發動攻擊"
+          },
+          {
+            "key": "D",
+            "text": "惡意軟體（Malware）：這包括了病毒、蠕蟲、特洛 伊木馬、勒索軟體等，他們可以破壞系統，竊取數據，或無授權地使用系統資源"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,B,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 3,
+        "raw_text": "3. 關於在資訊安全中，威脅或攻擊具多種因素與手法的敘述， 下列哪些正確？ (A) 基於地緣政治動機的威脅分類：如政治意識形態； 社會報復等，台灣近期有發生製造業遭勒索加密案例，就屬於這類型態 (B) 內部威脅（Insider threats）：這種威脅來自組織內部 的人員，可能無意或故意地洩漏敏感資訊，或損害系統及公司利益 (C) 零日攻擊（Zero-day attacks）：這類攻擊利用尚未正式公開漏洞，在廠商還沒修補漏洞前，就被利用發動攻擊 (D) 惡意軟體（Malware）：這包括了病毒、蠕蟲、特洛 伊木馬、勒索軟體等，他們可以破壞系統，竊取數據，或無授權地使用系統資源"
+      },
+      {
+        "question_id": "Q4",
+        "number": 4,
+        "type": "single_select",
+        "stem": "情境如附圖所示。Alex 知道 WSL2 雖然為開發人員提供了極大的便利，使他們能夠在 Windows 上無縫地運行 Linux 環境， 但同時也帶來了新的安全挑戰。為了保護公司免受潛在的安全威脅，Alex 開始著手制定一套綜合的安全管理措施。下列何項是針對 WSL 所提出提升資安的最佳做法？",
+        "stem_html": "4. 情境如附圖所示。Alex 知道 WSL2 雖然為開發人員提供了極大的便利，使他們能夠在 Windows 上無縫地運行 Linux 環境， 但同時也帶來了新的安全挑戰。為了保護公司免受潛在的安全威脅，Alex 開始著手制定一套綜合的安全管理措施。下列何項是針對 WSL 所提出提升資安的最佳做法？ (A) 經常使用 root 帳戶進行日常操作 (B) 保持 Windows 和 Linux 子系統的定期更新 (C) 在 WSL2 中禁用防火牆和安全軟體 (D) 共用 Windows 和 Linux 子系統的系統管理者密碼",
+        "options": [
+          {
+            "key": "A",
+            "text": "經常使用 root 帳戶進行日常操作"
+          },
+          {
+            "key": "B",
+            "text": "保持 Windows 和 Linux 子系統的定期更新"
+          },
+          {
+            "key": "C",
+            "text": "在 WSL2 中禁用防火牆和安全軟體"
+          },
+          {
+            "key": "D",
+            "text": "共用 Windows 和 Linux 子系統的系統管理者密碼"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 4,
+        "raw_text": "4. 情境如附圖所示。Alex 知道 WSL2 雖然為開發人員提供了極大的便利，使他們能夠在 Windows 上無縫地運行 Linux 環境， 但同時也帶來了新的安全挑戰。為了保護公司免受潛在的安全威脅，Alex 開始著手制定一套綜合的安全管理措施。下列何項是針對 WSL 所提出提升資安的最佳做法？ (A) 經常使用 root 帳戶進行日常操作 (B) 保持 Windows 和 Linux 子系統的定期更新 (C) 在 WSL2 中禁用防火牆和安全軟體 (D) 共用 Windows 和 Linux 子系統的系統管理者密碼"
+      },
+      {
+        "question_id": "Q5",
+        "number": 5,
+        "type": "single_select",
+        "stem": "情境如附圖所示。駭客首先在 WSL 環境中部署了一個專門編寫的惡意 script，該 script 旨在利用 Windows 與 WSL 之間的互操作性漏洞。請問其目的，最有可能是下列何項？（請選一個最合適的答案）",
+        "stem_html": "<p>5. 情境如附圖所示。駭客首先在 WSL 環境中部署了一個專門編寫的惡意 script，該 script 旨在利用 Windows 與 WSL 之間的互操作性漏洞。請問其目的，最有可能是下列何項？（請選一個最合適的答案）<br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f25fca0435.jpg#s-614,172\" style=\"width: 614.006px;\"/>  (A) 在 Windows 創立一個隱藏的管理員帳戶，以便未來存取 (B) 為了直接加密 Windows 系統文件，進行勒索軟體攻擊 (C) 通過 WSL 環境檢索並傳送 Windows 系統日誌，以分析可能的弱點 (D) 利用 WSL 執行環境的特性，隱藏網路流量，以掩蓋資料外洩行為</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "在 Windows 創立一個隱藏的管理員帳戶，以便未來存取"
+          },
+          {
+            "key": "B",
+            "text": "為了直接加密 Windows 系統文件，進行勒索軟體攻擊"
+          },
+          {
+            "key": "C",
+            "text": "通過 WSL 環境檢索並傳送 Windows 系統日誌，以分析可能的弱點"
+          },
+          {
+            "key": "D",
+            "text": "利用 WSL 執行環境的特性，隱藏網路流量，以掩蓋資料外洩行為"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G1",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f25fca0435.jpg#s-614,172",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 6,
+        "raw_text": "5. 情境如附圖所示。駭客首先在 WSL 環境中部署了一個專門編寫的惡意 script，該 script 旨在利用 Windows 與 WSL 之間的互操作性漏洞。請問其目的，最有可能是下列何項？（請選一個最合適的答案） (A) 在 Windows 創立一個隱藏的管理員帳戶，以便未來存取 (B) 為了直接加密 Windows 系統文件，進行勒索軟體攻擊 (C) 通過 WSL 環境檢索並傳送 Windows 系統日誌，以分析可能的弱點 (D) 利用 WSL 執行環境的特性，隱藏網路流量，以掩蓋資料外洩行為"
+      },
+      {
+        "question_id": "Q6",
+        "number": 6,
+        "type": "single_select",
+        "stem": "情境如附圖所示。當使用帶有 GTFOBins 的 Windows Linux 子系統（WSL）時，下列何項措施對於增強安全性最重要？",
+        "stem_html": "<p>6. 情境如附圖所示。當使用帶有 GTFOBins 的 Windows Linux 子系統（WSL）時，下列何項措施對於增強安全性最重要？<br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f26973e5de.jpg#s-614,151\" style=\"width: 614.006px;\"/> (A) 在 WSL 中使用防病毒軟體 (B) 在 WSL 中安裝弱點掃描工具 (C) 禁用 WSL 的網路功能 (D) 偵測與記錄用戶對敏感二進制文件的使用</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "在 WSL 中使用防病毒軟體"
+          },
+          {
+            "key": "B",
+            "text": "在 WSL 中安裝弱點掃描工具"
+          },
+          {
+            "key": "C",
+            "text": "禁用 WSL 的網路功能"
+          },
+          {
+            "key": "D",
+            "text": "偵測與記錄用戶對敏感二進制文件的使用"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G1",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f26973e5de.jpg#s-614,151",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 7,
+        "raw_text": "6. 情境如附圖所示。當使用帶有 GTFOBins 的 Windows Linux 子系統（WSL）時，下列何項措施對於增強安全性最重要？ (A) 在 WSL 中使用防病毒軟體 (B) 在 WSL 中安裝弱點掃描工具 (C) 禁用 WSL 的網路功能 (D) 偵測與記錄用戶對敏感二進制文件的使用"
+      },
+      {
+        "question_id": "Q7",
+        "number": 7,
+        "type": "single_select",
+        "stem": "情境如附圖所示。關於 Windows Linux 子系統（WSL）惡 意軟體的特點和防禦策略，下列哪些陳述正確？",
+        "stem_html": "7. 情境如附圖所示。關於 Windows Linux 子系統（WSL）惡 意軟體的特點和防禦策略，下列哪些陳述正確？ (A) WSL 惡意軟體有時基於開源的程式碼，使得其較難被檢測出來 (B) 這些惡意軟體變種包括能夠遠端存取裝置、執行任意程式碼的複雜功能 (C) 目前的防毒解決方案皆能主動偵測、有效識別和防禦這些基 於 WSL 的惡意軟體 (D) EDR 監測系統活動和尋找可疑事件是防禦 WSL 類型惡意軟體的手段之一",
+        "options": [
+          {
+            "key": "A",
+            "text": "WSL 惡意軟體有時基於開源的程式碼，使得其較難被檢測出來"
+          },
+          {
+            "key": "B",
+            "text": "這些惡意軟體變種包括能夠遠端存取裝置、執行任意程式碼的複雜功能"
+          },
+          {
+            "key": "C",
+            "text": "目前的防毒解決方案皆能主動偵測、有效識別和防禦這些基 於 WSL 的惡意軟體"
+          },
+          {
+            "key": "D",
+            "text": "EDR 監測系統活動和尋找可疑事件是防禦 WSL 類型惡意軟體的手段之一"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 8,
+        "raw_text": "7. 情境如附圖所示。關於 Windows Linux 子系統（WSL）惡 意軟體的特點和防禦策略，下列哪些陳述正確？ (A) WSL 惡意軟體有時基於開源的程式碼，使得其較難被檢測出來 (B) 這些惡意軟體變種包括能夠遠端存取裝置、執行任意程式碼的複雜功能 (C) 目前的防毒解決方案皆能主動偵測、有效識別和防禦這些基 於 WSL 的惡意軟體 (D) EDR 監測系統活動和尋找可疑事件是防禦 WSL 類型惡意軟體的手段之一"
+      },
+      {
+        "question_id": "Q8",
+        "number": 8,
+        "type": "single_select",
+        "stem": "企業資安事件類型「不」包含下列何項？",
+        "stem_html": "8. 企業資安事件類型「不」包含下列何項？\n (A) 機房漏水\n (B) 備用發電機啟動故障\n (C) 外部廠商發生資料外洩\n (D) 私人手機遺失",
+        "options": [
+          {
+            "key": "A",
+            "text": "機房漏水"
+          },
+          {
+            "key": "B",
+            "text": "備用發電機啟動故障"
+          },
+          {
+            "key": "C",
+            "text": "外部廠商發生資料外洩"
+          },
+          {
+            "key": "D",
+            "text": "私人手機遺失"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 9,
+        "raw_text": "8. 企業資安事件類型「不」包含下列何項？\n (A) 機房漏水\n (B) 備用發電機啟動故障\n (C) 外部廠商發生資料外洩\n (D) 私人手機遺失"
+      },
+      {
+        "question_id": "Q9",
+        "number": 9,
+        "type": "single_select",
+        "stem": "進行資安事件處置時，下列做法何者錯誤？",
+        "stem_html": "9. 進行資安事件處置時，下列做法何者錯誤？\n (A) 將漏洞修補以防止再發生\n (B) 原始稽核紀錄可以刪除\n (C) 確認事件根因是必要的\n (D) 可以委託外部專業廠商進行",
+        "options": [
+          {
+            "key": "A",
+            "text": "將漏洞修補以防止再發生"
+          },
+          {
+            "key": "B",
+            "text": "原始稽核紀錄可以刪除"
+          },
+          {
+            "key": "C",
+            "text": "確認事件根因是必要的"
+          },
+          {
+            "key": "D",
+            "text": "可以委託外部專業廠商進行"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 10,
+        "raw_text": "9. 進行資安事件處置時，下列做法何者錯誤？\n (A) 將漏洞修補以防止再發生\n (B) 原始稽核紀錄可以刪除\n (C) 確認事件根因是必要的\n (D) 可以委託外部專業廠商進行"
+      },
+      {
+        "question_id": "Q10",
+        "number": 10,
+        "type": "single_select",
+        "stem": "針對資安防護機制配置，下列何種說明較符合縱深防禦 （Defense in Depth）的概念？",
+        "stem_html": "10. 針對資安防護機制配置，下列何種說明較符合縱深防禦\n （Defense in Depth）的概念？\n (A) 購買符合公司規格流量的防火牆\n (B) 定期更新防毒軟體的病毒碼\n (C) 針對內部系統、網路、軟體進行多層次的安全控制\n (D) 全程使用加密的資料傳輸",
+        "options": [
+          {
+            "key": "A",
+            "text": "購買符合公司規格流量的防火牆"
+          },
+          {
+            "key": "B",
+            "text": "定期更新防毒軟體的病毒碼"
+          },
+          {
+            "key": "C",
+            "text": "針對內部系統、網路、軟體進行多層次的安全控制"
+          },
+          {
+            "key": "D",
+            "text": "全程使用加密的資料傳輸"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 11,
+        "raw_text": "10. 針對資安防護機制配置，下列何種說明較符合縱深防禦\n （Defense in Depth）的概念？\n (A) 購買符合公司規格流量的防火牆\n (B) 定期更新防毒軟體的病毒碼\n (C) 針對內部系統、網路、軟體進行多層次的安全控制\n (D) 全程使用加密的資料傳輸"
+      },
+      {
+        "question_id": "Q11",
+        "number": 11,
+        "type": "single_select",
+        "stem": "勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過調校與強化主機系統其網路服務設定來降低所曝露之弱點。下列何種系統強化措施最「不」合適？",
+        "stem_html": "11. 勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過調校與強化主機系統其網路服務設定來降低所曝露之弱點。下列何種系統強化措施最「不」合適？ (A) 於面向網際網路之主機執行弱點掃描以識別系統弱 點並修復 (B) 於主機系統停用並關閉未使用 RDP 遠端桌面協定 TCP/3389 連接埠 (C) 於主機系統啟用 SMBv1, SVBv2 伺服器訊息區協定 以達傳輸加密 (D) 於防火牆設定阻擋 TCP/445 連接埠對網際網路之內 外連線規則",
+        "options": [
+          {
+            "key": "A",
+            "text": "於面向網際網路之主機執行弱點掃描以識別系統弱 點並修復"
+          },
+          {
+            "key": "B",
+            "text": "於主機系統停用並關閉未使用 RDP 遠端桌面協定 TCP/3389 連接埠"
+          },
+          {
+            "key": "C",
+            "text": "於主機系統啟用 SMBv1, SVBv2 伺服器訊息區協定 以達傳輸加密"
+          },
+          {
+            "key": "D",
+            "text": "於防火牆設定阻擋 TCP/445 連接埠對網際網路之內 外連線規則"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 12,
+        "raw_text": "11. 勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過調校與強化主機系統其網路服務設定來降低所曝露之弱點。下列何種系統強化措施最「不」合適？ (A) 於面向網際網路之主機執行弱點掃描以識別系統弱 點並修復 (B) 於主機系統停用並關閉未使用 RDP 遠端桌面協定 TCP/3389 連接埠 (C) 於主機系統啟用 SMBv1, SVBv2 伺服器訊息區協定 以達傳輸加密 (D) 於防火牆設定阻擋 TCP/445 連接埠對網際網路之內 外連線規則"
+      },
+      {
+        "question_id": "Q12",
+        "number": 12,
+        "type": "single_select",
+        "stem": "Incident Response",
+        "stem_html": "Incident Response",
+        "options": [],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 13,
+        "raw_text": "Incident Response"
+      },
+      {
+        "question_id": "Q13",
+        "number": 13,
+        "type": "single_select",
+        "stem": "近年來 MFA 身份驗證機制遭攻擊者以網路釣魚攻擊破解之趨勢上升，因此抵禦網路釣魚多因素驗證（Phishing-resistant MFA）機制受到重視，因其可有效降低前述之攻擊成功機率。 下列哪些身份驗證方式符合抵抗網路釣魚攻擊之特性？",
+        "stem_html": "<div>13. 近年來 MFA 身份驗證機制遭攻擊者以網路釣魚攻擊破解之趨勢上升，因此抵禦網路釣魚多因素驗證（Phishing-resistant MFA）機制受到重視，因其可有效降低前述之攻擊成功機率。 下列哪些身份驗證方式符合抵抗網路釣魚攻擊之特性？ (A) FIDO Auth (B) MMS MFA (C) PKI-based MFA (D) 增加密碼長度</div>",
+        "options": [
+          {
+            "key": "A",
+            "text": "FIDO Auth"
+          },
+          {
+            "key": "B",
+            "text": "MMS MFA"
+          },
+          {
+            "key": "C",
+            "text": "PKI-based MFA"
+          },
+          {
+            "key": "D",
+            "text": "增加密碼長度"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 14,
+        "raw_text": "13. 近年來 MFA 身份驗證機制遭攻擊者以網路釣魚攻擊破解之趨勢上升，因此抵禦網路釣魚多因素驗證（Phishing-resistant MFA）機制受到重視，因其可有效降低前述之攻擊成功機率。 下列哪些身份驗證方式符合抵抗網路釣魚攻擊之特性？ (A) FIDO Auth (B) MMS MFA (C) PKI-based MFA (D) 增加密碼長度"
+      },
+      {
+        "question_id": "Q14",
+        "number": 14,
+        "type": "single_select",
+        "stem": "根據 NIST Cybersecurity Framework 中的 Protect 功能，下列哪些項目是組織實施此功能時應考慮的關鍵要素？",
+        "stem_html": "14. 根據 NIST Cybersecurity Framework 中的 Protect 功能，下列哪些項目是組織實施此功能時應考慮的關鍵要素？ (A) 實施身份管理及存取控制 (B) 執行資料加密和保護 (C) 建立災難復原程序 (D) 定期執行弱點掃描",
+        "options": [
+          {
+            "key": "A",
+            "text": "實施身份管理及存取控制"
+          },
+          {
+            "key": "B",
+            "text": "執行資料加密和保護"
+          },
+          {
+            "key": "C",
+            "text": "建立災難復原程序"
+          },
+          {
+            "key": "D",
+            "text": "定期執行弱點掃描"
+          }
+        ],
+        "answer": [
+          "A",
+          "B"
+        ],
+        "answer_raw": "A,B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 15,
+        "raw_text": "14. 根據 NIST Cybersecurity Framework 中的 Protect 功能，下列哪些項目是組織實施此功能時應考慮的關鍵要素？ (A) 實施身份管理及存取控制 (B) 執行資料加密和保護 (C) 建立災難復原程序 (D) 定期執行弱點掃描"
+      },
+      {
+        "question_id": "Q15",
+        "number": 15,
+        "type": "single_select",
+        "stem": "情境如附圖所示。由於已建置的簡易型無線網路系統資安防護能力不足，駭客能夠隨意的從各超市發起攻擊行為，參閱國際工業自動化協會（International Society of Automation，ISA）的 ANSI/ISA-95 普渡模型架構，請問在 Level 0 終點裝置層和 Level 1 工業控制層之中如何快速提升物聯設施的通訊安全，下列何項是最 適合的解決方案？",
+        "stem_html": "15.情境如附圖所示。由於已建置的簡易型無線網路系統資安防護能力不足，駭客能夠隨意的從各超市發起攻擊行為，參閱國際工業自動化協會（International Society of Automation，ISA）的 ANSI/ISA-95 普渡模型架構，請問在 Level 0 終點裝置層和 Level 1 工業控制層之中如何快速提升物聯設施的通訊安全，下列何項是最 適合的解決方案？ (A) 各超市更換新一代 NB-IoT 或 LoRa 無線傳輸設備，直接提升無線網路通訊安全 (B) 在物聯網裝置上增加身分認證機制，確認僅有經過認證的備才能進行內部通訊 (C) 將物聯網裝置更換為有線通訊方式，避免駭客由無線網路造成系統危害 (D) 更換工業用 AP Controllor 設備，管制連線裝置和區分設備與人員連線網段",
+        "options": [
+          {
+            "key": "A",
+            "text": "各超市更換新一代 NB-IoT 或 LoRa 無線傳輸設備，直接提升無線網路通訊安全"
+          },
+          {
+            "key": "B",
+            "text": "在物聯網裝置上增加身分認證機制，確認僅有經過認證的備才能進行內部通訊"
+          },
+          {
+            "key": "C",
+            "text": "將物聯網裝置更換為有線通訊方式，避免駭客由無線網路造成系統危害"
+          },
+          {
+            "key": "D",
+            "text": "更換工業用 AP Controllor 設備，管制連線裝置和區分設備與人員連線網段"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 16,
+        "raw_text": "15.情境如附圖所示。由於已建置的簡易型無線網路系統資安防護能力不足，駭客能夠隨意的從各超市發起攻擊行為，參閱國際工業自動化協會（International Society of Automation，ISA）的 ANSI/ISA-95 普渡模型架構，請問在 Level 0 終點裝置層和 Level 1 工業控制層之中如何快速提升物聯設施的通訊安全，下列何項是最 適合的解決方案？ (A) 各超市更換新一代 NB-IoT 或 LoRa 無線傳輸設備，直接提升無線網路通訊安全 (B) 在物聯網裝置上增加身分認證機制，確認僅有經過認證的備才能進行內部通訊 (C) 將物聯網裝置更換為有線通訊方式，避免駭客由無線網路造成系統危害 (D) 更換工業用 AP Controllor 設備，管制連線裝置和區分設備與人員連線網段"
+      },
+      {
+        "question_id": "Q16",
+        "number": 16,
+        "type": "single_select",
+        "stem": "情境如附圖所示。承上題，請問在零信任的原則， 於 ANSI/ISA-95 普渡模型架構之下，建立 Level 2 監控層、 Level 3 營運作業及 Level 4 管理層之中 OT 工控設施與 IT 資 訊系統的安全防護能力，下列何者「不」是適當的解決方案？",
+        "stem_html": "16.情境如附圖所示。承上題，請問在零信任的原則，\n 於 ANSI/ISA-95 普渡模型架構之下，建立 Level 2 監控層、\n Level 3 營運作業及 Level 4 管理層之中 OT 工控設施與 IT 資\n 訊系統的安全防護能力，下列何者「不」是適當的解決方案？\n (A) 系統 App 需經認證後才能部署使用\n (B) 任何裝置應安裝防毒軟體才能進行連網通訊\n (C) 任何人員需經認證後才能操作營運系統\n (D) 在超市防火牆依連線位置部署不同的資安管理政策\n （Security Policy）",
+        "options": [
+          {
+            "key": "A",
+            "text": "系統 App 需經認證後才能部署使用"
+          },
+          {
+            "key": "B",
+            "text": "任何裝置應安裝防毒軟體才能進行連網通訊"
+          },
+          {
+            "key": "C",
+            "text": "任何人員需經認證後才能操作營運系統"
+          },
+          {
+            "key": "D",
+            "text": "在超市防火牆依連線位置部署不同的資安管理政策 （Security Policy）"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 18,
+        "raw_text": "16.情境如附圖所示。承上題，請問在零信任的原則，\n 於 ANSI/ISA-95 普渡模型架構之下，建立 Level 2 監控層、\n Level 3 營運作業及 Level 4 管理層之中 OT 工控設施與 IT 資\n 訊系統的安全防護能力，下列何者「不」是適當的解決方案？\n (A) 系統 App 需經認證後才能部署使用\n (B) 任何裝置應安裝防毒軟體才能進行連網通訊\n (C) 任何人員需經認證後才能操作營運系統\n (D) 在超市防火牆依連線位置部署不同的資安管理政策\n （Security Policy）"
+      },
+      {
+        "question_id": "Q17",
+        "number": 17,
+        "type": "single_select",
+        "stem": "情境如附圖所示。承上題，本系統在經過弱點掃瞄後將進行相關安全補正措施，請問下列何者「不」符合最小管理成本的立即解決方案？",
+        "stem_html": "17.情境如附圖所示。承上題，本系統在經過弱點掃瞄後將進行相關安全補正措施，請問下列何者「不」符合最小管理成本的立即解決方案？ (A) 將各超市無法進行修補的 XP OT 工控主機升版為 Win 10 主機 (B) 關閉各超市資訊主機非必要的通訊埠 (C) 更新總部營運系統的資安 Patch (D) 檢視所有營運系統使用者的操作權限，將需求權限最小化",
+        "options": [
+          {
+            "key": "A",
+            "text": "將各超市無法進行修補的 XP OT 工控主機升版為 Win 10 主機"
+          },
+          {
+            "key": "B",
+            "text": "關閉各超市資訊主機非必要的通訊埠"
+          },
+          {
+            "key": "C",
+            "text": "更新總部營運系統的資安 Patch"
+          },
+          {
+            "key": "D",
+            "text": "檢視所有營運系統使用者的操作權限，將需求權限最小化"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 19,
+        "raw_text": "17.情境如附圖所示。承上題，本系統在經過弱點掃瞄後將進行相關安全補正措施，請問下列何者「不」符合最小管理成本的立即解決方案？ (A) 將各超市無法進行修補的 XP OT 工控主機升版為 Win 10 主機 (B) 關閉各超市資訊主機非必要的通訊埠 (C) 更新總部營運系統的資安 Patch (D) 檢視所有營運系統使用者的操作權限，將需求權限最小化"
+      },
+      {
+        "question_id": "Q18",
+        "number": 18,
+        "type": "single_select",
+        "stem": "情境如附圖所示。承上題，S 公司當年委外開發本 營運系統時並未有任何軟體安全之要求，當前參閱考 OWASP top10 和 OWASP Mobile Security 評估現階的軟體安全防護規劃，請問下列哪些措施較為適合迅速補強軟體弱 點？",
+        "stem_html": "18.情境如附圖所示。承上題，S 公司當年委外開發本 營運系統時並未有任何軟體安全之要求，當前參閱考 OWASP top10 和 OWASP Mobile Security 評估現階的軟體安全防護規劃，請問下列哪些措施較為適合迅速補強軟體弱 點？ (A) 駭客的攻擊手法一直不停的在更新、進步、改變， 增設網站傳輸監控設備或機制，經由監控傳輸流 量，對比病毒、惡意程式資料庫來過濾出可疑的流量，管理系統交易流量、加強防護機制，以提升系統防護能力 (B) 定期安排網站弱點掃描，針對本營運系統潛的在弱點進行 Patch 更新，以及增修網路安全政策 （Security Policies），降低加密失效（Cryptographic Failures）和權限控制（Broken Access Control）的風險，提升系統與連線的安全性 (C) 重新編寫軟體以符合新世代的軟體安全要求，徹底解 決不安全設計(Insecure Design）、安全設定(Security Misconfiguration）與使用過時或危機元件(Vulnerable and Outdated Components）的根本問題 (D) 在總部增設網站應用程式防火牆（Website Application Firewall），增加注入式攻擊（Injection） 的防禦能力，保護 Web 應用程式和交易資訊安全",
+        "options": [
+          {
+            "key": "A",
+            "text": "駭客的攻擊手法一直不停的在更新、進步、改變， 增設網站傳輸監控設備或機制，經由監控傳輸流 量，對比病毒、惡意程式資料庫來過濾出可疑的流量，管理系統交易流量、加強防護機制，以提升系統防護能力"
+          },
+          {
+            "key": "B",
+            "text": "定期安排網站弱點掃描，針對本營運系統潛的在弱點進行 Patch 更新，以及增修網路安全政策 （Security Policies），降低加密失效（Cryptographic Failures）和權限控制（Broken Access Control）的風險，提升系統與連線的安全性"
+          },
+          {
+            "key": "C",
+            "text": "重新編寫軟體以符合新世代的軟體安全要求，徹底解 決不安全設計(Insecure Design）、安全設定(Security Misconfiguration）與使用過時或危機元件(Vulnerable and Outdated Components）的根本問題"
+          },
+          {
+            "key": "D",
+            "text": "在總部增設網站應用程式防火牆（Website Application Firewall），增加注入式攻擊（Injection） 的防禦能力，保護 Web 應用程式和交易資訊安全"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 20,
+        "raw_text": "18.情境如附圖所示。承上題，S 公司當年委外開發本 營運系統時並未有任何軟體安全之要求，當前參閱考 OWASP top10 和 OWASP Mobile Security 評估現階的軟體安全防護規劃，請問下列哪些措施較為適合迅速補強軟體弱 點？ (A) 駭客的攻擊手法一直不停的在更新、進步、改變， 增設網站傳輸監控設備或機制，經由監控傳輸流 量，對比病毒、惡意程式資料庫來過濾出可疑的流量，管理系統交易流量、加強防護機制，以提升系統防護能力 (B) 定期安排網站弱點掃描，針對本營運系統潛的在弱點進行 Patch 更新，以及增修網路安全政策 （Security Policies），降低加密失效（Cryptographic Failures）和權限控制（Broken Access Control）的風險，提升系統與連線的安全性 (C) 重新編寫軟體以符合新世代的軟體安全要求，徹底解 決不安全設計(Insecure Design）、安全設定(Security Misconfiguration）與使用過時或危機元件(Vulnerable and Outdated Components）的根本問題 (D) 在總部增設網站應用程式防火牆（Website Application Firewall），增加注入式攻擊（Injection） 的防禦能力，保護 Web 應用程式和交易資訊安全"
+      },
+      {
+        "question_id": "Q19",
+        "number": 19,
+        "type": "single_select",
+        "stem": "某設備的日誌記錄功能依照 The Syslog Protocol（RFC5424） 標準設計，若需要較為詳盡的日誌訊息，以提供除錯（debug） 使用，而該系統只提供下列 4 種的記錄等級，請問應該選擇下列何項設定最為合適？",
+        "stem_html": "19. 某設備的日誌記錄功能依照 The Syslog Protocol（RFC5424） 標準設計，若需要較為詳盡的日誌訊息，以提供除錯（debug） 使用，而該系統只提供下列 4 種的記錄等級，請問應該選擇下列何項設定最為合適？ (A) Emergency (B) Alert (C) Warning (D) Debug",
+        "options": [
+          {
+            "key": "A",
+            "text": "Emergency"
+          },
+          {
+            "key": "B",
+            "text": "Alert"
+          },
+          {
+            "key": "C",
+            "text": "Warning"
+          },
+          {
+            "key": "D",
+            "text": "Debug"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 21,
+        "raw_text": "19. 某設備的日誌記錄功能依照 The Syslog Protocol（RFC5424） 標準設計，若需要較為詳盡的日誌訊息，以提供除錯（debug） 使用，而該系統只提供下列 4 種的記錄等級，請問應該選擇下列何項設定最為合適？ (A) Emergency (B) Alert (C) Warning (D) Debug"
+      },
+      {
+        "question_id": "Q20",
+        "number": 20,
+        "type": "single_select",
+        "stem": "為提供資通訊系統可以安全進行遠端維護，請問下列何項措 施「不」是必要的管理模式？",
+        "stem_html": "20. 為提供資通訊系統可以安全進行遠端維護，請問下列何項措 施「不」是必要的管理模式？ (A) 設定網路火牆管理遠端連線機制及限制存取的主機位置 (B) 建立 SSO（Single sign-on）單一簽入作業，統一連線帳密管理 (C) 使用多因子認證，確保連線使用者的身份 (D) 建立 VPN 機制，僅限制維護作業人員可以進行遠端安全連線作業",
+        "options": [
+          {
+            "key": "A",
+            "text": "設定網路火牆管理遠端連線機制及限制存取的主機位置"
+          },
+          {
+            "key": "B",
+            "text": "建立 SSO（Single sign-on）單一簽入作業，統一連線帳密管理"
+          },
+          {
+            "key": "C",
+            "text": "使用多因子認證，確保連線使用者的身份"
+          },
+          {
+            "key": "D",
+            "text": "建立 VPN 機制，僅限制維護作業人員可以進行遠端安全連線作業"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 22,
+        "raw_text": "20. 為提供資通訊系統可以安全進行遠端維護，請問下列何項措 施「不」是必要的管理模式？ (A) 設定網路火牆管理遠端連線機制及限制存取的主機位置 (B) 建立 SSO（Single sign-on）單一簽入作業，統一連線帳密管理 (C) 使用多因子認證，確保連線使用者的身份 (D) 建立 VPN 機制，僅限制維護作業人員可以進行遠端安全連線作業"
+      },
+      {
+        "question_id": "Q21",
+        "number": 21,
+        "type": "single_select",
+        "stem": "廠商攜帶設備至機關進行維護作業，機關允許該設備連線至 機房網路，待設備接上網路並操作一段時間後，監控中心即 發現符合特定惡意程式行為之連線。下列建議之防護措施何者最「不」合適？",
+        "stem_html": "21. 廠商攜帶設備至機關進行維護作業，機關允許該設備連線至 機房網路，待設備接上網路並操作一段時間後，監控中心即 發現符合特定惡意程式行為之連線。下列建議之防護措施何者最「不」合適？ (A) 機關收到監控中心異常通知後，即時將廠商設備斷網 (B) 攜帶之設備或工具應確保安全無虞，方可連線至機關內部網路 (C) 廠商應恪守機關資通安全政策及委外廠商管理相關規範要求 (D) 須等相關工作結束後，再關閉網路連線",
+        "options": [
+          {
+            "key": "A",
+            "text": "機關收到監控中心異常通知後，即時將廠商設備斷網"
+          },
+          {
+            "key": "B",
+            "text": "攜帶之設備或工具應確保安全無虞，方可連線至機關內部網路"
+          },
+          {
+            "key": "C",
+            "text": "廠商應恪守機關資通安全政策及委外廠商管理相關規範要求"
+          },
+          {
+            "key": "D",
+            "text": "須等相關工作結束後，再關閉網路連線"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 23,
+        "raw_text": "21. 廠商攜帶設備至機關進行維護作業，機關允許該設備連線至 機房網路，待設備接上網路並操作一段時間後，監控中心即 發現符合特定惡意程式行為之連線。下列建議之防護措施何者最「不」合適？ (A) 機關收到監控中心異常通知後，即時將廠商設備斷網 (B) 攜帶之設備或工具應確保安全無虞，方可連線至機關內部網路 (C) 廠商應恪守機關資通安全政策及委外廠商管理相關規範要求 (D) 須等相關工作結束後，再關閉網路連線"
+      },
+      {
+        "question_id": "Q22",
+        "number": 22,
+        "type": "single_select",
+        "stem": "當資訊室主管收到作業系統標準組態的例外請求時，第一步 應該處理下列何項？",
+        "stem_html": "22. 當資訊室主管收到作業系統標準組態的例外請求時，第一步\n 應該處理下列何項？\n (A) 報告董事會，並尋求董事會的指導\n (B) 確定產業的執行慣例，擬定應變作業計劃\n (C) 確認風險並確定補償控制措施\n (D) 依據資安管理系統程序，一律禁止例外請求作業",
+        "options": [
+          {
+            "key": "A",
+            "text": "報告董事會，並尋求董事會的指導"
+          },
+          {
+            "key": "B",
+            "text": "確定產業的執行慣例，擬定應變作業計劃"
+          },
+          {
+            "key": "C",
+            "text": "確認風險並確定補償控制措施"
+          },
+          {
+            "key": "D",
+            "text": "依據資安管理系統程序，一律禁止例外請求作業"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 24,
+        "raw_text": "22. 當資訊室主管收到作業系統標準組態的例外請求時，第一步\n 應該處理下列何項？\n (A) 報告董事會，並尋求董事會的指導\n (B) 確定產業的執行慣例，擬定應變作業計劃\n (C) 確認風險並確定補償控制措施\n (D) 依據資安管理系統程序，一律禁止例外請求作業"
+      },
+      {
+        "question_id": "Q23",
+        "number": 23,
+        "type": "single_select",
+        "stem": "在勒索軟體事件中，下列哪些日誌的來源可能找到入侵的紀錄或警訊？",
+        "stem_html": "23. 在勒索軟體事件中，下列哪些日誌的來源可能找到入侵的紀錄或警訊？ (A) 網路面資安防護設備 (B) 重要主機之作業系統事件 (C) 防毒軟體告警 (D) 門禁進出紀錄",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路面資安防護設備"
+          },
+          {
+            "key": "B",
+            "text": "重要主機之作業系統事件"
+          },
+          {
+            "key": "C",
+            "text": "防毒軟體告警"
+          },
+          {
+            "key": "D",
+            "text": "門禁進出紀錄"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 25,
+        "raw_text": "23. 在勒索軟體事件中，下列哪些日誌的來源可能找到入侵的紀錄或警訊？ (A) 網路面資安防護設備 (B) 重要主機之作業系統事件 (C) 防毒軟體告警 (D) 門禁進出紀錄"
+      },
+      {
+        "question_id": "Q24",
+        "number": 24,
+        "type": "single_select",
+        "stem": "情境如附圖所示，廠商 A 配合業務需求，開發新的 Web 訂票系統，請問如要進行弱點掃描，下列何項最為適合進行弱點掃描？",
+        "stem_html": "24. 情境如附圖所示，廠商 A 配合業務需求，開發新的 Web 訂票系統，請問如要進行弱點掃描，下列何項最為適合進行弱點掃描？ (A) Checkmarx (B) OpenVAS (C) Hydra (D) Google",
+        "options": [
+          {
+            "key": "A",
+            "text": "Checkmarx"
+          },
+          {
+            "key": "B",
+            "text": "OpenVAS"
+          },
+          {
+            "key": "C",
+            "text": "Hydra"
+          },
+          {
+            "key": "D",
+            "text": "Google"
+          }
+        ],
+        "answer": [
+          "A",
+          "B"
+        ],
+        "answer_raw": "A,B",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 26,
+        "raw_text": "24. 情境如附圖所示，廠商 A 配合業務需求，開發新的 Web 訂票系統，請問如要進行弱點掃描，下列何項最為適合進行弱點掃描？ (A) Checkmarx (B) OpenVAS (C) Hydra (D) Google"
+      },
+      {
+        "question_id": "Q25",
+        "number": 25,
+        "type": "single_select",
+        "stem": "情境如附圖所示，廠商 A 主要的資訊環境為 Windows 平台，若想檢視其如帳號登出、登入等事件，請問最合適的內 建系統或工具為下列何項？",
+        "stem_html": "25. 情境如附圖所示，廠商 A 主要的資訊環境為 Windows\n 平台，若想檢視其如帳號登出、登入等事件，請問最合適的內\n 建系統或工具為下列何項？\n (A) Event Viewer\n (B) Logger\n (C) QRadar\n (D) Syslog-NG",
+        "options": [
+          {
+            "key": "A",
+            "text": "Event Viewer"
+          },
+          {
+            "key": "B",
+            "text": "Logger"
+          },
+          {
+            "key": "C",
+            "text": "QRadar"
+          },
+          {
+            "key": "D",
+            "text": "Syslog-NG"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 28,
+        "raw_text": "25. 情境如附圖所示，廠商 A 主要的資訊環境為 Windows\n 平台，若想檢視其如帳號登出、登入等事件，請問最合適的內\n 建系統或工具為下列何項？\n (A) Event Viewer\n (B) Logger\n (C) QRadar\n (D) Syslog-NG"
+      },
+      {
+        "question_id": "Q26",
+        "number": 26,
+        "type": "single_select",
+        "stem": "情境如附圖所示，因部分服務主機環境為 Linux，故 廠商 A 有一套依照 The Syslog Protocol（RFC5424）標準建置 的日誌記錄系統，請問某事件為 NTP 子系統相關的記錄，其優先值（Priority）為 96，試問該事件的重要性（Severity）為下列何項？",
+        "stem_html": "26. 情境如附圖所示，因部分服務主機環境為 Linux，故 廠商 A 有一套依照 The Syslog Protocol（RFC5424）標準建置 的日誌記錄系統，請問某事件為 NTP 子系統相關的記錄，其優先值（Priority）為 96，試問該事件的重要性（Severity）為下列何項？ (A) Emergency (B) Error (C) Warning (D) Informational",
+        "options": [
+          {
+            "key": "A",
+            "text": "Emergency"
+          },
+          {
+            "key": "B",
+            "text": "Error"
+          },
+          {
+            "key": "C",
+            "text": "Warning"
+          },
+          {
+            "key": "D",
+            "text": "Informational"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 29,
+        "raw_text": "26. 情境如附圖所示，因部分服務主機環境為 Linux，故 廠商 A 有一套依照 The Syslog Protocol（RFC5424）標準建置 的日誌記錄系統，請問某事件為 NTP 子系統相關的記錄，其優先值（Priority）為 96，試問該事件的重要性（Severity）為下列何項？ (A) Emergency (B) Error (C) Warning (D) Informational"
+      },
+      {
+        "question_id": "Q27",
+        "number": 27,
+        "type": "single_select",
+        "stem": "情境如附圖所示，廠商 A 擬依照 The Syslog Protocol （RFC5424）標準建置的日誌記錄系統，某告警（warning）事 件為使用者等級訊息（user-level messages），請問下列描述哪些正確？",
+        "stem_html": "27. 情境如附圖所示，廠商 A 擬依照 The Syslog Protocol （RFC5424）標準建置的日誌記錄系統，某告警（warning）事 件為使用者等級訊息（user-level messages），請問下列描述哪些正確？ (A) 該事件的重要性（Severity）應為 0 (B) 該事件的重要性（Severity）應為 4 (C) 該事件的優先值（Priority）應為 12 (D) 該事件的 Facility 值（Priority）應為 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "該事件的重要性（Severity）應為 0"
+          },
+          {
+            "key": "B",
+            "text": "該事件的重要性（Severity）應為 4"
+          },
+          {
+            "key": "C",
+            "text": "該事件的優先值（Priority）應為 12"
+          },
+          {
+            "key": "D",
+            "text": "該事件的 Facility 值（Priority）應為 2"
+          }
+        ],
+        "answer": [
+          "B",
+          "C"
+        ],
+        "answer_raw": "B,C",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 30,
+        "raw_text": "27. 情境如附圖所示，廠商 A 擬依照 The Syslog Protocol （RFC5424）標準建置的日誌記錄系統，某告警（warning）事 件為使用者等級訊息（user-level messages），請問下列描述哪些正確？ (A) 該事件的重要性（Severity）應為 0 (B) 該事件的重要性（Severity）應為 4 (C) 該事件的優先值（Priority）應為 12 (D) 該事件的 Facility 值（Priority）應為 2"
+      },
+      {
+        "question_id": "Q28",
+        "number": 28,
+        "type": "single_select",
+        "stem": "因應威脅的複雜度與頻繁，企業設置資訊安全監控中心 （SOC , Security Operations Center）監看資安事件的服務也 日漸普遍。SOC 服務主要分成 3 個階段：事前預防、事中監看、事後處理。下列敘述何者錯誤？",
+        "stem_html": "28. 因應威脅的複雜度與頻繁，企業設置資訊安全監控中心 （SOC , Security Operations Center）監看資安事件的服務也 日漸普遍。SOC 服務主要分成 3 個階段：事前預防、事中監看、事後處理。下列敘述何者錯誤？ (A) 蒐集資安情資屬於事前預防階段 (B) 控管網路進出流量的設備屬於事前預防階段 (C) SOC 平台的自動過濾功能回報資安事件讓資安人員 便於分析與判斷是屬於事中監看階段 (D) 識別威脅種類與來源以防止災害的擴大，並防止再 度發生類似事故是屬於事後處理階段",
+        "options": [
+          {
+            "key": "A",
+            "text": "蒐集資安情資屬於事前預防階段"
+          },
+          {
+            "key": "B",
+            "text": "控管網路進出流量的設備屬於事前預防階段"
+          },
+          {
+            "key": "C",
+            "text": "SOC 平台的自動過濾功能回報資安事件讓資安人員 便於分析與判斷是屬於事中監看階段"
+          },
+          {
+            "key": "D",
+            "text": "識別威脅種類與來源以防止災害的擴大，並防止再 度發生類似事故是屬於事後處理階段"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 31,
+        "raw_text": "28. 因應威脅的複雜度與頻繁，企業設置資訊安全監控中心 （SOC , Security Operations Center）監看資安事件的服務也 日漸普遍。SOC 服務主要分成 3 個階段：事前預防、事中監看、事後處理。下列敘述何者錯誤？ (A) 蒐集資安情資屬於事前預防階段 (B) 控管網路進出流量的設備屬於事前預防階段 (C) SOC 平台的自動過濾功能回報資安事件讓資安人員 便於分析與判斷是屬於事中監看階段 (D) 識別威脅種類與來源以防止災害的擴大，並防止再 度發生類似事故是屬於事後處理階段"
+      },
+      {
+        "question_id": "Q29",
+        "number": 29,
+        "type": "single_select",
+        "stem": "關於滲透測試的敘述，下列何者錯誤？",
+        "stem_html": "29. 關於滲透測試的敘述，下列何者錯誤？ (A) 模擬駭客手法，在不需要系統管理者或公司同意下，進行漏洞驗證 (B) 模擬駭客手法或惡意使用者的行為，試圖找出和利用系統的弱點 (C) 滲透測試要確保不會影響正常的業務運作和資料的完整性 (D) 滲透測試（Penetration Testing，簡稱 Pen Testing）是一種安全測試方法",
+        "options": [
+          {
+            "key": "A",
+            "text": "模擬駭客手法，在不需要系統管理者或公司同意下，進行漏洞驗證"
+          },
+          {
+            "key": "B",
+            "text": "模擬駭客手法或惡意使用者的行為，試圖找出和利用系統的弱點"
+          },
+          {
+            "key": "C",
+            "text": "滲透測試要確保不會影響正常的業務運作和資料的完整性"
+          },
+          {
+            "key": "D",
+            "text": "滲透測試（Penetration Testing，簡稱 Pen Testing）是一種安全測試方法"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 32,
+        "raw_text": "29. 關於滲透測試的敘述，下列何者錯誤？ (A) 模擬駭客手法，在不需要系統管理者或公司同意下，進行漏洞驗證 (B) 模擬駭客手法或惡意使用者的行為，試圖找出和利用系統的弱點 (C) 滲透測試要確保不會影響正常的業務運作和資料的完整性 (D) 滲透測試（Penetration Testing，簡稱 Pen Testing）是一種安全測試方法"
+      },
+      {
+        "question_id": "Q30",
+        "number": 30,
+        "type": "single_select",
+        "stem": "在進行資安健診時，檢測作業最關鍵的活動是下列何項？",
+        "stem_html": "30. 在進行資安健診時，檢測作業最關鍵的活動是下列何項？\n (A) 更新所有辦公軟體至最新版本\n (B) 監控社交媒體上員工的活動\n (C) 評估和識別系統中的潛在安全漏洞\n (D) 部署最新的防毒軟體",
+        "options": [
+          {
+            "key": "A",
+            "text": "更新所有辦公軟體至最新版本"
+          },
+          {
+            "key": "B",
+            "text": "監控社交媒體上員工的活動"
+          },
+          {
+            "key": "C",
+            "text": "評估和識別系統中的潛在安全漏洞"
+          },
+          {
+            "key": "D",
+            "text": "部署最新的防毒軟體"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 33,
+        "raw_text": "30. 在進行資安健診時，檢測作業最關鍵的活動是下列何項？\n (A) 更新所有辦公軟體至最新版本\n (B) 監控社交媒體上員工的活動\n (C) 評估和識別系統中的潛在安全漏洞\n (D) 部署最新的防毒軟體"
+      },
+      {
+        "question_id": "Q31",
+        "number": 31,
+        "type": "multiple_select",
+        "stem": "31. 關於源碼檢測，下列哪些正確描述了 DLL Side Loading？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>31. 關於源碼檢測，下列哪些正確描述了 DLL Side Loading？ (A) DLL Side Loading 涉及到替換正常的 DLL 文件 (B) 通常被用來繞過安全措施並執行惡意程式碼 (C) 此技術概念僅可以在 Linux 系統上實現 (D) DLL Side Loading 可以利用合法軟體的加載行為來隱藏惡意活動",
+        "options": [
+          {
+            "key": "A",
+            "text": "DLL Side Loading 涉及到替換正常的 DLL 文件"
+          },
+          {
+            "key": "B",
+            "text": "通常被用來繞過安全措施並執行惡意程式碼"
+          },
+          {
+            "key": "C",
+            "text": "此技術概念僅可以在 Linux 系統上實現"
+          },
+          {
+            "key": "D",
+            "text": "DLL Side Loading 可以利用合法軟體的加載行為來隱藏惡意活動"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 34,
+        "raw_text": "複選題 31. 關於源碼檢測，下列哪些正確描述了 DLL Side Loading？ (A) DLL Side Loading 涉及到替換正常的 DLL 文件 (B) 通常被用來繞過安全措施並執行惡意程式碼 (C) 此技術概念僅可以在 Linux 系統上實現 (D) DLL Side Loading 可以利用合法軟體的加載行為來隱藏惡意活動"
+      },
+      {
+        "question_id": "Q32",
+        "number": 32,
+        "type": "multiple_select",
+        "stem": "32. 關於資安測試工具用途的敘述，下列哪些正確？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>32. 關於資安測試工具用途的敘述，下列哪些正確？ (A) Acunetix 為 Web 漏洞掃描程式 (B) Wireshark 提供網路協定、封包等資訊 (C) Sqlmap 用於檢測和利用應用程式 SQL 注入及對資料庫的攻擊 (D) Canvas 社交攻擊用工具",
+        "options": [
+          {
+            "key": "A",
+            "text": "Acunetix 為 Web 漏洞掃描程式"
+          },
+          {
+            "key": "B",
+            "text": "Wireshark 提供網路協定、封包等資訊"
+          },
+          {
+            "key": "C",
+            "text": "Sqlmap 用於檢測和利用應用程式 SQL 注入及對資料庫的攻擊"
+          },
+          {
+            "key": "D",
+            "text": "Canvas 社交攻擊用工具"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 35,
+        "raw_text": "複選題 32. 關於資安測試工具用途的敘述，下列哪些正確？ (A) Acunetix 為 Web 漏洞掃描程式 (B) Wireshark 提供網路協定、封包等資訊 (C) Sqlmap 用於檢測和利用應用程式 SQL 注入及對資料庫的攻擊 (D) Canvas 社交攻擊用工具"
+      },
+      {
+        "question_id": "Q33",
+        "number": 33,
+        "type": "single_select",
+        "stem": "情境如附圖所示，有關紅隊、藍隊與紫隊的敘述，下列何 者錯誤？",
+        "stem_html": "33. 情境如附圖所示，有關紅隊、藍隊與紫隊的敘述，下列何 者錯誤？ (A) 紅隊演練（Red Team Assessment）在不影響企業營運下，進行模擬入侵攻擊 (B) 藍隊演練（Blue Team Assessment），指的是企業內部的工程部門或資安人員，當紅隊發動攻擊時，藍隊要在第一時間反應，快速防堵漏洞，將傷害降至最低 (C) 紫隊演練（Purple Team Assessment）為書面演練形式，無法進行技術攻防，目的就是讓負責演練的紅隊和藍隊能站在同一陣線 (D) 紅隊演練（Red Team Assessment）在有限的時間內從各種進入點執行攻擊，嘗試達成企業指定的測試任務",
+        "options": [
+          {
+            "key": "A",
+            "text": "紅隊演練（Red Team Assessment）在不影響企業營運下，進行模擬入侵攻擊"
+          },
+          {
+            "key": "B",
+            "text": "藍隊演練（Blue Team Assessment），指的是企業內部的工程部門或資安人員，當紅隊發動攻擊時，藍隊要在第一時間反應，快速防堵漏洞，將傷害降至最低"
+          },
+          {
+            "key": "C",
+            "text": "紫隊演練（Purple Team Assessment）為書面演練形式，無法進行技術攻防，目的就是讓負責演練的紅隊和藍隊能站在同一陣線"
+          },
+          {
+            "key": "D",
+            "text": "紅隊演練（Red Team Assessment）在有限的時間內從各種進入點執行攻擊，嘗試達成企業指定的測試任務"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 36,
+        "raw_text": "33. 情境如附圖所示，有關紅隊、藍隊與紫隊的敘述，下列何 者錯誤？ (A) 紅隊演練（Red Team Assessment）在不影響企業營運下，進行模擬入侵攻擊 (B) 藍隊演練（Blue Team Assessment），指的是企業內部的工程部門或資安人員，當紅隊發動攻擊時，藍隊要在第一時間反應，快速防堵漏洞，將傷害降至最低 (C) 紫隊演練（Purple Team Assessment）為書面演練形式，無法進行技術攻防，目的就是讓負責演練的紅隊和藍隊能站在同一陣線 (D) 紅隊演練（Red Team Assessment）在有限的時間內從各種進入點執行攻擊，嘗試達成企業指定的測試任務"
+      },
+      {
+        "question_id": "Q34",
+        "number": 34,
+        "type": "single_select",
+        "stem": "情境如附圖所示，紅隊進行內部滲透測試攻擊，關於針對滲透的方法，下列何者錯誤？",
+        "stem_html": "34. 情境如附圖所示，紅隊進行內部滲透測試攻擊，關於針對滲透的方法，下列何者錯誤？ (A) 找出 DC IP 位址：nmcli dev show (B) DNS 區域轉送：dig axfr (C) 列舉 ldap：nmap -Sp -p＜ip＞ (D) 找出使用者：net user",
+        "options": [
+          {
+            "key": "A",
+            "text": "找出 DC IP 位址：nmcli dev show"
+          },
+          {
+            "key": "B",
+            "text": "DNS 區域轉送：dig axfr"
+          },
+          {
+            "key": "C",
+            "text": "列舉 ldap：nmap -Sp -p＜ip＞"
+          },
+          {
+            "key": "D",
+            "text": "找出使用者：net user"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 38,
+        "raw_text": "34. 情境如附圖所示，紅隊進行內部滲透測試攻擊，關於針對滲透的方法，下列何者錯誤？ (A) 找出 DC IP 位址：nmcli dev show (B) DNS 區域轉送：dig axfr (C) 列舉 ldap：nmap -Sp -p＜ip＞ (D) 找出使用者：net user"
+      },
+      {
+        "question_id": "Q35",
+        "number": 35,
+        "type": "single_select",
+        "stem": "情境如附圖所示，紅隊進行內部滲透測試攻擊，下列哪一 項「不」是針對 Password spray 會使用的手法？",
+        "stem_html": "35. 情境如附圖所示，紅隊進行內部滲透測試攻擊，下列哪一\n 項「不」是針對 Password spray 會使用的手法？\n (A) cme smb ＜dc-ip＞ -u user.txt -p password.txt –no-bruteforce\n (B) Cme＜IP＞ -U 'user' -p 'password' –pass-pol\n (C) Get-ADDefaultDomainPasswordPolicy\n (D) Smbmap -u '''' -p'''' -P 445 -H＜dc-ip＞",
+        "options": [
+          {
+            "key": "A",
+            "text": "cme smb ＜dc-ip＞ -u user.txt -p password.txt –no-bruteforce"
+          },
+          {
+            "key": "B",
+            "text": "Cme＜IP＞ -U 'user' -p 'password' –pass-pol"
+          },
+          {
+            "key": "C",
+            "text": "Get-ADDefaultDomainPasswordPolicy"
+          },
+          {
+            "key": "D",
+            "text": "Smbmap -u '''' -p'''' -P 445 -H＜dc-ip＞"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 39,
+        "raw_text": "35. 情境如附圖所示，紅隊進行內部滲透測試攻擊，下列哪一\n 項「不」是針對 Password spray 會使用的手法？\n (A) cme smb ＜dc-ip＞ -u user.txt -p password.txt –no-bruteforce\n (B) Cme＜IP＞ -U 'user' -p 'password' –pass-pol\n (C) Get-ADDefaultDomainPasswordPolicy\n (D) Smbmap -u '''' -p'''' -P 445 -H＜dc-ip＞"
+      },
+      {
+        "question_id": "Q36",
+        "number": 36,
+        "type": "multiple_select",
+        "stem": "36. 情境如附圖所示，網域控制站（DC）是滲透測試重要的目標，而 ntds.dit 是 AD 主要的資料，可以透過下列哪些方式進行提取？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>36. 情境如附圖所示，網域控制站（DC）是滲透測試重要的目標，而 ntds.dit 是 AD 主要的資料，可以透過下列哪些方式進行提取？ (A) Ntdsutil.exe 提取 ntds.dit (B) 使用 vssadmin 提取 ntds.dit (C) 利用 diskshadow 匯出 ntds.dit (D) 利用 certutil.exe 提取 ntds.dit",
+        "options": [
+          {
+            "key": "A",
+            "text": "Ntdsutil.exe 提取 ntds.dit"
+          },
+          {
+            "key": "B",
+            "text": "使用 vssadmin 提取 ntds.dit"
+          },
+          {
+            "key": "C",
+            "text": "利用 diskshadow 匯出 ntds.dit"
+          },
+          {
+            "key": "D",
+            "text": "利用 certutil.exe 提取 ntds.dit"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 40,
+        "raw_text": "複選題 36. 情境如附圖所示，網域控制站（DC）是滲透測試重要的目標，而 ntds.dit 是 AD 主要的資料，可以透過下列哪些方式進行提取？ (A) Ntdsutil.exe 提取 ntds.dit (B) 使用 vssadmin 提取 ntds.dit (C) 利用 diskshadow 匯出 ntds.dit (D) 利用 certutil.exe 提取 ntds.dit"
+      },
+      {
+        "question_id": "Q37",
+        "number": 37,
+        "type": "single_select",
+        "stem": "情境如附圖所示。依據本案資安檢查報告及公司 背景條件，請問 XYZ 公司在工廠端的資安維護作業，下列 何項較「不」合適？",
+        "stem_html": "37. 情境如附圖所示。依據本案資安檢查報告及公司\n 背景條件，請問 XYZ 公司在工廠端的資安維護作業，下列\n 何項較「不」合適？\n (A) 修補弱點掃瞄和滲透測試的高風險項目\n (B) 修補新交付的 OEE 系統源碼掃瞄的高風險項目\n (C) 更新既有 PLC 工控系統的 Windows 定期發佈的更新\n 檔案\n (D) 定期更新新交付報工平板的 Android 發佈的更新檔\n 案",
+        "options": [
+          {
+            "key": "A",
+            "text": "修補弱點掃瞄和滲透測試的高風險項目"
+          },
+          {
+            "key": "B",
+            "text": "修補新交付的 OEE 系統源碼掃瞄的高風險項目"
+          },
+          {
+            "key": "C",
+            "text": "更新既有 PLC 工控系統的 Windows 定期發佈的更新 檔案"
+          },
+          {
+            "key": "D",
+            "text": "定期更新新交付報工平板的 Android 發佈的更新檔 案"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 41,
+        "raw_text": "37. 情境如附圖所示。依據本案資安檢查報告及公司\n 背景條件，請問 XYZ 公司在工廠端的資安維護作業，下列\n 何項較「不」合適？\n (A) 修補弱點掃瞄和滲透測試的高風險項目\n (B) 修補新交付的 OEE 系統源碼掃瞄的高風險項目\n (C) 更新既有 PLC 工控系統的 Windows 定期發佈的更新\n 檔案\n (D) 定期更新新交付報工平板的 Android 發佈的更新檔\n 案"
+      },
+      {
+        "question_id": "Q38",
+        "number": 38,
+        "type": "single_select",
+        "stem": "情境如附圖所示。承上題，依據本案資安檢查報 告及公司背景條件；由於既有工廠內的工控系統(Industrial Control System，ICS)資安防護不足，考量增強維護廠商的遠 端作業及工廠工控系統的防護能力，將著手規劃提升相關資 安防禦措施，請問下列何項計劃或執行作業有誤？",
+        "stem_html": "38. 情境如附圖所示。承上題，依據本案資安檢查報\n 告及公司背景條件；由於既有工廠內的工控系統(Industrial\n Control System，ICS)資安防護不足，考量增強維護廠商的遠\n 端作業及工廠工控系統的防護能力，將著手規劃提升相關資\n 安防禦措施，請問下列何項計劃或執行作業有誤？\n (A) XYZ 公司的工控系統並非完全實體隔離，因此在資\n 安防護設計必須依序考量：機密性、完整性和可用性\n (B) 規劃虛擬修補（Virtual Patching）機制，保護實體防\n 護不足與無法更新修補的設備與工控系統\n (C) 強化網路通訊安全降低網路連線風險，包含：\n Internet, Intranet, WLAN &amp; 廠商維護通訊路徑\n (D) 遠端連線必須使用 VPN，並且管理所有工業控制系\n 統的操作存取權限",
+        "options": [
+          {
+            "key": "A",
+            "text": "XYZ 公司的工控系統並非完全實體隔離，因此在資 安防護設計必須依序考量：機密性、完整性和可用性"
+          },
+          {
+            "key": "B",
+            "text": "規劃虛擬修補（Virtual Patching）機制，保護實體防 護不足與無法更新修補的設備與工控系統"
+          },
+          {
+            "key": "C",
+            "text": "強化網路通訊安全降低網路連線風險，包含： Internet, Intranet, WLAN & 廠商維護通訊路徑"
+          },
+          {
+            "key": "D",
+            "text": "遠端連線必須使用 VPN，並且管理所有工業控制系 統的操作存取權限"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 43,
+        "raw_text": "38. 情境如附圖所示。承上題，依據本案資安檢查報\n 告及公司背景條件；由於既有工廠內的工控系統(Industrial\n Control System，ICS)資安防護不足，考量增強維護廠商的遠\n 端作業及工廠工控系統的防護能力，將著手規劃提升相關資\n 安防禦措施，請問下列何項計劃或執行作業有誤？\n (A) XYZ 公司的工控系統並非完全實體隔離，因此在資\n 安防護設計必須依序考量：機密性、完整性和可用性\n (B) 規劃虛擬修補（Virtual Patching）機制，保護實體防\n 護不足與無法更新修補的設備與工控系統\n (C) 強化網路通訊安全降低網路連線風險，包含：\n Internet, Intranet, WLAN & 廠商維護通訊路徑\n (D) 遠端連線必須使用 VPN，並且管理所有工業控制系\n 統的操作存取權限"
+      },
+      {
+        "question_id": "Q39",
+        "number": 39,
+        "type": "single_select",
+        "stem": "情境如附圖所示。承上題，依據本案資安檢查報 告及公司背景條件，XYZ 公司討論規劃可能的資安防護事 項如附圖一所示。請問 XYZ 公司辦公室區域在不更換及增購設備的情況下，下列何項的資安防護措施較為合適與即時可行？",
+        "stem_html": "<p>39. 情境如附圖所示。承上題，依據本案資安檢查報 告及公司背景條件，XYZ 公司討論規劃可能的資安防護事 項如附圖一所示。請問 XYZ 公司辦公室區域在不更換及增購設備的情況下，下列何項的資安防護措施較為合適與即時可行？<br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f292e41efd.jpg#s-659,541\" style=\"width: 659.006px;\"/><br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f29cf083c5.jpg#s-575,248\" style=\"width: 575px;\"/><br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f29d9e2e13.jpg#s-508,756\" style=\"width: 507.997px;\"/> (A) 甲丙戊庚辛壬癸子卯 (B) 乙丁戊壬癸子丑寅卯 (C) 甲乙丙丁己辛壬丑寅 (D) 乙丁己庚辛壬子寅卯</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "甲丙戊庚辛壬癸子卯"
+          },
+          {
+            "key": "B",
+            "text": "乙丁戊壬癸子丑寅卯"
+          },
+          {
+            "key": "C",
+            "text": "甲乙丙丁己辛壬丑寅"
+          },
+          {
+            "key": "D",
+            "text": "乙丁己庚辛壬子寅卯"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G5",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f292e41efd.jpg#s-659,541",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          },
+          {
+            "src": "https://img.yamol.tw/file/661f29cf083c5.jpg#s-575,248",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_2"
+          },
+          {
+            "src": "https://img.yamol.tw/file/661f29d9e2e13.jpg#s-508,756",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_3"
+          }
+        ],
+        "source_block_index": 44,
+        "raw_text": "39. 情境如附圖所示。承上題，依據本案資安檢查報 告及公司背景條件，XYZ 公司討論規劃可能的資安防護事 項如附圖一所示。請問 XYZ 公司辦公室區域在不更換及增購設備的情況下，下列何項的資安防護措施較為合適與即時可行？ (A) 甲丙戊庚辛壬癸子卯 (B) 乙丁戊壬癸子丑寅卯 (C) 甲乙丙丁己辛壬丑寅 (D) 乙丁己庚辛壬子寅卯"
+      },
+      {
+        "question_id": "Q40",
+        "number": 40,
+        "type": "multiple_select",
+        "stem": "40. 情境如附圖所示。承上題參如本系統情境架構， XYZ 公司為提升安全防護計劃建置防火牆，並且將網路分 割為不同網段以管理網路通訊，同時提供維護廠商得以用 VPN 進行連線作業，參考附圖中的網路區塊規劃，請問依以 下路由管理項目，防火牆應建立的基本資安政策組合有下列哪些項目？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>40. 情境如附圖所示。承上題參如本系統情境架構， XYZ 公司為提升安全防護計劃建置防火牆，並且將網路分 割為不同網段以管理網路通訊，同時提供維護廠商得以用 VPN 進行連線作業，參考附圖中的網路區塊規劃，請問依以 下路由管理項目，防火牆應建立的基本資安政策組合有下列哪些項目？<br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/661f29f45539b.jpg#s-595,357\" style=\"width: 595px;\"/> (A) 丙庚壬 (B) 丁己辛 (C) 癸丑卯乙 (D) 戊子寅甲</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "丙庚壬"
+          },
+          {
+            "key": "B",
+            "text": "丁己辛"
+          },
+          {
+            "key": "C",
+            "text": "癸丑卯乙"
+          },
+          {
+            "key": "D",
+            "text": "戊子寅甲"
+          }
+        ],
+        "answer": [
+          "A",
+          "D"
+        ],
+        "answer_raw": "A,D",
+        "group_id": "G5",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/661f29f45539b.jpg#s-595,357",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 45,
+        "raw_text": "複選題 40. 情境如附圖所示。承上題參如本系統情境架構， XYZ 公司為提升安全防護計劃建置防火牆，並且將網路分 割為不同網段以管理網路通訊，同時提供維護廠商得以用 VPN 進行連線作業，參考附圖中的網路區塊規劃，請問依以 下路由管理項目，防火牆應建立的基本資安政策組合有下列哪些項目？ (A) 丙庚壬 (B) 丁己辛 (C) 癸丑卯乙 (D) 戊子寅甲"
+      }
+    ],
+    "stats": {
+      "question_count": 40,
+      "group_count": 5
+    }
+  }
+}

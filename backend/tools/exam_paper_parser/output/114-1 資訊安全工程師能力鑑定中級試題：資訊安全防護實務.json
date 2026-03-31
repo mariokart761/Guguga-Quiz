@@ -1,0 +1,1506 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "file_name": "114-1 資訊安全工程師能力鑑定中級試題：資訊安全防護實務.html",
+    "format": "html",
+    "parser": "ExamHTMLParser"
+  },
+  "exam": {
+    "title": "114年 - 114-1 資訊安全工程師能力鑑定中級試題：資訊安全防護實務#126101 - 阿摩線上測驗",
+    "groups": [
+      {
+        "group_id": "G1",
+        "title": "【題組1】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組1】情境如附圖所示。<br/><img src=\"https://img.yamol.tw/file/67e21c8be3a93.jpg\"/></p></div>",
+        "prompt_text": "【題組1】情境如附圖所示。",
+        "question_range": [
+          5,
+          8
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21c8be3a93.jpg",
+            "alt": null,
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G2",
+        "title": "【題組2】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組2】情境如附圖所示。<br/><img src=\"https://img.yamol.tw/file/67e21d31e2925.jpg\"/></p></div>",
+        "prompt_text": "【題組2】情境如附圖所示。",
+        "question_range": [
+          17,
+          20
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21d31e2925.jpg",
+            "alt": null,
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G3",
+        "title": "【題組3】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組3】情境如附圖所示。<br/><img src=\"https://img.yamol.tw/file/67e21f341ab67.jpg\"/></p></div>",
+        "prompt_text": "【題組3】情境如附圖所示。",
+        "question_range": [
+          25,
+          28
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21f341ab67.jpg",
+            "alt": null,
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G4",
+        "title": "【題組4】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組4】情境如附圖所示。<br/><img src=\"https://img.yamol.tw/file/67e21f6b3df06.jpg\"/></p></div>",
+        "prompt_text": "【題組4】情境如附圖所示。",
+        "question_range": [
+          33,
+          36
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21f6b3df06.jpg",
+            "alt": null,
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      },
+      {
+        "group_id": "G5",
+        "title": "【題組5】",
+        "prompt_html": "<div class=\"break-words\"><p>【題組5】情境如附圖所示。<img src=\"https://img.yamol.tw/file/67e21fe61d9c7.jpg\"/></p></div>",
+        "prompt_text": "【題組5】情境如附圖所示。",
+        "question_range": [
+          37,
+          40
+        ],
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21fe61d9c7.jpg",
+            "alt": null,
+            "belongs_to": "group",
+            "local_name": "img_1"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question_id": "Q1",
+        "number": 1,
+        "type": "single_select",
+        "stem": "目前有一個大企業，員工超過5000人、系統超過500個，想要定期對內部進行弱點掃描，請問在實務考量下(人力、資源、時間都有限)，下列觀念何者較為正確？",
+        "stem_html": "<p>1.目前有一個大企業，員工超過5000人、系統超過500個，想要定期對內部進行弱點掃描，請問在實務考量下(人力、資源、時間都有限)，下列觀念何者較為正確？(A)無論弱點的風險等級是重大、高、中、低，無論弱點數量有多少個，無論資訊部門的人力是否足夠，都應該在一天之內把所有弱點都修補完畢，才能確保企業是安全的(B)只要掃描出來的弱點類型屬於OWASPTop10其中之一，就應該立刻進行修補，不需要對弱點進行任何評估(C)掃描結果出爐後，應先針對每個弱點的風險等級、實際影響程度、有無出現攻擊利用程式(Exploit)進行評估，同時也要考慮重開機或停機對企業服務的影響程度，最後再來規劃每個弱點的修補時程(D)當某台伺服器的弱點掃描結果出現作業系統弱點時，如果該作業系統的官方網站沒有釋出任何修補更新檔(patch)，維運人員就不需要對該伺服器做任何處置</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "無論弱點的風險等級是重大、高、中、低，無論弱點數量有多少個，無論資訊部門的人力是否足夠，都應該在一天之內把所有弱點都修補完畢，才能確保企業是安全的"
+          },
+          {
+            "key": "B",
+            "text": "只要掃描出來的弱點類型屬於OWASPTop10其中之一，就應該立刻進行修補，不需要對弱點進行任何評估"
+          },
+          {
+            "key": "C",
+            "text": "掃描結果出爐後，應先針對每個弱點的風險等級、實際影響程度、有無出現攻擊利用程式(Exploit)進行評估，同時也要考慮重開機或停機對企業服務的影響程度，最後再來規劃每個弱點的修補時程"
+          },
+          {
+            "key": "D",
+            "text": "當某台伺服器的弱點掃描結果出現作業系統弱點時，如果該作業系統的官方網站沒有釋出任何修補更新檔(patch)，維運人員就不需要對該伺服器做任何處置"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 1,
+        "raw_text": "1.目前有一個大企業，員工超過5000人、系統超過500個，想要定期對內部進行弱點掃描，請問在實務考量下(人力、資源、時間都有限)，下列觀念何者較為正確？(A)無論弱點的風險等級是重大、高、中、低，無論弱點數量有多少個，無論資訊部門的人力是否足夠，都應該在一天之內把所有弱點都修補完畢，才能確保企業是安全的(B)只要掃描出來的弱點類型屬於OWASPTop10其中之一，就應該立刻進行修補，不需要對弱點進行任何評估(C)掃描結果出爐後，應先針對每個弱點的風險等級、實際影響程度、有無出現攻擊利用程式(Exploit)進行評估，同時也要考慮重開機或停機對企業服務的影響程度，最後再來規劃每個弱點的修補時程(D)當某台伺服器的弱點掃描結果出現作業系統弱點時，如果該作業系統的官方網站沒有釋出任何修補更新檔(patch)，維運人員就不需要對該伺服器做任何處置"
+      },
+      {
+        "question_id": "Q2",
+        "number": 2,
+        "type": "multiple_select",
+        "stem": "2.關於弱點攻擊的敘述，下列何者正確？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>2.關於弱點攻擊的敘述，下列何者正確？(複選)(A)軟體弱點或稱應用程式弱點，通常存在於軟體程式碼中，例如，錯誤的邏輯處理、未正確驗證輸入、設定配置錯誤造成危害等，都屬於這類的弱點(B)硬體弱點：這些弱點存在於硬體設備或韌體中，例如，沒有正確處理記憶體的設置，而導致裝置超載當機，甚至資料外洩(C)零日弱點：泛指廠商已經提供升級修補，卻沒進行升級更新的漏洞，攻擊者可以利用這些未被修補的弱點進行攻擊(D)網路弱點：這種弱點可能因為網路設計、配置或安全政策的問題，例如，開放不必要的網路通訊埠或服務，或者沒有使用安全加密的通訊協定</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "軟體弱點或稱應用程式弱點，通常存在於軟體程式碼中，例如，錯誤的邏輯處理、未正確驗證輸入、設定配置錯誤造成危害等，都屬於這類的弱點"
+          },
+          {
+            "key": "B",
+            "text": "硬體弱點：這些弱點存在於硬體設備或韌體中，例如，沒有正確處理記憶體的設置，而導致裝置超載當機，甚至資料外洩"
+          },
+          {
+            "key": "C",
+            "text": "零日弱點：泛指廠商已經提供升級修補，卻沒進行升級更新的漏洞，攻擊者可以利用這些未被修補的弱點進行攻擊"
+          },
+          {
+            "key": "D",
+            "text": "網路弱點：這種弱點可能因為網路設計、配置或安全政策的問題，例如，開放不必要的網路通訊埠或服務，或者沒有使用安全加密的通訊協定"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 2,
+        "raw_text": "複選題 2.關於弱點攻擊的敘述，下列何者正確？(複選)(A)軟體弱點或稱應用程式弱點，通常存在於軟體程式碼中，例如，錯誤的邏輯處理、未正確驗證輸入、設定配置錯誤造成危害等，都屬於這類的弱點(B)硬體弱點：這些弱點存在於硬體設備或韌體中，例如，沒有正確處理記憶體的設置，而導致裝置超載當機，甚至資料外洩(C)零日弱點：泛指廠商已經提供升級修補，卻沒進行升級更新的漏洞，攻擊者可以利用這些未被修補的弱點進行攻擊(D)網路弱點：這種弱點可能因為網路設計、配置或安全政策的問題，例如，開放不必要的網路通訊埠或服務，或者沒有使用安全加密的通訊協定"
+      },
+      {
+        "question_id": "Q3",
+        "number": 3,
+        "type": "single_select",
+        "stem": "當企業遇到資安攻擊時，可以思考各種不同的方式來進行防禦，以便修補漏洞或暫時緩解。開發人員或資安維運人員必須選擇最合適的防禦機制來修補資安漏洞。下列何種防禦手法的「效果最差」，很容易被攻擊者用其他方式繞過？",
+        "stem_html": "<p>3.當企業遇到資安攻擊時，可以思考各種不同的方式來進行防禦，以便修補漏洞或暫時緩解。開發人員或資安維運人員必須選擇最合適的防禦機制來修補資安漏洞。下列何種防禦手法的「效果最差」，很容易被攻擊者用其他方式繞過？(A)FilterInputandEscapeOutput，也就是過濾使用者輸入的特殊字元，並且在後端輸出內容時將特殊字元進行轉化，避免發生XSS攻擊(B)實作上傳功能時，檢查上傳檔案的內容與路徑，也限制上傳檔案的副檔名，並且將檔案搬移至上傳檔案專屬目錄，甚至是上傳到靜態檔案專屬的伺服器，同時也將該目錄設定為不可執行檔案，避免有網頁程式碼在該目錄被執行(C)撰寫資料庫查詢功能時，無論參數是不是使用者所輸入的，都必須針對參數內容進行過濾，移除所有非必要的特殊字元，並且對無法移除的特殊字元進行轉化。同時建議使用PreparedStatement來撰寫資料庫查詢功能會較為安全(D)在一個需要串接系統指令的網頁應用程式中，開發人員在網頁程式前端使用JavaScript來過濾特殊字元，防止攻擊者在參數中注入特殊字元來執行系統指令並達成CommandInjection攻擊</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "FilterInputandEscapeOutput，也就是過濾使用者輸入的特殊字元，並且在後端輸出內容時將特殊字元進行轉化，避免發生XSS攻擊"
+          },
+          {
+            "key": "B",
+            "text": "實作上傳功能時，檢查上傳檔案的內容與路徑，也限制上傳檔案的副檔名，並且將檔案搬移至上傳檔案專屬目錄，甚至是上傳到靜態檔案專屬的伺服器，同時也將該目錄設定為不可執行檔案，避免有網頁程式碼在該目錄被執行"
+          },
+          {
+            "key": "C",
+            "text": "撰寫資料庫查詢功能時，無論參數是不是使用者所輸入的，都必須針對參數內容進行過濾，移除所有非必要的特殊字元，並且對無法移除的特殊字元進行轉化。同時建議使用PreparedStatement來撰寫資料庫查詢功能會較為安全"
+          },
+          {
+            "key": "D",
+            "text": "在一個需要串接系統指令的網頁應用程式中，開發人員在網頁程式前端使用JavaScript來過濾特殊字元，防止攻擊者在參數中注入特殊字元來執行系統指令並達成CommandInjection攻擊"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 3,
+        "raw_text": "3.當企業遇到資安攻擊時，可以思考各種不同的方式來進行防禦，以便修補漏洞或暫時緩解。開發人員或資安維運人員必須選擇最合適的防禦機制來修補資安漏洞。下列何種防禦手法的「效果最差」，很容易被攻擊者用其他方式繞過？(A)FilterInputandEscapeOutput，也就是過濾使用者輸入的特殊字元，並且在後端輸出內容時將特殊字元進行轉化，避免發生XSS攻擊(B)實作上傳功能時，檢查上傳檔案的內容與路徑，也限制上傳檔案的副檔名，並且將檔案搬移至上傳檔案專屬目錄，甚至是上傳到靜態檔案專屬的伺服器，同時也將該目錄設定為不可執行檔案，避免有網頁程式碼在該目錄被執行(C)撰寫資料庫查詢功能時，無論參數是不是使用者所輸入的，都必須針對參數內容進行過濾，移除所有非必要的特殊字元，並且對無法移除的特殊字元進行轉化。同時建議使用PreparedStatement來撰寫資料庫查詢功能會較為安全(D)在一個需要串接系統指令的網頁應用程式中，開發人員在網頁程式前端使用JavaScript來過濾特殊字元，防止攻擊者在參數中注入特殊字元來執行系統指令並達成CommandInjection攻擊"
+      },
+      {
+        "question_id": "Q4",
+        "number": 4,
+        "type": "multiple_select",
+        "stem": "4.關於知名密碼破解工具Hashcat的說明，下列哪些描述正確？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>4.關於知名密碼破解工具Hashcat的說明，下列哪些描述正確？(複選)(A)可以破解的密碼種類超過10種(B)可以使用?u?l?d?d?d?d?d?d這種MaskAttackMode來進行暴力破解，破解出來的密碼內容範例是aB123456(C)如果使用參數-a1的話，可以同時使用兩個字典檔一起組合破解(D)進行-a0字典檔攻擊時，如果使用參數-r的話，可以載入一組規則以便進行Rule-basedAttack，例如在所有字典的後面加上1234組合成新的密碼</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "可以破解的密碼種類超過10種"
+          },
+          {
+            "key": "B",
+            "text": "可以使用?u?l?d?d?d?d?d?d這種MaskAttackMode來進行暴力破解，破解出來的密碼內容範例是aB123456"
+          },
+          {
+            "key": "C",
+            "text": "如果使用參數-a1的話，可以同時使用兩個字典檔一起組合破解"
+          },
+          {
+            "key": "D",
+            "text": "進行-a0字典檔攻擊時，如果使用參數-r的話，可以載入一組規則以便進行Rule-basedAttack，例如在所有字典的後面加上1234組合成新的密碼"
+          }
+        ],
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 4,
+        "raw_text": "複選題 4.關於知名密碼破解工具Hashcat的說明，下列哪些描述正確？(複選)(A)可以破解的密碼種類超過10種(B)可以使用?u?l?d?d?d?d?d?d這種MaskAttackMode來進行暴力破解，破解出來的密碼內容範例是aB123456(C)如果使用參數-a1的話，可以同時使用兩個字典檔一起組合破解(D)進行-a0字典檔攻擊時，如果使用參數-r的話，可以載入一組規則以便進行Rule-basedAttack，例如在所有字典的後面加上1234組合成新的密碼"
+      },
+      {
+        "question_id": "Q5",
+        "number": 5,
+        "type": "single_select",
+        "stem": "在進行例行性的檢查時，你發現在WEB主機上，出現了附圖一的log記錄，這個log記錄中，出現了登入錯誤的訊息，但這個訊息恐怕不是登入錯誤而已，這樣的log記錄內容，你可能已經遭受到下列何種攻擊？",
+        "stem_html": "<p>5.在進行例行性的檢查時，你發現在WEB主機上，出現了附圖一的log記錄，這個log記錄中，出現了登入錯誤的訊息，但這個訊息恐怕不是登入錯誤而已，這樣的log記錄內容，你可能已經遭受到下列何種攻擊？(A)修改網站的配置文件以獲得管理員權限(B)利用SQL注入漏洞來控制資料庫，進而執行代碼(C)通過注入惡意指令到SSH日誌文件中，然後通過LFI(LocalFileInclusion)加載該日誌文件來執行惡意指令(D)網站被發起了XSSServerSide的攻擊</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "修改網站的配置文件以獲得管理員權限"
+          },
+          {
+            "key": "B",
+            "text": "利用SQL注入漏洞來控制資料庫，進而執行代碼"
+          },
+          {
+            "key": "C",
+            "text": "通過注入惡意指令到SSH日誌文件中，然後通過LFI(LocalFileInclusion)加載該日誌文件來執行惡意指令"
+          },
+          {
+            "key": "D",
+            "text": "網站被發起了XSSServerSide的攻擊"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 5,
+        "raw_text": "5.在進行例行性的檢查時，你發現在WEB主機上，出現了附圖一的log記錄，這個log記錄中，出現了登入錯誤的訊息，但這個訊息恐怕不是登入錯誤而已，這樣的log記錄內容，你可能已經遭受到下列何種攻擊？(A)修改網站的配置文件以獲得管理員權限(B)利用SQL注入漏洞來控制資料庫，進而執行代碼(C)通過注入惡意指令到SSH日誌文件中，然後通過LFI(LocalFileInclusion)加載該日誌文件來執行惡意指令(D)網站被發起了XSSServerSide的攻擊"
+      },
+      {
+        "question_id": "Q6",
+        "number": 6,
+        "type": "single_select",
+        "stem": "在你自覺到公司的網站伺服器可能入侵的同時，你發現在資料庫伺服器的工作排程中出現了一個名為windowsupdate的工作，執行的內容如附圖二所示。請問對於windowsupdate的工作內容描述，下列何者正確？",
+        "stem_html": "<p>6.在你自覺到公司的網站伺服器可能入侵的同時，你發現在資料庫伺服器的工作排程中出現了一個名為windowsupdate的工作，執行的內容如附圖二所示。請問對於windowsupdate的工作內容描述，下列何者正確？<br/><img src=\"https://img.yamol.tw/file/67e219ef8108f.jpg\"/>(A)這是段Powershell，它試圖在背景執行，且會產出一個名為LSASS的Script(B)就說明看來它應該Windows更新工作(C)這是段Powershell，它試圖略過執行政策並且轉換Script為執行檔(D)就說明看來它應該是會產生一支可進行Windows更新的檔案</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "這是段Powershell，它試圖在背景執行，且會產出一個名為LSASS的Script"
+          },
+          {
+            "key": "B",
+            "text": "就說明看來它應該Windows更新工作"
+          },
+          {
+            "key": "C",
+            "text": "這是段Powershell，它試圖略過執行政策並且轉換Script為執行檔"
+          },
+          {
+            "key": "D",
+            "text": "就說明看來它應該是會產生一支可進行Windows更新的檔案"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G1",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e219ef8108f.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 7,
+        "raw_text": "6.在你自覺到公司的網站伺服器可能入侵的同時，你發現在資料庫伺服器的工作排程中出現了一個名為windowsupdate的工作，執行的內容如附圖二所示。請問對於windowsupdate的工作內容描述，下列何者正確？ (A)這是段Powershell，它試圖在背景執行，且會產出一個名為LSASS的Script(B)就說明看來它應該Windows更新工作(C)這是段Powershell，它試圖略過執行政策並且轉換Script為執行檔(D)就說明看來它應該是會產生一支可進行Windows更新的檔案"
+      },
+      {
+        "question_id": "Q7",
+        "number": 7,
+        "type": "single_select",
+        "stem": "當資安小組開始調查這個事件時，在AD主機上發現了附圖三的內容。請問你遭受了什麼類型的攻擊？",
+        "stem_html": "<p>7.當資安小組開始調查這個事件時，在AD主機上發現了附圖三的內容。請問你遭受了什麼類型的攻擊？<br/><img src=\"https://img.yamol.tw/file/67e218abe529a.jpg\"/>(A)你的組織受到了DenialofService攻擊(B)你的組織受到了PasstheTicket攻擊(C)你的組織受到了BufferOverflow攻擊(D)你的組織受到了DirectorySync攻擊</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "你的組織受到了DenialofService攻擊"
+          },
+          {
+            "key": "B",
+            "text": "你的組織受到了PasstheTicket攻擊"
+          },
+          {
+            "key": "C",
+            "text": "你的組織受到了BufferOverflow攻擊"
+          },
+          {
+            "key": "D",
+            "text": "你的組織受到了DirectorySync攻擊"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G1",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e218abe529a.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 8,
+        "raw_text": "7.當資安小組開始調查這個事件時，在AD主機上發現了附圖三的內容。請問你遭受了什麼類型的攻擊？ (A)你的組織受到了DenialofService攻擊(B)你的組織受到了PasstheTicket攻擊(C)你的組織受到了BufferOverflow攻擊(D)你的組織受到了DirectorySync攻擊"
+      },
+      {
+        "question_id": "Q8",
+        "number": 8,
+        "type": "multiple_select",
+        "stem": "8.針對上述情境，下列哪些措施可以有效降低類似攻擊再次發生的機率？（複選）",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>8.針對上述情境，下列哪些措施可以有效降低類似攻擊再次發生的機率？（複選） <br/><img src=\"https://img.yamol.tw/file/67e21d08466c1.jpg\"/>(A)針對資料庫主機購置更強的資料庫稽核系統(B)定期進行員工安全意識培訓(C)加強對網路和系統的持續監控(D)實施更嚴格的身份驗證和存取控制策略</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "針對資料庫主機購置更強的資料庫稽核系統"
+          },
+          {
+            "key": "B",
+            "text": "定期進行員工安全意識培訓"
+          },
+          {
+            "key": "C",
+            "text": "加強對網路和系統的持續監控"
+          },
+          {
+            "key": "D",
+            "text": "實施更嚴格的身份驗證和存取控制策略"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,B,C,D",
+        "group_id": "G1",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21d08466c1.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 9,
+        "raw_text": "複選題 8.針對上述情境，下列哪些措施可以有效降低類似攻擊再次發生的機率？（複選） (A)針對資料庫主機購置更強的資料庫稽核系統(B)定期進行員工安全意識培訓(C)加強對網路和系統的持續監控(D)實施更嚴格的身份驗證和存取控制策略"
+      },
+      {
+        "question_id": "Q9",
+        "number": 9,
+        "type": "single_select",
+        "stem": "勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過分析系統執行特定指令來進行威脅獵補(Threathunting)，以即早偵測並發現異常行為。下列何種Windows指令「非」勒索軟體常用於竄改系統檔案/備份之目的？",
+        "stem_html": "<p>9.勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過分析系統執行特定指令來進行威脅獵補(Threathunting)，以即早偵測並發現異常行為。下列何種Windows指令「非」勒索軟體常用於竄改系統檔案/備份之目的？(A)fsutil.exe(B)ntfsbackup.exe(C)vssadmin.exe(D)wbadmin.exe</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "fsutil.exe"
+          },
+          {
+            "key": "B",
+            "text": "ntfsbackup.exe"
+          },
+          {
+            "key": "C",
+            "text": "vssadmin.exe"
+          },
+          {
+            "key": "D",
+            "text": "wbadmin.exe"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 10,
+        "raw_text": "9.勒索軟體與資料外洩攻擊之準備、預防、緩解與應變之實務上，可透過分析系統執行特定指令來進行威脅獵補(Threathunting)，以即早偵測並發現異常行為。下列何種Windows指令「非」勒索軟體常用於竄改系統檔案/備份之目的？(A)fsutil.exe(B)ntfsbackup.exe(C)vssadmin.exe(D)wbadmin.exe"
+      },
+      {
+        "question_id": "Q10",
+        "number": 10,
+        "type": "single_select",
+        "stem": "據NISTSP800系列標準，關於災難復原計畫(DisasterRecoveryPlan，DRP)、業務持續性計畫(BusinessContinuityPlan，BCP)和資訊系統應急準備計畫(InformationSystemContingencyPlan，ISCP)的關聯性，下列何項描述正確？",
+        "stem_html": "<p>10.據NISTSP800系列標準，關於災難復原計畫(DisasterRecoveryPlan，DRP)、業務持續性計畫(BusinessContinuityPlan，BCP)和資訊系統應急準備計畫(InformationSystemContingencyPlan，ISCP)的關聯性，下列何項描述正確？(A)災難復原計畫(DRP)專注於資訊技術系統的恢復，而業務持續性計畫(BCP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復(B)資訊系統應急準備計畫(ISCP)涵蓋整個組織的業務和資訊系統恢復策略，而災難復原計畫(DRP)和業務持續性計畫(BCP)則關注於特定技術解決方案(C)業務持續性計畫(BCP)專注於資訊技術系統的恢復，而災難復原計畫(DRP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復(D)災難復原計畫(DRP)專注於資訊技術系統的恢復，業務持續性計畫(BCP)涵蓋組織整體的業務運營持續性，而資訊系統應急準備計畫(ISCP)則專注於特定資訊系統的應急反應</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "災難復原計畫(DRP)專注於資訊技術系統的恢復，而業務持續性計畫(BCP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復"
+          },
+          {
+            "key": "B",
+            "text": "資訊系統應急準備計畫(ISCP)涵蓋整個組織的業務和資訊系統恢復策略，而災難復原計畫(DRP)和業務持續性計畫(BCP)則關注於特定技術解決方案"
+          },
+          {
+            "key": "C",
+            "text": "業務持續性計畫(BCP)專注於資訊技術系統的恢復，而災難復原計畫(DRP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復"
+          },
+          {
+            "key": "D",
+            "text": "災難復原計畫(DRP)專注於資訊技術系統的恢復，業務持續性計畫(BCP)涵蓋組織整體的業務運營持續性，而資訊系統應急準備計畫(ISCP)則專注於特定資訊系統的應急反應"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 11,
+        "raw_text": "10.據NISTSP800系列標準，關於災難復原計畫(DisasterRecoveryPlan，DRP)、業務持續性計畫(BusinessContinuityPlan，BCP)和資訊系統應急準備計畫(InformationSystemContingencyPlan，ISCP)的關聯性，下列何項描述正確？(A)災難復原計畫(DRP)專注於資訊技術系統的恢復，而業務持續性計畫(BCP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復(B)資訊系統應急準備計畫(ISCP)涵蓋整個組織的業務和資訊系統恢復策略，而災難復原計畫(DRP)和業務持續性計畫(BCP)則關注於特定技術解決方案(C)業務持續性計畫(BCP)專注於資訊技術系統的恢復，而災難復原計畫(DRP)和資訊系統應急準備計畫(ISCP)則專注於組織的整體運營恢復(D)災難復原計畫(DRP)專注於資訊技術系統的恢復，業務持續性計畫(BCP)涵蓋組織整體的業務運營持續性，而資訊系統應急準備計畫(ISCP)則專注於特定資訊系統的應急反應"
+      },
+      {
+        "question_id": "Q11",
+        "number": 11,
+        "type": "single_select",
+        "stem": "在零信任(ZeroTrust)安全架構下，考慮到網路微分割(NetworkMicro-Segmentation)的實施，下列何項描述最準確地闡述了它與其他零信任安全控制措施(如身份和存取管理、加密和持續監控)的交互作用？",
+        "stem_html": "<p>11.在零信任(ZeroTrust)安全架構下，考慮到網路微分割(NetworkMicro-Segmentation)的實施，下列何項描述最準確地闡述了它與其他零信任安全控制措施(如身份和存取管理、加密和持續監控)的交互作用？(A)網路微分割獨立於其他零信任控制措施運作，不與身份和存取管理或加密策略互動(B)身份和存取管理策略在網路微分割實施之前是不必要的，因為微分割本身就足以防範網路入侵(C)網路微分割與身份和存取管理緊密結合，確保只有驗證和授權的用戶才能存取特定網路段，同時加密和持續監控提供額外的安全層(D)持續監控在網路微分割實施過程中不起作用，因為微分割旨在隔離和控制網路流量，而不是監控</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路微分割獨立於其他零信任控制措施運作，不與身份和存取管理或加密策略互動"
+          },
+          {
+            "key": "B",
+            "text": "身份和存取管理策略在網路微分割實施之前是不必要的，因為微分割本身就足以防範網路入侵"
+          },
+          {
+            "key": "C",
+            "text": "網路微分割與身份和存取管理緊密結合，確保只有驗證和授權的用戶才能存取特定網路段，同時加密和持續監控提供額外的安全層"
+          },
+          {
+            "key": "D",
+            "text": "持續監控在網路微分割實施過程中不起作用，因為微分割旨在隔離和控制網路流量，而不是監控"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 12,
+        "raw_text": "11.在零信任(ZeroTrust)安全架構下，考慮到網路微分割(NetworkMicro-Segmentation)的實施，下列何項描述最準確地闡述了它與其他零信任安全控制措施(如身份和存取管理、加密和持續監控)的交互作用？(A)網路微分割獨立於其他零信任控制措施運作，不與身份和存取管理或加密策略互動(B)身份和存取管理策略在網路微分割實施之前是不必要的，因為微分割本身就足以防範網路入侵(C)網路微分割與身份和存取管理緊密結合，確保只有驗證和授權的用戶才能存取特定網路段，同時加密和持續監控提供額外的安全層(D)持續監控在網路微分割實施過程中不起作用，因為微分割旨在隔離和控制網路流量，而不是監控"
+      },
+      {
+        "question_id": "Q12",
+        "number": 12,
+        "type": "single_select",
+        "stem": "在規劃企業資安的縱深防禦過程中，需要使用各種不同的技術與產品來應對不同情境的資安議題，下列哪一種技術最適合用來避免「內部資料被未經授權地傳輸到外部」的情況？",
+        "stem_html": "<p>12.在規劃企業資安的縱深防禦過程中，需要使用各種不同的技術與產品來應對不同情境的資安議題，下列哪一種技術最適合用來避免「內部資料被未經授權地傳輸到外部」的情況？(A)網路流量分析與回應(NetworkDetectionandResponse，NDR)(B)內容傳遞網路(ContentDeliveryNetwork，CDN)(C)入侵偵測系統(IntrusionDetectionSystem，IDS)(D)資料外洩防護(DataLossPrevention，DLP)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路流量分析與回應(NetworkDetectionandResponse，NDR)"
+          },
+          {
+            "key": "B",
+            "text": "內容傳遞網路(ContentDeliveryNetwork，CDN)"
+          },
+          {
+            "key": "C",
+            "text": "入侵偵測系統(IntrusionDetectionSystem，IDS)"
+          },
+          {
+            "key": "D",
+            "text": "資料外洩防護(DataLossPrevention，DLP)"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 13,
+        "raw_text": "12.在規劃企業資安的縱深防禦過程中，需要使用各種不同的技術與產品來應對不同情境的資安議題，下列哪一種技術最適合用來避免「內部資料被未經授權地傳輸到外部」的情況？(A)網路流量分析與回應(NetworkDetectionandResponse，NDR)(B)內容傳遞網路(ContentDeliveryNetwork，CDN)(C)入侵偵測系統(IntrusionDetectionSystem，IDS)(D)資料外洩防護(DataLossPrevention，DLP)"
+      },
+      {
+        "question_id": "Q13",
+        "number": 13,
+        "type": "single_select",
+        "stem": "有關「網頁應用程式防火牆(WebApplicationFirewall，WAF)」的描述，下列何者較為適切？",
+        "stem_html": "<p>13.有關「網頁應用程式防火牆(WebApplicationFirewall，WAF)」的描述，下列何者較為適切？(A)WAF主要用於過濾電子郵件內容，防止垃圾郵件(B)WAF的規則有機會被攻擊者繞過，無法完全阻擋網頁攻擊(C)WAF只能用來防止OWASPTop102021裡面的A03:2021Injection(D)WAF只能阻擋已知特徵的SQL注入攻擊，但是特徵必須一模一樣，如果特徵稍微有變化WAF就無法阻擋</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "WAF主要用於過濾電子郵件內容，防止垃圾郵件"
+          },
+          {
+            "key": "B",
+            "text": "WAF的規則有機會被攻擊者繞過，無法完全阻擋網頁攻擊"
+          },
+          {
+            "key": "C",
+            "text": "WAF只能用來防止OWASPTop102021裡面的A03:2021Injection"
+          },
+          {
+            "key": "D",
+            "text": "WAF只能阻擋已知特徵的SQL注入攻擊，但是特徵必須一模一樣，如果特徵稍微有變化WAF就無法阻擋"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 14,
+        "raw_text": "13.有關「網頁應用程式防火牆(WebApplicationFirewall，WAF)」的描述，下列何者較為適切？(A)WAF主要用於過濾電子郵件內容，防止垃圾郵件(B)WAF的規則有機會被攻擊者繞過，無法完全阻擋網頁攻擊(C)WAF只能用來防止OWASPTop102021裡面的A03:2021Injection(D)WAF只能阻擋已知特徵的SQL注入攻擊，但是特徵必須一模一樣，如果特徵稍微有變化WAF就無法阻擋"
+      },
+      {
+        "question_id": "Q14",
+        "number": 14,
+        "type": "single_select",
+        "stem": "下列何項是美國國家標準技術研究院(NIST)的網路安全框架(CyberSecurityFramework，CSF)從版本1.1更新到2.0中最明顯的改變？",
+        "stem_html": "<p>14.下列何項是美國國家標準技術研究院(NIST)的網路安全框架(CyberSecurityFramework，CSF)從版本1.1更新到2.0中最明顯的改變？(A)增加了新的五大功能類別，分別為辨識(Identify)、保護(Protect)、偵測(Detect)、回應(Respond)、復原(Recover)(B)引入「治理(Govern)」作為第六個核心功能(C)簡化了所有類別的定義以提升易用性(D)擴展了對雲端安全的具體指導內容</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "增加了新的五大功能類別，分別為辨識(Identify)、保護(Protect)、偵測(Detect)、回應(Respond)、復原(Recover)"
+          },
+          {
+            "key": "B",
+            "text": "引入「治理(Govern)」作為第六個核心功能"
+          },
+          {
+            "key": "C",
+            "text": "簡化了所有類別的定義以提升易用性"
+          },
+          {
+            "key": "D",
+            "text": "擴展了對雲端安全的具體指導內容"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 15,
+        "raw_text": "14.下列何項是美國國家標準技術研究院(NIST)的網路安全框架(CyberSecurityFramework，CSF)從版本1.1更新到2.0中最明顯的改變？(A)增加了新的五大功能類別，分別為辨識(Identify)、保護(Protect)、偵測(Detect)、回應(Respond)、復原(Recover)(B)引入「治理(Govern)」作為第六個核心功能(C)簡化了所有類別的定義以提升易用性(D)擴展了對雲端安全的具體指導內容"
+      },
+      {
+        "question_id": "Q15",
+        "number": 15,
+        "type": "multiple_select",
+        "stem": "15.在使用NISTSP800-207ZeroTrustArchitecture架構中的進階身份治理(EnhancedIdentityGovernance)模式時，請問下列哪些要素會影響最終信任評等的結果計算？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>15.在使用NISTSP800-207ZeroTrustArchitecture架構中的進階身份治理(EnhancedIdentityGovernance)模式時，請問下列哪些要素會影響最終信任評等的結果計算？(複選)(A)資產狀態(AssetStatus)(B)密碼長度(PasswordLength)(C)資源內容(EnterpriseResource)(D)環境因素(EnvironmentalFactors)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "資產狀態(AssetStatus)"
+          },
+          {
+            "key": "B",
+            "text": "密碼長度(PasswordLength)"
+          },
+          {
+            "key": "C",
+            "text": "資源內容(EnterpriseResource)"
+          },
+          {
+            "key": "D",
+            "text": "環境因素(EnvironmentalFactors)"
+          }
+        ],
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 16,
+        "raw_text": "複選題 15.在使用NISTSP800-207ZeroTrustArchitecture架構中的進階身份治理(EnhancedIdentityGovernance)模式時，請問下列哪些要素會影響最終信任評等的結果計算？(複選)(A)資產狀態(AssetStatus)(B)密碼長度(PasswordLength)(C)資源內容(EnterpriseResource)(D)環境因素(EnvironmentalFactors)"
+      },
+      {
+        "question_id": "Q16",
+        "number": 16,
+        "type": "multiple_select",
+        "stem": "16.安全性資訊與事件管理(SecurityInformationandEventManagement，SIEM)是蒐集、分析、關聯日誌，並且提供即時的警報與威脅檢測，可針對事件回溯與調查，當我們設定要將一台WindowsServer2019的安全性事件，拋送回到SIEM進行分析，可以透過下列哪些通訊協定無需額外的透過cmd指令串接、設定、組態即可傳送？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>16.安全性資訊與事件管理(SecurityInformationandEventManagement，SIEM)是蒐集、分析、關聯日誌，並且提供即時的警報與威脅檢測，可針對事件回溯與調查，當我們設定要將一台WindowsServer2019的安全性事件，拋送回到SIEM進行分析，可以透過下列哪些通訊協定無需額外的透過cmd指令串接、設定、組態即可傳送？(複選)(A)Syslog(SystemLoggingProtocol)(B)SNMP(SimpleNetworkManagementProtocol)(C)Agent-Based(D)WindowsEventForwarding(WEF)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "Syslog(SystemLoggingProtocol)"
+          },
+          {
+            "key": "B",
+            "text": "SNMP(SimpleNetworkManagementProtocol)"
+          },
+          {
+            "key": "C",
+            "text": "Agent-Based"
+          },
+          {
+            "key": "D",
+            "text": "WindowsEventForwarding(WEF)"
+          }
+        ],
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 17,
+        "raw_text": "複選題 16.安全性資訊與事件管理(SecurityInformationandEventManagement，SIEM)是蒐集、分析、關聯日誌，並且提供即時的警報與威脅檢測，可針對事件回溯與調查，當我們設定要將一台WindowsServer2019的安全性事件，拋送回到SIEM進行分析，可以透過下列哪些通訊協定無需額外的透過cmd指令串接、設定、組態即可傳送？(複選)(A)Syslog(SystemLoggingProtocol)(B)SNMP(SimpleNetworkManagementProtocol)(C)Agent-Based(D)WindowsEventForwarding(WEF)"
+      },
+      {
+        "question_id": "Q17",
+        "number": 17,
+        "type": "single_select",
+        "stem": "該公司資安人員針對所有資訊資產進行了弱點掃描作業。試問有關該資安人員所實施的弱點掃描敘述，下列何者錯誤？",
+        "stem_html": "<p>17.該公司資安人員針對所有資訊資產進行了弱點掃描作業。試問有關該資安人員所實施的弱點掃描敘述，下列何者錯誤？(A)使用FortifyStaticCodeAnalyzer執行網站弱點掃描作業(B)使用NessusProfessional執行系統弱點掃描作業(C)將弱點掃描結果屬於中風險程度以上之弱點進行後續處理之評估(D)依據弱點修補結果實施第二次的弱點掃描複測作業</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "使用FortifyStaticCodeAnalyzer執行網站弱點掃描作業"
+          },
+          {
+            "key": "B",
+            "text": "使用NessusProfessional執行系統弱點掃描作業"
+          },
+          {
+            "key": "C",
+            "text": "將弱點掃描結果屬於中風險程度以上之弱點進行後續處理之評估"
+          },
+          {
+            "key": "D",
+            "text": "依據弱點修補結果實施第二次的弱點掃描複測作業"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 18,
+        "raw_text": "17.該公司資安人員針對所有資訊資產進行了弱點掃描作業。試問有關該資安人員所實施的弱點掃描敘述，下列何者錯誤？(A)使用FortifyStaticCodeAnalyzer執行網站弱點掃描作業(B)使用NessusProfessional執行系統弱點掃描作業(C)將弱點掃描結果屬於中風險程度以上之弱點進行後續處理之評估(D)依據弱點修補結果實施第二次的弱點掃描複測作業"
+      },
+      {
+        "question_id": "Q18",
+        "number": 18,
+        "type": "single_select",
+        "stem": "資安人員於風險評鑑過程中，發覺該公司有一部防火牆已遭原廠宣告終止服務(EndofService，EOS)。試問有關資安人員對於此一發現之後續作為，下列何者最為適切？",
+        "stem_html": "<p>18.資安人員於風險評鑑過程中，發覺該公司有一部防火牆已遭原廠宣告終止服務(EndofService，EOS)。試問有關資安人員對於此一發現之後續作為，下列何者最為適切？(A)立即變更防火牆設定，將外對內之封包進行阻擋(B)立即變更防火牆設定，將內對外之封包進行阻擋(C)立即將防火牆的設定檔(Config)進行備份(D)立即評估該防火牆之風險並妥採適切之控制措施</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "立即變更防火牆設定，將外對內之封包進行阻擋"
+          },
+          {
+            "key": "B",
+            "text": "立即變更防火牆設定，將內對外之封包進行阻擋"
+          },
+          {
+            "key": "C",
+            "text": "立即將防火牆的設定檔(Config)進行備份"
+          },
+          {
+            "key": "D",
+            "text": "立即評估該防火牆之風險並妥採適切之控制措施"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 20,
+        "raw_text": "18.資安人員於風險評鑑過程中，發覺該公司有一部防火牆已遭原廠宣告終止服務(EndofService，EOS)。試問有關資安人員對於此一發現之後續作為，下列何者最為適切？(A)立即變更防火牆設定，將外對內之封包進行阻擋(B)立即變更防火牆設定，將內對外之封包進行阻擋(C)立即將防火牆的設定檔(Config)進行備份(D)立即評估該防火牆之風險並妥採適切之控制措施"
+      },
+      {
+        "question_id": "Q19",
+        "number": 19,
+        "type": "single_select",
+        "stem": "當資安人員進行風險評鑑與處理時，接獲內部人員通報發生勒索病毒感染之資通安全事件，該事件已造成檔案交換主機(未涉及關鍵基礎設施維運)內的檔案遭加密無法開啟，系統亦無法正常使用，影響了核心業務的正常運作且無法於可容忍中斷時間內回復正常運作。試問有關資安人員對於此一事件處理之作為，下列何者錯誤？",
+        "stem_html": "<p>19.當資安人員進行風險評鑑與處理時，接獲內部人員通報發生勒索病毒感染之資通安全事件，該事件已造成檔案交換主機(未涉及關鍵基礎設施維運)內的檔案遭加密無法開啟，系統亦無法正常使用，影響了核心業務的正常運作且無法於可容忍中斷時間內回復正常運作。試問有關資安人員對於此一事件處理之作為，下列何者錯誤？(A)一小時內通報金管會(B)資通安全事件等級判斷為二級(C)對該檔案交換主機進行隔離(D)建議資安長啟動該核心業務之業務持續計畫</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "一小時內通報金管會"
+          },
+          {
+            "key": "B",
+            "text": "資通安全事件等級判斷為二級"
+          },
+          {
+            "key": "C",
+            "text": "對該檔案交換主機進行隔離"
+          },
+          {
+            "key": "D",
+            "text": "建議資安長啟動該核心業務之業務持續計畫"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 21,
+        "raw_text": "19.當資安人員進行風險評鑑與處理時，接獲內部人員通報發生勒索病毒感染之資通安全事件，該事件已造成檔案交換主機(未涉及關鍵基礎設施維運)內的檔案遭加密無法開啟，系統亦無法正常使用，影響了核心業務的正常運作且無法於可容忍中斷時間內回復正常運作。試問有關資安人員對於此一事件處理之作為，下列何者錯誤？(A)一小時內通報金管會(B)資通安全事件等級判斷為二級(C)對該檔案交換主機進行隔離(D)建議資安長啟動該核心業務之業務持續計畫"
+      },
+      {
+        "question_id": "Q20",
+        "number": 20,
+        "type": "multiple_select",
+        "stem": "20.鑒於防火牆EOS的事件，該公司資安長非常重視事前資通安全情資的蒐集與分析，俾利公司能有足夠的時間來因應突發的資訊安全風險發生。試問有關資安人員對於資通安全情資的蒐集與分析作為，下列哪些正確？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>20.鑒於防火牆EOS的事件，該公司資安長非常重視事前資通安全情資的蒐集與分析，俾利公司能有足夠的時間來因應突發的資訊安全風險發生。試問有關資安人員對於資通安全情資的蒐集與分析作為，下列哪些正確？(複選)(A)資通安全情資包含使資通系統安全控制措施無效或利用安全漏洞之方法在內(B)資通安全情資包含資通安全事件造成之實際損害或可能產生之負面影響在內(C)加入衛生福利部資安資訊分享與分析中心(HISAC)平台(D)加入金融資安資訊分享與分析中心(F-ISAC)平台</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "資通安全情資包含使資通系統安全控制措施無效或利用安全漏洞之方法在內"
+          },
+          {
+            "key": "B",
+            "text": "資通安全情資包含資通安全事件造成之實際損害或可能產生之負面影響在內"
+          },
+          {
+            "key": "C",
+            "text": "加入衛生福利部資安資訊分享與分析中心(HISAC)平台"
+          },
+          {
+            "key": "D",
+            "text": "加入金融資安資訊分享與分析中心(F-ISAC)平台"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 22,
+        "raw_text": "複選題 20.鑒於防火牆EOS的事件，該公司資安長非常重視事前資通安全情資的蒐集與分析，俾利公司能有足夠的時間來因應突發的資訊安全風險發生。試問有關資安人員對於資通安全情資的蒐集與分析作為，下列哪些正確？(複選)(A)資通安全情資包含使資通系統安全控制措施無效或利用安全漏洞之方法在內(B)資通安全情資包含資通安全事件造成之實際損害或可能產生之負面影響在內(C)加入衛生福利部資安資訊分享與分析中心(HISAC)平台(D)加入金融資安資訊分享與分析中心(F-ISAC)平台"
+      },
+      {
+        "question_id": "Q21",
+        "number": 21,
+        "type": "single_select",
+        "stem": "某「安全性資訊與事件管理」(簡稱SIEM)系統依照TheSyslogProtocol(RFC5424)標準設計，因事件眾多，希望只顯示必須立即採取行動或系統無法使用，這類極為嚴重的訊息在特定的畫面上，請問其篩選條件下列何者最為合適？",
+        "stem_html": "<p>21.某「安全性資訊與事件管理」(簡稱SIEM)系統依照TheSyslogProtocol(RFC5424)標準設計，因事件眾多，希望只顯示必須立即採取行動或系統無法使用，這類極為嚴重的訊息在特定的畫面上，請問其篩選條件下列何者最為合適？(A)Severity＜=1(B)Severity＜=3(C)Severity＜=5(D)Severity＜=7</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "Severity＜=1"
+          },
+          {
+            "key": "B",
+            "text": "Severity＜=3"
+          },
+          {
+            "key": "C",
+            "text": "Severity＜=5"
+          },
+          {
+            "key": "D",
+            "text": "Severity＜=7"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 23,
+        "raw_text": "21.某「安全性資訊與事件管理」(簡稱SIEM)系統依照TheSyslogProtocol(RFC5424)標準設計，因事件眾多，希望只顯示必須立即採取行動或系統無法使用，這類極為嚴重的訊息在特定的畫面上，請問其篩選條件下列何者最為合適？(A)Severity＜=1(B)Severity＜=3(C)Severity＜=5(D)Severity＜=7"
+      },
+      {
+        "question_id": "Q22",
+        "number": 22,
+        "type": "single_select",
+        "stem": "如附圖所示。某機關系統維運商系統更新作業疏失，未發現網頁驗證功能關閉，而導致學員無需身分驗證即可登入系統，使有心人士可查看或取得敏感資料而有外洩之虞。下列何者是最「不」建議之防範措施？",
+        "stem_html": "<p>22.如附圖所示。某機關系統維運商系統更新作業疏失，未發現網頁驗證功能關閉，而導致學員無需身分驗證即可登入系統，使有心人士可查看或取得敏感資料而有外洩之虞。下列何者是最「不」建議之防範措施？<br/><img src=\"https://img.yamol.tw/file/67e21ef0d9cff.jpg\"/>(A)機關建立資通安全緊急應變機制(B)應完整確認系統相關檢核驗證功能均正常啟用始可對外開放網站(C)透過敏感資料加密儲存、查詢過程遮蔽及最少揭露來降低外洩風險(D)落實系統版本更新檢核作業，應於測試機完成各角色、各帳號測試後再上版</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "機關建立資通安全緊急應變機制"
+          },
+          {
+            "key": "B",
+            "text": "應完整確認系統相關檢核驗證功能均正常啟用始可對外開放網站"
+          },
+          {
+            "key": "C",
+            "text": "透過敏感資料加密儲存、查詢過程遮蔽及最少揭露來降低外洩風險"
+          },
+          {
+            "key": "D",
+            "text": "落實系統版本更新檢核作業，應於測試機完成各角色、各帳號測試後再上版"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21ef0d9cff.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 24,
+        "raw_text": "22.如附圖所示。某機關系統維運商系統更新作業疏失，未發現網頁驗證功能關閉，而導致學員無需身分驗證即可登入系統，使有心人士可查看或取得敏感資料而有外洩之虞。下列何者是最「不」建議之防範措施？ (A)機關建立資通安全緊急應變機制(B)應完整確認系統相關檢核驗證功能均正常啟用始可對外開放網站(C)透過敏感資料加密儲存、查詢過程遮蔽及最少揭露來降低外洩風險(D)落實系統版本更新檢核作業，應於測試機完成各角色、各帳號測試後再上版"
+      },
+      {
+        "question_id": "Q23",
+        "number": 23,
+        "type": "single_select",
+        "stem": "如附圖所示。誘餌環境(DecoysEnvironment)常被稱為密罐(Honeypot)，被拿來偵測、吸引與分析網路攻擊，用於欺騙並轉移攻擊者對關鍵系統的注意力，而達成提前預警回應的控制措施之一。關於誘餌環境相關敘述，下列何者「最不正確」？",
+        "stem_html": "<p>23.如附圖所示。誘餌環境(DecoysEnvironment)常被稱為密罐(Honeypot)，被拿來偵測、吸引與分析網路攻擊，用於欺騙並轉移攻擊者對關鍵系統的注意力，而達成提前預警回應的控制措施之一。關於誘餌環境相關敘述，下列何者「最不正確」？<br/><img src=\"https://img.yamol.tw/file/67e21f0003a07.jpg\"/>(A)誘餌(Decoys)是一種仿真的數位人造物、物件或現象，旨在欺騙攻擊者的監控設備或誤導其評估。例如：假的-文件、帳戶、主機和網段…等(B)整合式蜜網(IntegratedHoneynet)於生產環境中設置誘餌以吸引攻擊者互動，但攻擊者有機會利用其位置進行網路流量竊聽(C)連接式蜜網(ConnectedHoneynet)連接到生產環境的誘餌服務、系統或環境，模擬特定功能而不暴露系統完全存取權，可完整偵測新攻擊模式與識別零日漏洞攻擊(D)獨立式蜜網(StandaloneHoneynet)為吸引攻擊者並引出其行為而創建的環境，該環境不連接到任何生產系統，相較於整合式蜜網與連接式蜜網的風險更低</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "誘餌(Decoys)是一種仿真的數位人造物、物件或現象，旨在欺騙攻擊者的監控設備或誤導其評估。例如：假的-文件、帳戶、主機和網段…等"
+          },
+          {
+            "key": "B",
+            "text": "整合式蜜網(IntegratedHoneynet)於生產環境中設置誘餌以吸引攻擊者互動，但攻擊者有機會利用其位置進行網路流量竊聽"
+          },
+          {
+            "key": "C",
+            "text": "連接式蜜網(ConnectedHoneynet)連接到生產環境的誘餌服務、系統或環境，模擬特定功能而不暴露系統完全存取權，可完整偵測新攻擊模式與識別零日漏洞攻擊"
+          },
+          {
+            "key": "D",
+            "text": "獨立式蜜網(StandaloneHoneynet)為吸引攻擊者並引出其行為而創建的環境，該環境不連接到任何生產系統，相較於整合式蜜網與連接式蜜網的風險更低"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21f0003a07.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 25,
+        "raw_text": "23.如附圖所示。誘餌環境(DecoysEnvironment)常被稱為密罐(Honeypot)，被拿來偵測、吸引與分析網路攻擊，用於欺騙並轉移攻擊者對關鍵系統的注意力，而達成提前預警回應的控制措施之一。關於誘餌環境相關敘述，下列何者「最不正確」？ (A)誘餌(Decoys)是一種仿真的數位人造物、物件或現象，旨在欺騙攻擊者的監控設備或誤導其評估。例如：假的-文件、帳戶、主機和網段…等(B)整合式蜜網(IntegratedHoneynet)於生產環境中設置誘餌以吸引攻擊者互動，但攻擊者有機會利用其位置進行網路流量竊聽(C)連接式蜜網(ConnectedHoneynet)連接到生產環境的誘餌服務、系統或環境，模擬特定功能而不暴露系統完全存取權，可完整偵測新攻擊模式與識別零日漏洞攻擊(D)獨立式蜜網(StandaloneHoneynet)為吸引攻擊者並引出其行為而創建的環境，該環境不連接到任何生產系統，相較於整合式蜜網與連接式蜜網的風險更低"
+      },
+      {
+        "question_id": "Q24",
+        "number": 24,
+        "type": "multiple_select",
+        "stem": "24.關鍵基礎設施與製造業常有據點分佈全球之狀況，因此須考量遠距情況下的實體安全差異，是否對運營科技(OperationalTechnology，OT)的運作能力或安全性造成風險。關於運營科技的安全維運敘述，下列何者最為適切？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>24.關鍵基礎設施與製造業常有據點分佈全球之狀況，因此須考量遠距情況下的實體安全差異，是否對運營科技(OperationalTechnology，OT)的運作能力或安全性造成風險。關於運營科技的安全維運敘述，下列何者最為適切？(複選)(A)據點間的通信應使用點對點加密與身份驗證，無論專線、衛星或網際網路等形式(B)各據點確保有足夠的網路頻寬，來收集與傳輸監控資料與運營資料(C)各據點皆須建立必要的網絡安全防護措施，以降低來自網路攻擊威脅與危害(D)各據點不應採用委外管理模式的資通安全威脅偵測管理(SecurityOperationCenter，SOC)機制</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "據點間的通信應使用點對點加密與身份驗證，無論專線、衛星或網際網路等形式"
+          },
+          {
+            "key": "B",
+            "text": "各據點確保有足夠的網路頻寬，來收集與傳輸監控資料與運營資料"
+          },
+          {
+            "key": "C",
+            "text": "各據點皆須建立必要的網絡安全防護措施，以降低來自網路攻擊威脅與危害"
+          },
+          {
+            "key": "D",
+            "text": "各據點不應採用委外管理模式的資通安全威脅偵測管理(SecurityOperationCenter，SOC)機制"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 26,
+        "raw_text": "複選題 24.關鍵基礎設施與製造業常有據點分佈全球之狀況，因此須考量遠距情況下的實體安全差異，是否對運營科技(OperationalTechnology，OT)的運作能力或安全性造成風險。關於運營科技的安全維運敘述，下列何者最為適切？(複選)(A)據點間的通信應使用點對點加密與身份驗證，無論專線、衛星或網際網路等形式(B)各據點確保有足夠的網路頻寬，來收集與傳輸監控資料與運營資料(C)各據點皆須建立必要的網絡安全防護措施，以降低來自網路攻擊威脅與危害(D)各據點不應採用委外管理模式的資通安全威脅偵測管理(SecurityOperationCenter，SOC)機制"
+      },
+      {
+        "question_id": "Q25",
+        "number": 25,
+        "type": "single_select",
+        "stem": "該公司評估團隊針對資安監控維運中心先進行初步的任務界定，試問下列關於資安監控維運中心的敘述何者最「不」適切？",
+        "stem_html": "<p>25.該公司評估團隊針對資安監控維運中心先進行初步的任務界定，試問下列關於資安監控維運中心的敘述何者最「不」適切？(A)持續監控企業的資訊系統、網路和應用(B)負責對識別到的安全事件進行及時回應和管理(C)提供有關資訊安全事件的報告、紀錄、追蹤、分析和統計(D)可以透過導入單一產品的方式來達成所設定的目標</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "持續監控企業的資訊系統、網路和應用"
+          },
+          {
+            "key": "B",
+            "text": "負責對識別到的安全事件進行及時回應和管理"
+          },
+          {
+            "key": "C",
+            "text": "提供有關資訊安全事件的報告、紀錄、追蹤、分析和統計"
+          },
+          {
+            "key": "D",
+            "text": "可以透過導入單一產品的方式來達成所設定的目標"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 27,
+        "raw_text": "25.該公司評估團隊針對資安監控維運中心先進行初步的任務界定，試問下列關於資安監控維運中心的敘述何者最「不」適切？(A)持續監控企業的資訊系統、網路和應用(B)負責對識別到的安全事件進行及時回應和管理(C)提供有關資訊安全事件的報告、紀錄、追蹤、分析和統計(D)可以透過導入單一產品的方式來達成所設定的目標"
+      },
+      {
+        "question_id": "Q26",
+        "number": 26,
+        "type": "single_select",
+        "stem": "該公司評估團隊認為安全資訊與事件管理(SecurityInformationandEventManagement)對公司的資安監控維運中心是重要的基礎設施，下列關於安全資訊與事件管理的功能敘述，何項最「不」適切？",
+        "stem_html": "<p>26.該公司評估團隊認為安全資訊與事件管理(SecurityInformationandEventManagement)對公司的資安監控維運中心是重要的基礎設施，下列關於安全資訊與事件管理的功能敘述，何項最「不」適切？(A)能夠監控企業內外的資訊安全事件，包括日誌(logs)、警報(alerts)、事件(events)等(B)可以從多個資源中收集、匯聚和分析這些事件，並應用預先設定的規則和策略進行事件的識別、分析和報警(C)缺乏對事件進行關聯分析、行為分析、異常偵測等技術(D)可以自動儲存和管理所有收集到的事件資訊，並提供事件查詢、報表生成、事件調查和取證等功能</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "能夠監控企業內外的資訊安全事件，包括日誌(logs)、警報(alerts)、事件(events)等"
+          },
+          {
+            "key": "B",
+            "text": "可以從多個資源中收集、匯聚和分析這些事件，並應用預先設定的規則和策略進行事件的識別、分析和報警"
+          },
+          {
+            "key": "C",
+            "text": "缺乏對事件進行關聯分析、行為分析、異常偵測等技術"
+          },
+          {
+            "key": "D",
+            "text": "可以自動儲存和管理所有收集到的事件資訊，並提供事件查詢、報表生成、事件調查和取證等功能"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 29,
+        "raw_text": "26.該公司評估團隊認為安全資訊與事件管理(SecurityInformationandEventManagement)對公司的資安監控維運中心是重要的基礎設施，下列關於安全資訊與事件管理的功能敘述，何項最「不」適切？(A)能夠監控企業內外的資訊安全事件，包括日誌(logs)、警報(alerts)、事件(events)等(B)可以從多個資源中收集、匯聚和分析這些事件，並應用預先設定的規則和策略進行事件的識別、分析和報警(C)缺乏對事件進行關聯分析、行為分析、異常偵測等技術(D)可以自動儲存和管理所有收集到的事件資訊，並提供事件查詢、報表生成、事件調查和取證等功能"
+      },
+      {
+        "question_id": "Q27",
+        "number": 27,
+        "type": "single_select",
+        "stem": "該公司的資安顧問建議可以考慮SOAR方案，經其評估團隊了解，SOAR可以簡單理解為具有自動化功能的進階式平台，旨在幫助企業更有效地回應和解決資安問題，以實現更全面和智慧化的資安管理。請問下列何項最「不」是SOAR具備的功能？",
+        "stem_html": "<p>27.該公司的資安顧問建議可以考慮SOAR方案，經其評估團隊了解，SOAR可以簡單理解為具有自動化功能的進階式平台，旨在幫助企業更有效地回應和解決資安問題，以實現更全面和智慧化的資安管理。請問下列何項最「不」是SOAR具備的功能？(A)安全編排(Orchestration)(B)安全設計(SecurityDesign)(C)自動化(Automation)(D)即時回報(Response)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "安全編排(Orchestration)"
+          },
+          {
+            "key": "B",
+            "text": "安全設計(SecurityDesign)"
+          },
+          {
+            "key": "C",
+            "text": "自動化(Automation)"
+          },
+          {
+            "key": "D",
+            "text": "即時回報(Response)"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 30,
+        "raw_text": "27.該公司的資安顧問建議可以考慮SOAR方案，經其評估團隊了解，SOAR可以簡單理解為具有自動化功能的進階式平台，旨在幫助企業更有效地回應和解決資安問題，以實現更全面和智慧化的資安管理。請問下列何項最「不」是SOAR具備的功能？(A)安全編排(Orchestration)(B)安全設計(SecurityDesign)(C)自動化(Automation)(D)即時回報(Response)"
+      },
+      {
+        "question_id": "Q28",
+        "number": 28,
+        "type": "multiple_select",
+        "stem": "28.該公司評估人員為借鑑業界的成功案例，蒐集相關資料，從雲端服務公司的資安維運經驗而言，現代化安全維運模式(SecOps)重要的關鍵元素應包含下列哪些項目？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>28.該公司評估人員為借鑑業界的成功案例，蒐集相關資料，從雲端服務公司的資安維運經驗而言，現代化安全維運模式(SecOps)重要的關鍵元素應包含下列哪些項目？(複選)(A)安全資訊和事件管理(SIEM)(B)資安協作自動化應變(SOAR)(C)安全應用系統開發周期(SSDLC)(D)威脅情資(ThreatIntelligence)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "安全資訊和事件管理(SIEM)"
+          },
+          {
+            "key": "B",
+            "text": "資安協作自動化應變(SOAR)"
+          },
+          {
+            "key": "C",
+            "text": "安全應用系統開發周期(SSDLC)"
+          },
+          {
+            "key": "D",
+            "text": "威脅情資(ThreatIntelligence)"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 31,
+        "raw_text": "複選題 28.該公司評估人員為借鑑業界的成功案例，蒐集相關資料，從雲端服務公司的資安維運經驗而言，現代化安全維運模式(SecOps)重要的關鍵元素應包含下列哪些項目？(複選)(A)安全資訊和事件管理(SIEM)(B)資安協作自動化應變(SOAR)(C)安全應用系統開發周期(SSDLC)(D)威脅情資(ThreatIntelligence)"
+      },
+      {
+        "question_id": "Q29",
+        "number": 29,
+        "type": "single_select",
+        "stem": "在C#源碼檢測中，下列何種方法最有可能引起緩衝區溢位？",
+        "stem_html": "<p>29.在C#源碼檢測中，下列何種方法最有可能引起緩衝區溢位？(A)使用List＜T＞類型的集合並頻繁添加元素(B)在遞迴函數中未設置適當的退出條件(C)使用不安全的程式模組並直接操作指標(D)進行大量的非同步操作和多執行緒存取</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "使用List＜T＞類型的集合並頻繁添加元素"
+          },
+          {
+            "key": "B",
+            "text": "在遞迴函數中未設置適當的退出條件"
+          },
+          {
+            "key": "C",
+            "text": "使用不安全的程式模組並直接操作指標"
+          },
+          {
+            "key": "D",
+            "text": "進行大量的非同步操作和多執行緒存取"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 32,
+        "raw_text": "29.在C#源碼檢測中，下列何種方法最有可能引起緩衝區溢位？(A)使用List＜T＞類型的集合並頻繁添加元素(B)在遞迴函數中未設置適當的退出條件(C)使用不安全的程式模組並直接操作指標(D)進行大量的非同步操作和多執行緒存取"
+      },
+      {
+        "question_id": "Q30",
+        "number": 30,
+        "type": "single_select",
+        "stem": "如附圖所示，下面何項行為最有可能驗證ExampleApp.exe存在DLLSideLoading漏洞？",
+        "stem_html": "<p>30.如附圖所示，下面何項行為最有可能驗證ExampleApp.exe存在DLLSideLoading漏洞？<br/><img src=\"https://img.yamol.tw/file/67e21f5743a54.jpg\"/>(A)在C:\\Windows\\System32\\資料夾放置惡意ExampleLib.dll，觀察是否被載入(B)在C:\\Temp\\資料夾放置惡意ExampleLib.dll，並修改環境變數PATH指向該路徑(C)在C:\\ProgramFiles\\ExampleApp\\資料夾放置惡意ExampleLib.dll，並檢查是否覆蓋合法DLL(D)在C:\\Temp\\資料夾放置惡意ExampleLib.dll，觀察是否被載入</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "在C:\\Windows\\System32\\資料夾放置惡意ExampleLib.dll，觀察是否被載入"
+          },
+          {
+            "key": "B",
+            "text": "在C:\\Temp\\資料夾放置惡意ExampleLib.dll，並修改環境變數PATH指向該路徑"
+          },
+          {
+            "key": "C",
+            "text": "在C:\\ProgramFiles\\ExampleApp\\資料夾放置惡意ExampleLib.dll，並檢查是否覆蓋合法DLL"
+          },
+          {
+            "key": "D",
+            "text": "在C:\\Temp\\資料夾放置惡意ExampleLib.dll，觀察是否被載入"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e21f5743a54.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 33,
+        "raw_text": "30.如附圖所示，下面何項行為最有可能驗證ExampleApp.exe存在DLLSideLoading漏洞？ (A)在C:\\Windows\\System32\\資料夾放置惡意ExampleLib.dll，觀察是否被載入(B)在C:\\Temp\\資料夾放置惡意ExampleLib.dll，並修改環境變數PATH指向該路徑(C)在C:\\ProgramFiles\\ExampleApp\\資料夾放置惡意ExampleLib.dll，並檢查是否覆蓋合法DLL(D)在C:\\Temp\\資料夾放置惡意ExampleLib.dll，觀察是否被載入"
+      },
+      {
+        "question_id": "Q31",
+        "number": 31,
+        "type": "single_select",
+        "stem": "企業導入AI提升工作流程或修訂除錯，在各大知名企業都是顯學，而AI安全也因應而生。企業進行AI模型的安全性檢測時，為識別和修復可能的AI安全漏洞，下列何種措施較為適切？",
+        "stem_html": "<p>31.企業導入AI提升工作流程或修訂除錯，在各大知名企業都是顯學，而AI安全也因應而生。企業進行AI模型的安全性檢測時，為識別和修復可能的AI安全漏洞，下列何種措施較為適切？(A)僅對AI模型的訓練數據進行完整性檢查，而不進行模型行為分析(B)針對AI系統的API進行測試，以識別未經身份驗證的存取或過度暴露的功能(C)在滲透測試中，僅關注於傳統的網路基礎設施和主機漏洞，無需關注AI模型的特定風險(D)僅在模型上使用靜態分析工具來檢測程式碼中的潛在問題，而不測試實際攻擊途徑</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "僅對AI模型的訓練數據進行完整性檢查，而不進行模型行為分析"
+          },
+          {
+            "key": "B",
+            "text": "針對AI系統的API進行測試，以識別未經身份驗證的存取或過度暴露的功能"
+          },
+          {
+            "key": "C",
+            "text": "在滲透測試中，僅關注於傳統的網路基礎設施和主機漏洞，無需關注AI模型的特定風險"
+          },
+          {
+            "key": "D",
+            "text": "僅在模型上使用靜態分析工具來檢測程式碼中的潛在問題，而不測試實際攻擊途徑"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 34,
+        "raw_text": "31.企業導入AI提升工作流程或修訂除錯，在各大知名企業都是顯學，而AI安全也因應而生。企業進行AI模型的安全性檢測時，為識別和修復可能的AI安全漏洞，下列何種措施較為適切？(A)僅對AI模型的訓練數據進行完整性檢查，而不進行模型行為分析(B)針對AI系統的API進行測試，以識別未經身份驗證的存取或過度暴露的功能(C)在滲透測試中，僅關注於傳統的網路基礎設施和主機漏洞，無需關注AI模型的特定風險(D)僅在模型上使用靜態分析工具來檢測程式碼中的潛在問題，而不測試實際攻擊途徑"
+      },
+      {
+        "question_id": "Q32",
+        "number": 32,
+        "type": "multiple_select",
+        "stem": "32.漏洞是指因開發過程中不慎製造而導致安全性風險的弱點，依照2024SANS/CWETOP25所指出的前25最危險的程式設計錯誤，下列那些是排名前五的項目？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>32.漏洞是指因開發過程中不慎製造而導致安全性風險的弱點，依照2024SANS/CWETOP25所指出的前25最危險的程式設計錯誤，下列那些是排名前五的項目？(複選)(A)CWE-352Cross-SiteRequestForgery(CSRF)(B)CWE-125Out-of-boundsRead(C)CWE-416UseAfterFree(D)CWE-787Out-of-boundsWrite</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "CWE-352Cross-SiteRequestForgery(CSRF)"
+          },
+          {
+            "key": "B",
+            "text": "CWE-125Out-of-boundsRead"
+          },
+          {
+            "key": "C",
+            "text": "CWE-416UseAfterFree"
+          },
+          {
+            "key": "D",
+            "text": "CWE-787Out-of-boundsWrite"
+          }
+        ],
+        "answer": [
+          "A",
+          "D"
+        ],
+        "answer_raw": "A,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 35,
+        "raw_text": "複選題 32.漏洞是指因開發過程中不慎製造而導致安全性風險的弱點，依照2024SANS/CWETOP25所指出的前25最危險的程式設計錯誤，下列那些是排名前五的項目？(複選)(A)CWE-352Cross-SiteRequestForgery(CSRF)(B)CWE-125Out-of-boundsRead(C)CWE-416UseAfterFree(D)CWE-787Out-of-boundsWrite"
+      },
+      {
+        "question_id": "Q33",
+        "number": 33,
+        "type": "single_select",
+        "stem": "你登入那台被入侵的伺服器之後，在網頁目錄中發現一個沒看過的檔案index2.php，檔案內容如附圖1所示。請問下列何項描述「錯誤」？",
+        "stem_html": "<p>33.你登入那台被入侵的伺服器之後，在網頁目錄中發現一個沒看過的檔案index2.php，檔案內容如附圖1所示。請問下列何項描述「錯誤」？(A)GIF89a是GIF圖片的檔頭(FileHeader)(B)這是一張GIF圖片，如果在作業系統裡面點擊圖片檔案的話，圖片顯示的內容是「input」(C)這個檔案可能被伺服器誤以為是一個圖檔，因此允許使用者上傳到目錄中，但其中包含一段PHP程式碼，可能會造成威脅(D)這個檔案就是常見的一句話木馬，可以用來執行PHP程式碼，攻擊者通常會用來控制伺服器</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "GIF89a是GIF圖片的檔頭(FileHeader)"
+          },
+          {
+            "key": "B",
+            "text": "這是一張GIF圖片，如果在作業系統裡面點擊圖片檔案的話，圖片顯示的內容是「input」"
+          },
+          {
+            "key": "C",
+            "text": "這個檔案可能被伺服器誤以為是一個圖檔，因此允許使用者上傳到目錄中，但其中包含一段PHP程式碼，可能會造成威脅"
+          },
+          {
+            "key": "D",
+            "text": "這個檔案就是常見的一句話木馬，可以用來執行PHP程式碼，攻擊者通常會用來控制伺服器"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 36,
+        "raw_text": "33.你登入那台被入侵的伺服器之後，在網頁目錄中發現一個沒看過的檔案index2.php，檔案內容如附圖1所示。請問下列何項描述「錯誤」？(A)GIF89a是GIF圖片的檔頭(FileHeader)(B)這是一張GIF圖片，如果在作業系統裡面點擊圖片檔案的話，圖片顯示的內容是「input」(C)這個檔案可能被伺服器誤以為是一個圖檔，因此允許使用者上傳到目錄中，但其中包含一段PHP程式碼，可能會造成威脅(D)這個檔案就是常見的一句話木馬，可以用來執行PHP程式碼，攻擊者通常會用來控制伺服器"
+      },
+      {
+        "question_id": "Q34",
+        "number": 34,
+        "type": "single_select",
+        "stem": "承上題，你經過調查之後，在log中發現好幾個可疑的內容，請問下列哪一個log的推論最有可能是「錯誤」的？",
+        "stem_html": "<p>34.承上題，你經過調查之後，在log中發現好幾個可疑的內容，請問下列哪一個log的推論最有可能是「錯誤」的？(A)關於「/index2.php?input=phpinfo();」這個log，攻擊者想透過PHP的內建函式phpinfo取得更多系統資訊(B)關於「/index2.php?input=system('cat/etc/passwd');」這個log，攻擊者想知道每個使用者的明文密碼內容是什麼(C)關於「/index2.php?input=system('cat/etc/sudoers');」這個log，攻擊者想知道有哪些帳號可以提升權限變成root，但是若權限不夠高可能看不到檔案內容(D)關於「/index2.php?input=system('cat/proc/self/environ');」這個log，攻擊者想知道目前process中有哪些環境變數</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "關於「/index2.php?input=phpinfo();」這個log，攻擊者想透過PHP的內建函式phpinfo取得更多系統資訊"
+          },
+          {
+            "key": "B",
+            "text": "關於「/index2.php?input=system('cat/etc/passwd');」這個log，攻擊者想知道每個使用者的明文密碼內容是什麼"
+          },
+          {
+            "key": "C",
+            "text": "關於「/index2.php?input=system('cat/etc/sudoers');」這個log，攻擊者想知道有哪些帳號可以提升權限變成root，但是若權限不夠高可能看不到檔案內容"
+          },
+          {
+            "key": "D",
+            "text": "關於「/index2.php?input=system('cat/proc/self/environ');」這個log，攻擊者想知道目前process中有哪些環境變數"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 38,
+        "raw_text": "34.承上題，你經過調查之後，在log中發現好幾個可疑的內容，請問下列哪一個log的推論最有可能是「錯誤」的？(A)關於「/index2.php?input=phpinfo();」這個log，攻擊者想透過PHP的內建函式phpinfo取得更多系統資訊(B)關於「/index2.php?input=system('cat/etc/passwd');」這個log，攻擊者想知道每個使用者的明文密碼內容是什麼(C)關於「/index2.php?input=system('cat/etc/sudoers');」這個log，攻擊者想知道有哪些帳號可以提升權限變成root，但是若權限不夠高可能看不到檔案內容(D)關於「/index2.php?input=system('cat/proc/self/environ');」這個log，攻擊者想知道目前process中有哪些環境變數"
+      },
+      {
+        "question_id": "Q35",
+        "number": 35,
+        "type": "single_select",
+        "stem": "承上題，當你調查完畢之後，你判斷這個網頁系統中有一個任意檔案上傳漏洞，因此迅速把弱點資訊回報給資訊部門，並且提供修補建議請他們修補漏洞。請問下列何項建議對於修補這個資安漏洞最「不」適切？",
+        "stem_html": "<p>35.承上題，當你調查完畢之後，你判斷這個網頁系統中有一個任意檔案上傳漏洞，因此迅速把弱點資訊回報給資訊部門，並且提供修補建議請他們修補漏洞。請問下列何項建議對於修補這個資安漏洞最「不」適切？(A)限制上傳檔案的副檔名，並且將檔案移到指定的目錄中(B)將上傳的圖片進行破壞性的轉檔，讓檔案中潛藏的惡意程式碼失效(C)透過前端網頁限制使用者不可上傳GIF圖片，只要檔名有.gif就不讓使用者上傳(D)將存放網頁應用程式的目錄設定為不可執行檔案</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "限制上傳檔案的副檔名，並且將檔案移到指定的目錄中"
+          },
+          {
+            "key": "B",
+            "text": "將上傳的圖片進行破壞性的轉檔，讓檔案中潛藏的惡意程式碼失效"
+          },
+          {
+            "key": "C",
+            "text": "透過前端網頁限制使用者不可上傳GIF圖片，只要檔名有.gif就不讓使用者上傳"
+          },
+          {
+            "key": "D",
+            "text": "將存放網頁應用程式的目錄設定為不可執行檔案"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 39,
+        "raw_text": "35.承上題，當你調查完畢之後，你判斷這個網頁系統中有一個任意檔案上傳漏洞，因此迅速把弱點資訊回報給資訊部門，並且提供修補建議請他們修補漏洞。請問下列何項建議對於修補這個資安漏洞最「不」適切？(A)限制上傳檔案的副檔名，並且將檔案移到指定的目錄中(B)將上傳的圖片進行破壞性的轉檔，讓檔案中潛藏的惡意程式碼失效(C)透過前端網頁限制使用者不可上傳GIF圖片，只要檔名有.gif就不讓使用者上傳(D)將存放網頁應用程式的目錄設定為不可執行檔案"
+      },
+      {
+        "question_id": "Q36",
+        "number": 36,
+        "type": "multiple_select",
+        "stem": "36.承上題，你把該檔案移除之後，你發現系統中仍然有人在執行攻擊指令，你推測可能是紅隊人員在取得系統控制權之後，有執行一連串維持權限(Persistence)的動作。請問以下哪些是紅隊人員用來維持權限的技巧？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>36.承上題，你把該檔案移除之後，你發現系統中仍然有人在執行攻擊指令，你推測可能是紅隊人員在取得系統控制權之後，有執行一連串維持權限(Persistence)的動作。請問以下哪些是紅隊人員用來維持權限的技巧？(複選)(A)使用知名的連線工具nc，輸入nc127.0.0.122這個指令就可以建立後門(B)將SSH的登入金鑰寫入~/.ssh/known_hosts，以便可以使用SSH登入作業系統(C)將反向連線指令寫入到~/.bashrc檔案中，導致使用者一登入就會觸發反向連線(D)將指令寫入crontab，每小時定期執行反向連線程式</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "使用知名的連線工具nc，輸入nc127.0.0.122這個指令就可以建立後門"
+          },
+          {
+            "key": "B",
+            "text": "將SSH的登入金鑰寫入~/.ssh/known_hosts，以便可以使用SSH登入作業系統"
+          },
+          {
+            "key": "C",
+            "text": "將反向連線指令寫入到~/.bashrc檔案中，導致使用者一登入就會觸發反向連線"
+          },
+          {
+            "key": "D",
+            "text": "將指令寫入crontab，每小時定期執行反向連線程式"
+          }
+        ],
+        "answer": [
+          "C",
+          "D"
+        ],
+        "answer_raw": "C,D",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 40,
+        "raw_text": "複選題 36.承上題，你把該檔案移除之後，你發現系統中仍然有人在執行攻擊指令，你推測可能是紅隊人員在取得系統控制權之後，有執行一連串維持權限(Persistence)的動作。請問以下哪些是紅隊人員用來維持權限的技巧？(複選)(A)使用知名的連線工具nc，輸入nc127.0.0.122這個指令就可以建立後門(B)將SSH的登入金鑰寫入~/.ssh/known_hosts，以便可以使用SSH登入作業系統(C)將反向連線指令寫入到~/.bashrc檔案中，導致使用者一登入就會觸發反向連線(D)將指令寫入crontab，每小時定期執行反向連線程式"
+      },
+      {
+        "question_id": "Q37",
+        "number": 37,
+        "type": "single_select",
+        "stem": "測試人員在登入畫面發現登入畫面上會針對登入錯誤供了詳細的訊息，如：密碼錯誤，帳號不存在，在嘗試以Hydra進行帳密進行暴力破解時，發現都會出現的是登入錯誤的訊息，經過檢查如附圖一所示，此種登入雖然過度的揭露的訊息，它但每次登入時，都會更新附圖一中的值，這種防護方法可以有效的避免那一種攻擊？",
+        "stem_html": "<p>37.測試人員在登入畫面發現登入畫面上會針對登入錯誤供了詳細的訊息，如：密碼錯誤，帳號不存在，在嘗試以Hydra進行帳密進行暴力破解時，發現都會出現的是登入錯誤的訊息，經過檢查如附圖一所示，此種登入雖然過度的揭露的訊息，它但每次登入時，都會更新附圖一中的值，這種防護方法可以有效的避免那一種攻擊？(A)SQL注入(SQLInjection)(B)跨站請求偽造(CrossSiteRequestForgery)(C)指令注入(CommandInjection)(D)跨站指令碼(CrossSiteScripting)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "SQL注入(SQLInjection)"
+          },
+          {
+            "key": "B",
+            "text": "跨站請求偽造(CrossSiteRequestForgery)"
+          },
+          {
+            "key": "C",
+            "text": "指令注入(CommandInjection)"
+          },
+          {
+            "key": "D",
+            "text": "跨站指令碼(CrossSiteScripting)"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 41,
+        "raw_text": "37.測試人員在登入畫面發現登入畫面上會針對登入錯誤供了詳細的訊息，如：密碼錯誤，帳號不存在，在嘗試以Hydra進行帳密進行暴力破解時，發現都會出現的是登入錯誤的訊息，經過檢查如附圖一所示，此種登入雖然過度的揭露的訊息，它但每次登入時，都會更新附圖一中的值，這種防護方法可以有效的避免那一種攻擊？(A)SQL注入(SQLInjection)(B)跨站請求偽造(CrossSiteRequestForgery)(C)指令注入(CommandInjection)(D)跨站指令碼(CrossSiteScripting)"
+      },
+      {
+        "question_id": "Q38",
+        "number": 38,
+        "type": "single_select",
+        "stem": "檢測人員在利用SQL注入(SQLInjection)成功後，發現在/var/logs/AUTH.log中，出現了一個名為'＜?phpsystem($_GET['c']);?＞'的帳號嘗試登入該主機，如果這網網站存在LFI(LocalFileInclusion)弱點時，可以從Webaccesslog中的uriquerystring找到什麼特徵？",
+        "stem_html": "<p>38.檢測人員在利用SQL注入(SQLInjection)成功後，發現在/var/logs/AUTH.log中，出現了一個名為'＜?phpsystem($_GET['c']);?＞'的帳號嘗試登入該主機，如果這網網站存在LFI(LocalFileInclusion)弱點時，可以從Webaccesslog中的uriquerystring找到什麼特徵？(A)C=''or1=1--(B)C=alert(document.cookie)(C)C=whoami&amp;&amp;ipaddr&amp;&amp;hostname(D)C=SLEEP(5)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "C=''or1=1--"
+          },
+          {
+            "key": "B",
+            "text": "C=alert(document.cookie)"
+          },
+          {
+            "key": "C",
+            "text": "C=whoami&&ipaddr&&hostname"
+          },
+          {
+            "key": "D",
+            "text": "C=SLEEP(5)"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 43,
+        "raw_text": "38.檢測人員在利用SQL注入(SQLInjection)成功後，發現在/var/logs/AUTH.log中，出現了一個名為'＜?phpsystem($_GET['c']);?＞'的帳號嘗試登入該主機，如果這網網站存在LFI(LocalFileInclusion)弱點時，可以從Webaccesslog中的uriquerystring找到什麼特徵？(A)C=''or1=1--(B)C=alert(document.cookie)(C)C=whoami&&ipaddr&&hostname(D)C=SLEEP(5)"
+      },
+      {
+        "question_id": "Q39",
+        "number": 39,
+        "type": "single_select",
+        "stem": "在以高、低權限交叉進行URI的比對時，測試人員發現，在高權限進行後台編輯文章時URI所帶的參數裡面發現多一個名為pri的參數(如附圖二)，而低權限的使用者則沒有，因此測試人員嘗試進行修改低權限使用者在該頁面中的uri參數，加上了pri參數使其與管理人員一致，頁面上出現的是無權限存取，測試人員仔細觀查後發現在該頁面存取時，會送出Post的Http方法裡帶入了一個sid的參數，當測試人員將其帶入到低權限的帳號中，竟然可以成功的存取到管理者可瀏覽的頁面，其功能也完整呈現，這樣的測試證明了這個頁面存在下列那一個OWASPTop102021的弱點？",
+        "stem_html": "<p>39.在以高、低權限交叉進行URI的比對時，測試人員發現，在高權限進行後台編輯文章時URI所帶的參數裡面發現多一個名為pri的參數(如附圖二)，而低權限的使用者則沒有，因此測試人員嘗試進行修改低權限使用者在該頁面中的uri參數，加上了pri參數使其與管理人員一致，頁面上出現的是無權限存取，測試人員仔細觀查後發現在該頁面存取時，會送出Post的Http方法裡帶入了一個sid的參數，當測試人員將其帶入到低權限的帳號中，竟然可以成功的存取到管理者可瀏覽的頁面，其功能也完整呈現，這樣的測試證明了這個頁面存在下列那一個OWASPTop102021的弱點？<br/><img src=\"https://img.yamol.tw/file/67e220219ba0c.jpg\"/>(A)A01BrokenAccessControl(B)A05SecurityMisconfiguration(C)A08SoftwareandDataIntegrityFailures(D)A10ServerSideRequestForgery(SSRF)</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "A01BrokenAccessControl"
+          },
+          {
+            "key": "B",
+            "text": "A05SecurityMisconfiguration"
+          },
+          {
+            "key": "C",
+            "text": "A08SoftwareandDataIntegrityFailures"
+          },
+          {
+            "key": "D",
+            "text": "A10ServerSideRequestForgery(SSRF)"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G5",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e220219ba0c.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 44,
+        "raw_text": "39.在以高、低權限交叉進行URI的比對時，測試人員發現，在高權限進行後台編輯文章時URI所帶的參數裡面發現多一個名為pri的參數(如附圖二)，而低權限的使用者則沒有，因此測試人員嘗試進行修改低權限使用者在該頁面中的uri參數，加上了pri參數使其與管理人員一致，頁面上出現的是無權限存取，測試人員仔細觀查後發現在該頁面存取時，會送出Post的Http方法裡帶入了一個sid的參數，當測試人員將其帶入到低權限的帳號中，竟然可以成功的存取到管理者可瀏覽的頁面，其功能也完整呈現，這樣的測試證明了這個頁面存在下列那一個OWASPTop102021的弱點？ (A)A01BrokenAccessControl(B)A05SecurityMisconfiguration(C)A08SoftwareandDataIntegrityFailures(D)A10ServerSideRequestForgery(SSRF)"
+      },
+      {
+        "question_id": "Q40",
+        "number": 40,
+        "type": "multiple_select",
+        "stem": "40.在上述的情境當中，滲透測試人員發現可以透過修改HTTPPOST參數得到可網站較高的管理權限，而在測試弱點影響主機安全的深度時，在測試過程中，利用LFI(LocalFileInclusion)的弱點讀取到網站應用程式的組態檔，進而發現了該主機的mysql並未針對來源IP進行限縮，你身為滲透測試人員在測試報告中下列那一些建議事項，對受測單位而言，在不損及服務可用性的前提下，下列哪些答案符合以最少的金錢、管理、技術對弱點進行有效的管理？(複選)",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><p>40.在上述的情境當中，滲透測試人員發現可以透過修改HTTPPOST參數得到可網站較高的管理權限，而在測試弱點影響主機安全的深度時，在測試過程中，利用LFI(LocalFileInclusion)的弱點讀取到網站應用程式的組態檔，進而發現了該主機的mysql並未針對來源IP進行限縮，你身為滲透測試人員在測試報告中下列那一些建議事項，對受測單位而言，在不損及服務可用性的前提下，下列哪些答案符合以最少的金錢、管理、技術對弱點進行有效的管理？(複選)<br/><img src=\"https://img.yamol.tw/file/67e220384490a.jpg\"/>(A)限縮僅有我國IP能連接到這個服務網站(B)限制能連接到MySQL的來源IP(C)導入MFA(Multi-factorauthentication)身份識別的解決方案(D)導入網頁應用程式防火牆</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "限縮僅有我國IP能連接到這個服務網站"
+          },
+          {
+            "key": "B",
+            "text": "限制能連接到MySQL的來源IP"
+          },
+          {
+            "key": "C",
+            "text": "導入MFA(Multi-factorauthentication)身份識別的解決方案"
+          },
+          {
+            "key": "D",
+            "text": "導入網頁應用程式防火牆"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answer_raw": "A,B,D",
+        "group_id": "G5",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/67e220384490a.jpg",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 45,
+        "raw_text": "複選題 40.在上述的情境當中，滲透測試人員發現可以透過修改HTTPPOST參數得到可網站較高的管理權限，而在測試弱點影響主機安全的深度時，在測試過程中，利用LFI(LocalFileInclusion)的弱點讀取到網站應用程式的組態檔，進而發現了該主機的mysql並未針對來源IP進行限縮，你身為滲透測試人員在測試報告中下列那一些建議事項，對受測單位而言，在不損及服務可用性的前提下，下列哪些答案符合以最少的金錢、管理、技術對弱點進行有效的管理？(複選) (A)限縮僅有我國IP能連接到這個服務網站(B)限制能連接到MySQL的來源IP(C)導入MFA(Multi-factorauthentication)身份識別的解決方案(D)導入網頁應用程式防火牆"
+      }
+    ],
+    "stats": {
+      "question_count": 40,
+      "group_count": 5
+    }
+  }
+}

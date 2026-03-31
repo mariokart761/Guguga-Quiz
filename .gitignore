@@ -1,0 +1,177 @@
+# =========================================================
+# OS / Editor
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# =========================================================
+# Logs
+# =========================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# Environment files
+# 建議保留範例檔，例如 .env.example
+# =========================================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# =========================================================
+# Node / Nuxt
+# =========================================================
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.yarnrc.yml
+
+# Nuxt build output
+.nuxt/
+.output/
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+vite.svg
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage / reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+pytestdebug.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Type checker / linter
+.dmypy.json
+dmypy.json
+
+# =========================================================
+# Python framework / app runtime
+# 依需求保留；若你會上傳 SQLite 到版本控管可刪掉這些
+# =========================================================
+*.sqlite3
+db.sqlite3
+
+# FastAPI / Flask / Django common local files
+instance/
+.webassets-cache
+
+# =========================================================
+# Temporary / local uploads / runtime files
+# 依你的專案結構調整
+# =========================================================
+tmp/
+temp/
+uploads/
+media/
+staticfiles/
+
+# PID files
+*.pid
+*.pid.lock
+
+# =========================================================
+# Secrets / certificates / keys
+# 若你有需要追蹤特定憑證，請改成白名單
+# =========================================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# =========================================================
+# Docker / container local overrides
+# =========================================================
+docker-compose.override.yml
+
+# =========================================================
+# Terraform / cloud (如果有用到)
+# =========================================================
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# =========================================================
+# Misc
+# =========================================================
+*.bak
+*.tmp
+*.temp

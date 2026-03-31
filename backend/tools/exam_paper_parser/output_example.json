@@ -1,0 +1,53 @@
+{
+    "schema_version": "1.0.0",
+    "source": {
+      "file_name": "114-1 資訊安全工程師能力鑑定中級試題：資訊安全規劃實務.html",
+      "format": "html",
+      "parser": "ExamHTMLParser"
+    },
+    "exam": {
+      "title": "114年 - 114-1 資訊安全工程師能力鑑定中級試題：I21 資訊安全規劃實務#126080 - 阿摩線上測驗",
+      "groups": [
+        {
+          "group_id": "G1",
+          "title": "【題組 1】",
+          "prompt_text": "【題組 1】情境如附圖所示，",
+          "prompt_html": "...",
+          "question_range": [5, 8],
+          "images": [
+            {
+              "src": "https://...",
+              "alt": null,
+              "belongs_to": "group",
+              "local_name": "img_1"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "Q5",
+          "number": 5,
+          "type": "single_select",
+          "stem": "甲金融機構...下列何者最「不」適切？",
+          "stem_html": "...",
+          "options": [
+            {"key": "A", "text": "選項內容"},
+            {"key": "B", "text": "選項內容"},
+            {"key": "C", "text": "選項內容"},
+            {"key": "D", "text": "選項內容"}
+          ],
+          "answer": ["B"],
+          "answer_raw": "B",
+          "group_id": "G1",
+          "images": [],
+          "source_block_index": 5,
+          "raw_text": "原始題文全文"
+        }
+      ],
+      "stats": {
+        "question_count": 40,
+        "group_count": 5
+      }
+    }
+  }

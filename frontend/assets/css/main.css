@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  /* 改善中文排版 */
+  body {
+    @apply text-gray-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* prose 樣式微調，適合試題 HTML */
+.prose img {
+  @apply inline-block max-w-full;
+}
+
+.prose table {
+  @apply border-collapse border border-gray-300 text-sm;
+}
+
+.prose th,
+.prose td {
+  @apply border border-gray-300 px-3 py-1.5;
+}

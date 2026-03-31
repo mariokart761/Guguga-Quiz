@@ -1,0 +1,1421 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "file_name": "112-1 中級資訊安全工程師能力鑑定試題：資訊安全防護實務.html",
+    "format": "html",
+    "parser": "ExamHTMLParser"
+  },
+  "exam": {
+    "title": "112年 - 112-1 中級資訊安全工程師能力鑑定試題：資訊安全防護實務#114235 - 阿摩線上測驗",
+    "groups": [
+      {
+        "group_id": "G1",
+        "title": "【題組 1】",
+        "prompt_html": "<div class=\"break-words\">【題組 1】<div>組織內部正在導入相關以技術來審查脆弱性補強的工具，包含作業系統弱點掃描、滲透測試、社交工程等，以下描述是針對這些工具\n 實施之後，相關後續處理的議題。</div></div>",
+        "prompt_text": "【題組 1】 組織內部正在導入相關以技術來審查脆弱性補強的工具，包含作業系統弱點掃描、滲透測試、社交工程等，以下描述是針對這些工具\n 實施之後，相關後續處理的議題。",
+        "question_range": [
+          5,
+          8
+        ],
+        "images": []
+      },
+      {
+        "group_id": "G2",
+        "title": "【題組 2】",
+        "prompt_html": "<div class=\"break-words\">【題組 2】<div>駭客勒索集團入侵年收五百億上市公司，對其重要資料庫系統與研發系統破壞勒索加密，經過相關緊急應變後，費時近半個月才恢復公司正常運營，事後總經理召開檢討會議進行檢討。</div></div>",
+        "prompt_text": "【題組 2】 駭客勒索集團入侵年收五百億上市公司，對其重要資料庫系統與研發系統破壞勒索加密，經過相關緊急應變後，費時近半個月才恢復公司正常運營，事後總經理召開檢討會議進行檢討。",
+        "question_range": [
+          17,
+          20
+        ],
+        "images": []
+      },
+      {
+        "group_id": "G3",
+        "title": "【題組 3】",
+        "prompt_html": "<div class=\"break-words\">【題組 3】<div>王大明剛接下某製造業資安工作，於本週發生了勒索軟體將公司資料加密，並收到歹徒所指示的付款要求。</div></div>",
+        "prompt_text": "【題組 3】 王大明剛接下某製造業資安工作，於本週發生了勒索軟體將公司資料加密，並收到歹徒所指示的付款要求。",
+        "question_range": [
+          25,
+          28
+        ],
+        "images": []
+      },
+      {
+        "group_id": "G4",
+        "title": "【題組 4】",
+        "prompt_html": "<div class=\"break-words\">【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source\n Security Testing Methodology Manual）其中所述，於測試安\n 全性前應適當定義安全測試（Security Test）以妥善管理複雜\n 性。</div>",
+        "prompt_text": "【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source\n Security Testing Methodology Manual）其中所述，於測試安\n 全性前應適當定義安全測試（Security Test）以妥善管理複雜\n 性。",
+        "question_range": [
+          33,
+          36
+        ],
+        "images": []
+      },
+      {
+        "group_id": "G5",
+        "title": "【題組 5】",
+        "prompt_html": "<div class=\"break-words\">【題組 5】<br/>       網站滲透攻擊是紅隊滲透重要基本課題，而善用網路資源與工具， 可以達到事半功倍之效果，身為資安滲透團隊成員，以下相關網路 資源與工具，事必須要掌握的技術與技巧。</div>",
+        "prompt_text": "【題組 5】 網站滲透攻擊是紅隊滲透重要基本課題，而善用網路資源與工具， 可以達到事半功倍之效果，身為資安滲透團隊成員，以下相關網路 資源與工具，事必須要掌握的技術與技巧。",
+        "question_range": [
+          37,
+          40
+        ],
+        "images": []
+      }
+    ],
+    "questions": [
+      {
+        "question_id": "Q1",
+        "number": 1,
+        "type": "single_select",
+        "stem": "下列的弱點應對修補方式，何者較「不」適當？",
+        "stem_html": "1. 下列的弱點應對修補方式，何者較「不」適當？\n (A) 緩衝區溢位要用記憶體防護（DEP）\n (B) 遠端執行安全漏洞（RCE）可以透過防火牆阻擋\n (C) Command Injection 用過濾方式即可防護\n (D) Resource Injection 可以用白名單方式過濾",
+        "options": [
+          {
+            "key": "A",
+            "text": "緩衝區溢位要用記憶體防護（DEP）"
+          },
+          {
+            "key": "B",
+            "text": "遠端執行安全漏洞（RCE）可以透過防火牆阻擋"
+          },
+          {
+            "key": "C",
+            "text": "Command Injection 用過濾方式即可防護"
+          },
+          {
+            "key": "D",
+            "text": "Resource Injection 可以用白名單方式過濾"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 1,
+        "raw_text": "1. 下列的弱點應對修補方式，何者較「不」適當？\n (A) 緩衝區溢位要用記憶體防護（DEP）\n (B) 遠端執行安全漏洞（RCE）可以透過防火牆阻擋\n (C) Command Injection 用過濾方式即可防護\n (D) Resource Injection 可以用白名單方式過濾"
+      },
+      {
+        "question_id": "Q2",
+        "number": 2,
+        "type": "single_select",
+        "stem": "試問運用網頁文字輸入欄位中，以輸入「' o r 1=1」訊息內容 的方式，讓該網頁顯示出所有的資料內容，這種攻擊型態屬 於下列那種攻擊手法？",
+        "stem_html": "2. 試問運用網頁文字輸入欄位中，以輸入「' o r 1=1」訊息內容\n 的方式，讓該網頁顯示出所有的資料內容，這種攻擊型態屬\n 於下列那種攻擊手法？\n (A) XSS\n (B) SQL Injection\n (C) CSRF\n (D) DDoS",
+        "options": [
+          {
+            "key": "A",
+            "text": "XSS"
+          },
+          {
+            "key": "B",
+            "text": "SQL Injection"
+          },
+          {
+            "key": "C",
+            "text": "CSRF"
+          },
+          {
+            "key": "D",
+            "text": "DDoS"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 2,
+        "raw_text": "2. 試問運用網頁文字輸入欄位中，以輸入「' o r 1=1」訊息內容\n 的方式，讓該網頁顯示出所有的資料內容，這種攻擊型態屬\n 於下列那種攻擊手法？\n (A) XSS\n (B) SQL Injection\n (C) CSRF\n (D) DDoS"
+      },
+      {
+        "question_id": "Q3",
+        "number": 3,
+        "type": "single_select",
+        "stem": "駭客為了追求最大利益，將亂槍打鳥的隨機攻擊轉換成目標 式攻擊，進階持續性威脅（Advanced Persistent Threats, APT） 即是最難防禦的目標式攻擊。關於 APT 攻擊的敘述，下列 何者錯誤？",
+        "stem_html": "3. 駭客為了追求最大利益，將亂槍打鳥的隨機攻擊轉換成目標\n 式攻擊，進階持續性威脅（Advanced Persistent Threats, APT）\n 即是最難防禦的目標式攻擊。關於 APT 攻擊的敘述，下列\n 何者錯誤？\n (A) 具有隱匿性高且長期潛伏於目標系統的特性\n (B) APT 攻擊的模式通常都是透過老舊的網路設備進行\n 攻擊\n (C) 潛伏期可以只是幾天，也可能長達一年半載\n (D) 遭受攻擊後，被害者多數只能盡快修補漏洞並設定\n 災害停損點，無法有效根除攻擊",
+        "options": [
+          {
+            "key": "A",
+            "text": "具有隱匿性高且長期潛伏於目標系統的特性"
+          },
+          {
+            "key": "B",
+            "text": "APT 攻擊的模式通常都是透過老舊的網路設備進行 攻擊"
+          },
+          {
+            "key": "C",
+            "text": "潛伏期可以只是幾天，也可能長達一年半載"
+          },
+          {
+            "key": "D",
+            "text": "遭受攻擊後，被害者多數只能盡快修補漏洞並設定 災害停損點，無法有效根除攻擊"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 3,
+        "raw_text": "3. 駭客為了追求最大利益，將亂槍打鳥的隨機攻擊轉換成目標\n 式攻擊，進階持續性威脅（Advanced Persistent Threats, APT）\n 即是最難防禦的目標式攻擊。關於 APT 攻擊的敘述，下列\n 何者錯誤？\n (A) 具有隱匿性高且長期潛伏於目標系統的特性\n (B) APT 攻擊的模式通常都是透過老舊的網路設備進行\n 攻擊\n (C) 潛伏期可以只是幾天，也可能長達一年半載\n (D) 遭受攻擊後，被害者多數只能盡快修補漏洞並設定\n 災害停損點，無法有效根除攻擊"
+      },
+      {
+        "question_id": "Q4",
+        "number": 4,
+        "type": "multiple_select",
+        "stem": "4. 下列哪些是目前 2021 版 OWASP Top 10 中所包含的前 10 種 常見風險類別？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>4. 下列哪些是目前 2021 版 OWASP Top 10 中所包含的前 10 種\n 常見風險類別？\n (A) 權限控制失效（Broken Access Control）\n (B) 跨站請求偽造（Cross-Site Request Forgery）\n (C) 注入式攻擊（Injection）\n (D) 加密機制失效（Cryptographic Failures）\n ",
+        "options": [
+          {
+            "key": "A",
+            "text": "權限控制失效（Broken Access Control）"
+          },
+          {
+            "key": "B",
+            "text": "跨站請求偽造（Cross-Site Request Forgery）"
+          },
+          {
+            "key": "C",
+            "text": "注入式攻擊（Injection）"
+          },
+          {
+            "key": "D",
+            "text": "加密機制失效（Cryptographic Failures）"
+          }
+        ],
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 4,
+        "raw_text": "複選題 4. 下列哪些是目前 2021 版 OWASP Top 10 中所包含的前 10 種\n 常見風險類別？\n (A) 權限控制失效（Broken Access Control）\n (B) 跨站請求偽造（Cross-Site Request Forgery）\n (C) 注入式攻擊（Injection）\n (D) 加密機制失效（Cryptographic Failures）"
+      },
+      {
+        "question_id": "Q5",
+        "number": 5,
+        "type": "single_select",
+        "stem": "【題組 1 背景描述如附圖】系統弱點掃描後的修補處理方式， 下列何者是「不」可以接受補償措施的替代方案？",
+        "stem_html": "5. 【題組 1 背景描述如附圖】系統弱點掃描後的修補處理方式，\n 下列何者是「不」可以接受補償措施的替代方案？\n (A) 工具誤判的風險，須予以審查確認並由主管核可\n (B) 目前更新系統需要長期計畫，故風險先予以接受\n (C) 因系統老舊風險無法修補，但已將對外連線皆予以\n 關閉，無其他風險漏洞\n (D) 優先安排時間予以更新作業系統，並事前測試確認",
+        "options": [
+          {
+            "key": "A",
+            "text": "工具誤判的風險，須予以審查確認並由主管核可"
+          },
+          {
+            "key": "B",
+            "text": "目前更新系統需要長期計畫，故風險先予以接受"
+          },
+          {
+            "key": "C",
+            "text": "因系統老舊風險無法修補，但已將對外連線皆予以 關閉，無其他風險漏洞"
+          },
+          {
+            "key": "D",
+            "text": "優先安排時間予以更新作業系統，並事前測試確認"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 5,
+        "raw_text": "5. 【題組 1 背景描述如附圖】系統弱點掃描後的修補處理方式，\n 下列何者是「不」可以接受補償措施的替代方案？\n (A) 工具誤判的風險，須予以審查確認並由主管核可\n (B) 目前更新系統需要長期計畫，故風險先予以接受\n (C) 因系統老舊風險無法修補，但已將對外連線皆予以\n 關閉，無其他風險漏洞\n (D) 優先安排時間予以更新作業系統，並事前測試確認"
+      },
+      {
+        "question_id": "Q6",
+        "number": 6,
+        "type": "single_select",
+        "stem": "【題組 1 背景描述如附圖】下列何者「不」是利用工具技術偵 測應用系統弱點的機制？",
+        "stem_html": "6. 【題組 1 背景描述如附圖】下列何者「不」是利用工具技術偵\n 測應用系統弱點的機制？\n (A) 弱點掃描\n (B) 滲透測試\n (C) 社交工程\n (D) 源碼檢測",
+        "options": [
+          {
+            "key": "A",
+            "text": "弱點掃描"
+          },
+          {
+            "key": "B",
+            "text": "滲透測試"
+          },
+          {
+            "key": "C",
+            "text": "社交工程"
+          },
+          {
+            "key": "D",
+            "text": "源碼檢測"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 7,
+        "raw_text": "6. 【題組 1 背景描述如附圖】下列何者「不」是利用工具技術偵\n 測應用系統弱點的機制？\n (A) 弱點掃描\n (B) 滲透測試\n (C) 社交工程\n (D) 源碼檢測"
+      },
+      {
+        "question_id": "Q7",
+        "number": 7,
+        "type": "single_select",
+        "stem": "【題組 1 背景描述如附圖】下列何種資產不會產生資訊系統 安全弱點暴露的風險，被外界所利用攻擊？",
+        "stem_html": "7. 【題組 1 背景描述如附圖】下列何種資產不會產生資訊系統\n 安全弱點暴露的風險，被外界所利用攻擊？\n (A) 電腦硬體資產\n (B) 電腦軟體資產\n (C) 電腦資料資產\n (D) 人員資產",
+        "options": [
+          {
+            "key": "A",
+            "text": "電腦硬體資產"
+          },
+          {
+            "key": "B",
+            "text": "電腦軟體資產"
+          },
+          {
+            "key": "C",
+            "text": "電腦資料資產"
+          },
+          {
+            "key": "D",
+            "text": "人員資產"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 8,
+        "raw_text": "7. 【題組 1 背景描述如附圖】下列何種資產不會產生資訊系統\n 安全弱點暴露的風險，被外界所利用攻擊？\n (A) 電腦硬體資產\n (B) 電腦軟體資產\n (C) 電腦資料資產\n (D) 人員資產"
+      },
+      {
+        "question_id": "Q8",
+        "number": 8,
+        "type": "multiple_select",
+        "stem": "8. 【題組 1 背景描述如附圖】下列哪些是資訊安全管理系統實 施中須考量的系統弱點？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>8. 【題組 1 背景描述如附圖】下列哪些是資訊安全管理系統實\n 施中須考量的系統弱點？\n (A) 源碼掃描後的高風險結果\n (B) 滲透測試後的高風險結果\n (C) Microsoft 定期發布的 Windows Update 檔案\n (D) 網路供應商定期提供的網路防火牆韌體更新資訊",
+        "options": [
+          {
+            "key": "A",
+            "text": "源碼掃描後的高風險結果"
+          },
+          {
+            "key": "B",
+            "text": "滲透測試後的高風險結果"
+          },
+          {
+            "key": "C",
+            "text": "Microsoft 定期發布的 Windows Update 檔案"
+          },
+          {
+            "key": "D",
+            "text": "網路供應商定期提供的網路防火牆韌體更新資訊"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,B,C,D",
+        "group_id": "G1",
+        "images": [],
+        "source_block_index": 9,
+        "raw_text": "複選題 8. 【題組 1 背景描述如附圖】下列哪些是資訊安全管理系統實\n 施中須考量的系統弱點？\n (A) 源碼掃描後的高風險結果\n (B) 滲透測試後的高風險結果\n (C) Microsoft 定期發布的 Windows Update 檔案\n (D) 網路供應商定期提供的網路防火牆韌體更新資訊"
+      },
+      {
+        "question_id": "Q9",
+        "number": 9,
+        "type": "single_select",
+        "stem": "零時差攻擊（Zero-day Attack）是指駭客利用開發商尚未釋 出修補程式的安全漏洞進行攻擊。下列敘述何者錯誤？",
+        "stem_html": "9. 零時差攻擊（Zero-day Attack）是指駭客利用開發商尚未釋\n 出修補程式的安全漏洞進行攻擊。下列敘述何者錯誤？\n (A) 零時差攻擊不會出現在已停止支援之作業系統中\n \n (B) 面對零時差攻擊，入侵防禦系統（Intrusion\n Prevention System, IPS）或是網頁應用程式防火牆可\n 進行有限度的防護\n (C) 虛擬修補概念可以降低零時差攻擊的風險\n (D) 迅速與確實進行弱點修補才是零時差攻擊的根本解\n 決之道",
+        "options": [
+          {
+            "key": "A",
+            "text": "零時差攻擊不會出現在已停止支援之作業系統中"
+          },
+          {
+            "key": "B",
+            "text": "面對零時差攻擊，入侵防禦系統（Intrusion Prevention System, IPS）或是網頁應用程式防火牆可 進行有限度的防護"
+          },
+          {
+            "key": "C",
+            "text": "虛擬修補概念可以降低零時差攻擊的風險"
+          },
+          {
+            "key": "D",
+            "text": "迅速與確實進行弱點修補才是零時差攻擊的根本解 決之道"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 10,
+        "raw_text": "9. 零時差攻擊（Zero-day Attack）是指駭客利用開發商尚未釋\n 出修補程式的安全漏洞進行攻擊。下列敘述何者錯誤？\n (A) 零時差攻擊不會出現在已停止支援之作業系統中\n \n (B) 面對零時差攻擊，入侵防禦系統（Intrusion\n Prevention System, IPS）或是網頁應用程式防火牆可\n 進行有限度的防護\n (C) 虛擬修補概念可以降低零時差攻擊的風險\n (D) 迅速與確實進行弱點修補才是零時差攻擊的根本解\n 決之道"
+      },
+      {
+        "question_id": "Q10",
+        "number": 10,
+        "type": "single_select",
+        "stem": "社交工程是利用人性弱點誘騙受害者透漏機敏性資料或是 允許授權等行為，下列敘述何者錯誤？",
+        "stem_html": "10. 社交工程是利用人性弱點誘騙受害者透漏機敏性資料或是\n 允許授權等行為，下列敘述何者錯誤？\n (A) 網路釣魚是最常見的社交工程的攻擊手法\n (B) 社交工程演練的目的是要培養員工反擊的能力，進\n 而破壞駭客的攻擊手法\n (C) 駭客會利用偽造網站網址誘騙使用者上當也是屬於\n 社交工程的攻擊手法之一\n (D) 企業組織會透過教育訓練宣導資安觀念，並委託廠\n 商設計測試的釣魚郵件進行檢視員工點擊郵件與連\n 結的行為是否違法資安規定",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路釣魚是最常見的社交工程的攻擊手法"
+          },
+          {
+            "key": "B",
+            "text": "社交工程演練的目的是要培養員工反擊的能力，進 而破壞駭客的攻擊手法"
+          },
+          {
+            "key": "C",
+            "text": "駭客會利用偽造網站網址誘騙使用者上當也是屬於 社交工程的攻擊手法之一"
+          },
+          {
+            "key": "D",
+            "text": "企業組織會透過教育訓練宣導資安觀念，並委託廠 商設計測試的釣魚郵件進行檢視員工點擊郵件與連 結的行為是否違法資安規定"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 11,
+        "raw_text": "10. 社交工程是利用人性弱點誘騙受害者透漏機敏性資料或是\n 允許授權等行為，下列敘述何者錯誤？\n (A) 網路釣魚是最常見的社交工程的攻擊手法\n (B) 社交工程演練的目的是要培養員工反擊的能力，進\n 而破壞駭客的攻擊手法\n (C) 駭客會利用偽造網站網址誘騙使用者上當也是屬於\n 社交工程的攻擊手法之一\n (D) 企業組織會透過教育訓練宣導資安觀念，並委託廠\n 商設計測試的釣魚郵件進行檢視員工點擊郵件與連\n 結的行為是否違法資安規定"
+      },
+      {
+        "question_id": "Q11",
+        "number": 11,
+        "type": "single_select",
+        "stem": "路由協定（Routing Protocol）是一種指定封包轉送方式的網路協 定，請問關於路由協定之敘述，下列何者錯誤？",
+        "stem_html": "11. 路由協定（Routing Protocol）是一種指定封包轉送方式的網路協\n 定，請問關於路由協定之敘述，下列何者錯誤？\n (A) 路由資訊協定（Route Information Protocol, RIP）是\n 最簡單的路由協定，主要傳遞路由資訊，透過每隔 5\n 秒廣播一次路由表來維護相鄰路由器的位置關係\n (B) 路由資訊協定（Route Information Protocol, RIP）是\n 一個距離向量路由協定，最大 hop 數為 15，超過 15\n hop 的網路則認為目標網路不可到達\n (C) 開放式最短路徑優先（Open Shortest Path First,\n OSPF）協定是屬於鏈路狀態路由協定，係利用所維\n 護的網路狀態資料庫，透過最短路徑優先演算法\n （SPF 演算法）計算來得到路由表\n (D) 開放式最短路徑優先（Open Shortest Path First,\n OSPF）協定是屬於動態路由協定 0",
+        "options": [
+          {
+            "key": "A",
+            "text": "路由資訊協定（Route Information Protocol, RIP）是 最簡單的路由協定，主要傳遞路由資訊，透過每隔 5 秒廣播一次路由表來維護相鄰路由器的位置關係"
+          },
+          {
+            "key": "B",
+            "text": "路由資訊協定（Route Information Protocol, RIP）是 一個距離向量路由協定，最大 hop 數為 15，超過 15 hop 的網路則認為目標網路不可到達"
+          },
+          {
+            "key": "C",
+            "text": "開放式最短路徑優先（Open Shortest Path First, OSPF）協定是屬於鏈路狀態路由協定，係利用所維 護的網路狀態資料庫，透過最短路徑優先演算法 （SPF 演算法）計算來得到路由表"
+          },
+          {
+            "key": "D",
+            "text": "開放式最短路徑優先（Open Shortest Path First, OSPF）協定是屬於動態路由協定 0"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 12,
+        "raw_text": "11. 路由協定（Routing Protocol）是一種指定封包轉送方式的網路協\n 定，請問關於路由協定之敘述，下列何者錯誤？\n (A) 路由資訊協定（Route Information Protocol, RIP）是\n 最簡單的路由協定，主要傳遞路由資訊，透過每隔 5\n 秒廣播一次路由表來維護相鄰路由器的位置關係\n (B) 路由資訊協定（Route Information Protocol, RIP）是\n 一個距離向量路由協定，最大 hop 數為 15，超過 15\n hop 的網路則認為目標網路不可到達\n (C) 開放式最短路徑優先（Open Shortest Path First,\n OSPF）協定是屬於鏈路狀態路由協定，係利用所維\n 護的網路狀態資料庫，透過最短路徑優先演算法\n （SPF 演算法）計算來得到路由表\n (D) 開放式最短路徑優先（Open Shortest Path First,\n OSPF）協定是屬於動態路由協定 0"
+      },
+      {
+        "question_id": "Q12",
+        "number": 12,
+        "type": "single_select",
+        "stem": "當網路防火牆受到偵測攻擊時，下列何者最「不」適宜？",
+        "stem_html": "12. 當網路防火牆受到偵測攻擊時，下列何者最「不」適宜？\n (A) 對外管理 Port 應該關閉\n (B) 最高權限應該提供給維護廠商\n (C) 定期檢視規則是否過期\n (D) 告警應該有專人確認與處置",
+        "options": [
+          {
+            "key": "A",
+            "text": "對外管理 Port 應該關閉"
+          },
+          {
+            "key": "B",
+            "text": "最高權限應該提供給維護廠商"
+          },
+          {
+            "key": "C",
+            "text": "定期檢視規則是否過期"
+          },
+          {
+            "key": "D",
+            "text": "告警應該有專人確認與處置"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 13,
+        "raw_text": "12. 當網路防火牆受到偵測攻擊時，下列何者最「不」適宜？\n (A) 對外管理 Port 應該關閉\n (B) 最高權限應該提供給維護廠商\n (C) 定期檢視規則是否過期\n (D) 告警應該有專人確認與處置"
+      },
+      {
+        "question_id": "Q13",
+        "number": 13,
+        "type": "single_select",
+        "stem": "關於 MITRE ATT&CK 中的網路服務阻斷（Network Denial of Service）技術（Technique）對策，下列何項錯誤？",
+        "stem_html": "13. 關於 MITRE ATT&amp;CK 中的網路服務阻斷（Network Denial of Service）技術（Technique）對策，下列何項錯誤？ (A) 可分析應用程式日誌（Application Log）內容來偵測此技術 (B) 可觀察網路流量（Network Traffic）狀態來偵測此技術 (C) 可觀察感應器健康（Sensor Health）狀態來偵測此技術 (D) 可透過網路流量過濾（Filter Network Traffic）來緩解此技術",
+        "options": [
+          {
+            "key": "A",
+            "text": "可分析應用程式日誌（Application Log）內容來偵測此技術"
+          },
+          {
+            "key": "B",
+            "text": "可觀察網路流量（Network Traffic）狀態來偵測此技術"
+          },
+          {
+            "key": "C",
+            "text": "可觀察感應器健康（Sensor Health）狀態來偵測此技術"
+          },
+          {
+            "key": "D",
+            "text": "可透過網路流量過濾（Filter Network Traffic）來緩解此技術"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 14,
+        "raw_text": "13. 關於 MITRE ATT&CK 中的網路服務阻斷（Network Denial of Service）技術（Technique）對策，下列何項錯誤？ (A) 可分析應用程式日誌（Application Log）內容來偵測此技術 (B) 可觀察網路流量（Network Traffic）狀態來偵測此技術 (C) 可觀察感應器健康（Sensor Health）狀態來偵測此技術 (D) 可透過網路流量過濾（Filter Network Traffic）來緩解此技術"
+      },
+      {
+        "question_id": "Q14",
+        "number": 14,
+        "type": "single_select",
+        "stem": "關於 MITRE ATT&CK 中的資料加密衝擊（Data Encrypted for Impact）技術對策，下列何項錯誤？",
+        "stem_html": "14. 關於 MITRE ATT&amp;CK 中的資料加密衝擊（Data Encrypted\n for Impact）技術對策，下列何項錯誤？\n (A) 可透過資料備份（Data Backup）來緩解此技術\n (B) 可觀察感應器健康狀態（Sensor Health）來偵測此技\n 術\n (C) 可透過端點行為預防（Behavior Prevention on\n Endpoint）來緩解此技術\n (D) 可觀察檔案建立（File Creation）與修改（File\n Modification）狀態偵測此技術",
+        "options": [
+          {
+            "key": "A",
+            "text": "可透過資料備份（Data Backup）來緩解此技術"
+          },
+          {
+            "key": "B",
+            "text": "可觀察感應器健康狀態（Sensor Health）來偵測此技 術"
+          },
+          {
+            "key": "C",
+            "text": "可透過端點行為預防（Behavior Prevention on Endpoint）來緩解此技術"
+          },
+          {
+            "key": "D",
+            "text": "可觀察檔案建立（File Creation）與修改（File Modification）狀態偵測此技術"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 15,
+        "raw_text": "14. 關於 MITRE ATT&CK 中的資料加密衝擊（Data Encrypted\n for Impact）技術對策，下列何項錯誤？\n (A) 可透過資料備份（Data Backup）來緩解此技術\n (B) 可觀察感應器健康狀態（Sensor Health）來偵測此技\n 術\n (C) 可透過端點行為預防（Behavior Prevention on\n Endpoint）來緩解此技術\n (D) 可觀察檔案建立（File Creation）與修改（File\n Modification）狀態偵測此技術"
+      },
+      {
+        "question_id": "Q15",
+        "number": 15,
+        "type": "multiple_select",
+        "stem": "15. 身分驗證機制是利用帳戶密碼進行作為識別使用者的機制， 是多數資訊系統驗證使用者身分的基礎。關於身分驗證機制 的敘述，下列哪些正確？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>15. 身分驗證機制是利用帳戶密碼進行作為識別使用者的機制，\n 是多數資訊系統驗證使用者身分的基礎。關於身分驗證機制\n 的敘述，下列哪些正確？\n (A) 設定「最小密碼長度」的原則主要是要產生更多的\n 密碼組合，提高被破解的難度。美國國家標準暨技\n 術研究院（National Institute of Standards and\n \n Technology, NIST）建議最小長度為 8 個字元\n (B) 設定「密碼歷程記錄」的原則為了方便使用者自己\n 找到以前使用過的密碼\n (C) 設定「密碼最短使用效期」的原則是指該密碼必須\n 使用一段時間後才能再次進行變更，通常是配合密\n 碼歷程機制啟用\n (D) 「圖形驗證碼」是設計一組對人類能夠輕易回答而\n 對電腦是困難的題目，以作為區分執行動作的是電\n 腦還是人類的行為",
+        "options": [
+          {
+            "key": "A",
+            "text": "設定「最小密碼長度」的原則主要是要產生更多的 密碼組合，提高被破解的難度。美國國家標準暨技 術研究院（National Institute of Standards and Technology, NIST）建議最小長度為 8 個字元"
+          },
+          {
+            "key": "B",
+            "text": "設定「密碼歷程記錄」的原則為了方便使用者自己 找到以前使用過的密碼"
+          },
+          {
+            "key": "C",
+            "text": "設定「密碼最短使用效期」的原則是指該密碼必須 使用一段時間後才能再次進行變更，通常是配合密 碼歷程機制啟用"
+          },
+          {
+            "key": "D",
+            "text": "「圖形驗證碼」是設計一組對人類能夠輕易回答而 對電腦是困難的題目，以作為區分執行動作的是電 腦還是人類的行為"
+          }
+        ],
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,C,D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 16,
+        "raw_text": "複選題 15. 身分驗證機制是利用帳戶密碼進行作為識別使用者的機制，\n 是多數資訊系統驗證使用者身分的基礎。關於身分驗證機制\n 的敘述，下列哪些正確？\n (A) 設定「最小密碼長度」的原則主要是要產生更多的\n 密碼組合，提高被破解的難度。美國國家標準暨技\n 術研究院（National Institute of Standards and\n \n Technology, NIST）建議最小長度為 8 個字元\n (B) 設定「密碼歷程記錄」的原則為了方便使用者自己\n 找到以前使用過的密碼\n (C) 設定「密碼最短使用效期」的原則是指該密碼必須\n 使用一段時間後才能再次進行變更，通常是配合密\n 碼歷程機制啟用\n (D) 「圖形驗證碼」是設計一組對人類能夠輕易回答而\n 對電腦是困難的題目，以作為區分執行動作的是電\n 腦還是人類的行為"
+      },
+      {
+        "question_id": "Q16",
+        "number": 16,
+        "type": "multiple_select",
+        "stem": "16. NIST 網路安全框架（Cybersecurity Framework, CSF）有關 「框架核心（Framework Core）」係由識別（Identify）、保護 （Protect）、偵測（Detect）、回應（Respond）與復原（Recover） 等功能所組成。請問關於「保護（Protect）」功能的敘述，下列哪些正確？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/><div>16. NIST 網路安全框架（Cybersecurity Framework, CSF）有關 「框架核心（Framework Core）」係由識別（Identify）、保護 （Protect）、偵測（Detect）、回應（Respond）與復原（Recover） 等功能所組成。請問關於「保護（Protect）」功能的敘述，下列哪些正確？(A) 包含身份管理與存取控制（Identity Management and Access Control）與意識和訓練（Awareness and Training）(B) 包含資料安全（Data Security）與資訊保護流程與程 序（Information Protection Processes and Procedures）(C) 包含維護（Maintenance）與保護技術（Protective Technology） (D) 包含資產管理（Asset Management）與風險評估 （Risk Assessment）</div>",
+        "options": [
+          {
+            "key": "A",
+            "text": "包含身份管理與存取控制（Identity Management and Access Control）與意識和訓練（Awareness and Training）"
+          },
+          {
+            "key": "B",
+            "text": "包含資料安全（Data Security）與資訊保護流程與程 序（Information Protection Processes and Procedures）"
+          },
+          {
+            "key": "C",
+            "text": "包含維護（Maintenance）與保護技術（Protective Technology）"
+          },
+          {
+            "key": "D",
+            "text": "包含資產管理（Asset Management）與風險評估 （Risk Assessment）"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 17,
+        "raw_text": "複選題 16. NIST 網路安全框架（Cybersecurity Framework, CSF）有關 「框架核心（Framework Core）」係由識別（Identify）、保護 （Protect）、偵測（Detect）、回應（Respond）與復原（Recover） 等功能所組成。請問關於「保護（Protect）」功能的敘述，下列哪些正確？(A) 包含身份管理與存取控制（Identity Management and Access Control）與意識和訓練（Awareness and Training）(B) 包含資料安全（Data Security）與資訊保護流程與程 序（Information Protection Processes and Procedures）(C) 包含維護（Maintenance）與保護技術（Protective Technology） (D) 包含資產管理（Asset Management）與風險評估 （Risk Assessment）"
+      },
+      {
+        "question_id": "Q17",
+        "number": 17,
+        "type": "single_select",
+        "stem": "【題組 2 背景描述如附圖】發現公司並未依照法規（資安法與 上市上櫃資通安全管控指引）定期進行相關作為，請問下列敘 述何者正確？",
+        "stem_html": "17. 【題組 2 背景描述如附圖】發現公司並未依照法規（資安法與\n 上市上櫃資通安全管控指引）定期進行相關作為，請問下列敘\n \n 述何者正確？\n (A) 公司可以不需配置資安長，只需配置設適當資安人\n 力\n (B) 公司遭受重大資安事件，不需揭露相關資安事件重\n 大訊息\n (C) 強制公司加入台灣電腦網路危機處理暨協調中心\n (D) 資安納入內部控制，以及資安納入公司治理評鑑",
+        "options": [
+          {
+            "key": "A",
+            "text": "公司可以不需配置資安長，只需配置設適當資安人 力"
+          },
+          {
+            "key": "B",
+            "text": "公司遭受重大資安事件，不需揭露相關資安事件重 大訊息"
+          },
+          {
+            "key": "C",
+            "text": "強制公司加入台灣電腦網路危機處理暨協調中心"
+          },
+          {
+            "key": "D",
+            "text": "資安納入內部控制，以及資安納入公司治理評鑑"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 18,
+        "raw_text": "17. 【題組 2 背景描述如附圖】發現公司並未依照法規（資安法與\n 上市上櫃資通安全管控指引）定期進行相關作為，請問下列敘\n \n 述何者正確？\n (A) 公司可以不需配置資安長，只需配置設適當資安人\n 力\n (B) 公司遭受重大資安事件，不需揭露相關資安事件重\n 大訊息\n (C) 強制公司加入台灣電腦網路危機處理暨協調中心\n (D) 資安納入內部控制，以及資安納入公司治理評鑑"
+      },
+      {
+        "question_id": "Q18",
+        "number": 18,
+        "type": "single_select",
+        "stem": "【題組 2 背景描述如附圖】國際勒索集團公司勒索 5000 萬美 金，不然公開該公司機密資料。該勒索集團手法竟是透過公司 郵件系統以釣魚郵件方式，讓內部員工執行惡意程式所造成， 針對郵件安全防護的技術與手段，下列何項是「非必要」之措 施？",
+        "stem_html": "18. 【題組 2 背景描述如附圖】國際勒索集團公司勒索 5000 萬美\n 金，不然公開該公司機密資料。該勒索集團手法竟是透過公司\n 郵件系統以釣魚郵件方式，讓內部員工執行惡意程式所造成，\n 針對郵件安全防護的技術與手段，下列何項是「非必要」之措\n 施？\n (A) 加強員工郵件安全的教育訓練，定期進行社交攻防\n 演練\n (B) 採用 CDR 產品進行郵件清洗，並禁止執行檔下載，\n 執行檔下載須依規定申請\n (C) 對外部郵件一律進行隔離\n (D) 檢查郵件內容中的惡意 URL 連結",
+        "options": [
+          {
+            "key": "A",
+            "text": "加強員工郵件安全的教育訓練，定期進行社交攻防 演練"
+          },
+          {
+            "key": "B",
+            "text": "採用 CDR 產品進行郵件清洗，並禁止執行檔下載， 執行檔下載須依規定申請"
+          },
+          {
+            "key": "C",
+            "text": "對外部郵件一律進行隔離"
+          },
+          {
+            "key": "D",
+            "text": "檢查郵件內容中的惡意 URL 連結"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 20,
+        "raw_text": "18. 【題組 2 背景描述如附圖】國際勒索集團公司勒索 5000 萬美\n 金，不然公開該公司機密資料。該勒索集團手法竟是透過公司\n 郵件系統以釣魚郵件方式，讓內部員工執行惡意程式所造成，\n 針對郵件安全防護的技術與手段，下列何項是「非必要」之措\n 施？\n (A) 加強員工郵件安全的教育訓練，定期進行社交攻防\n 演練\n (B) 採用 CDR 產品進行郵件清洗，並禁止執行檔下載，\n 執行檔下載須依規定申請\n (C) 對外部郵件一律進行隔離\n (D) 檢查郵件內容中的惡意 URL 連結"
+      },
+      {
+        "question_id": "Q19",
+        "number": 19,
+        "type": "single_select",
+        "stem": "【題組 2 背景描述如附圖】勒索集團對公司機密資料進行加密， 公司 IT 或是資安團隊應採取的應變措施，下列何項較「不」適 當？",
+        "stem_html": "19. 【題組 2 背景描述如附圖】勒索集團對公司機密資料進行加密，\n 公司 IT 或是資安團隊應採取的應變措施，下列何項較「不」適\n 當？\n (A) 聯繫駭客勒索集團，進行贖金交易取回解密密碼\n (B) 查核相關資料庫備份機制是否可以回復\n (C) 查核虛擬備份環境可否快速復原相關系統，加速恢\n 復運營\n (D) 查核相關備援備份資料是否也受到汙染或破壞",
+        "options": [
+          {
+            "key": "A",
+            "text": "聯繫駭客勒索集團，進行贖金交易取回解密密碼"
+          },
+          {
+            "key": "B",
+            "text": "查核相關資料庫備份機制是否可以回復"
+          },
+          {
+            "key": "C",
+            "text": "查核虛擬備份環境可否快速復原相關系統，加速恢 復運營"
+          },
+          {
+            "key": "D",
+            "text": "查核相關備援備份資料是否也受到汙染或破壞"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 21,
+        "raw_text": "19. 【題組 2 背景描述如附圖】勒索集團對公司機密資料進行加密，\n 公司 IT 或是資安團隊應採取的應變措施，下列何項較「不」適\n 當？\n (A) 聯繫駭客勒索集團，進行贖金交易取回解密密碼\n (B) 查核相關資料庫備份機制是否可以回復\n (C) 查核虛擬備份環境可否快速復原相關系統，加速恢\n 復運營\n (D) 查核相關備援備份資料是否也受到汙染或破壞"
+      },
+      {
+        "question_id": "Q20",
+        "number": 20,
+        "type": "multiple_select",
+        "stem": "20. 【題組 2 背景描述如附圖】從這次員工電腦因釣魚郵件感染而 擴散到不同網段與主機系統，下列哪些是在資安管理制度或防 護技術最適宜的措施？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>20. 【題組 2 背景描述如附圖】從這次員工電腦因釣魚郵件感染而\n 擴散到不同網段與主機系統，下列哪些是在資安管理制度或防\n 護技術最適宜的措施？\n (A) ISO27001:2022 版本在其控制項 8.22 網路隔離，達\n \n 成降低駭客入侵橫向擴散的危害\n (B) 在員工電腦規劃端點偵測與回應（Endpoint\n Detection and Response, EDR）解決方案，建立有效\n 偵測 IOA（Indicator of Attack）與 IOC（Indicator of\n Compromise）警告偵測機制\n (C) 員工電腦應該建立軟體白名單系統，嚴格管控執行\n 程式的安裝執行\n (D) 員工所配發個人電腦，相關資料備份工作由員工自\n 備外接儲存媒體自行備份處置",
+        "options": [
+          {
+            "key": "A",
+            "text": "ISO27001:2022 版本在其控制項 8.22 網路隔離，達 成降低駭客入侵橫向擴散的危害"
+          },
+          {
+            "key": "B",
+            "text": "在員工電腦規劃端點偵測與回應（Endpoint Detection and Response, EDR）解決方案，建立有效 偵測 IOA（Indicator of Attack）與 IOC（Indicator of Compromise）警告偵測機制"
+          },
+          {
+            "key": "C",
+            "text": "員工電腦應該建立軟體白名單系統，嚴格管控執行 程式的安裝執行"
+          },
+          {
+            "key": "D",
+            "text": "員工所配發個人電腦，相關資料備份工作由員工自 備外接儲存媒體自行備份處置"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": "G2",
+        "images": [],
+        "source_block_index": 22,
+        "raw_text": "複選題 20. 【題組 2 背景描述如附圖】從這次員工電腦因釣魚郵件感染而\n 擴散到不同網段與主機系統，下列哪些是在資安管理制度或防\n 護技術最適宜的措施？\n (A) ISO27001:2022 版本在其控制項 8.22 網路隔離，達\n \n 成降低駭客入侵橫向擴散的危害\n (B) 在員工電腦規劃端點偵測與回應（Endpoint\n Detection and Response, EDR）解決方案，建立有效\n 偵測 IOA（Indicator of Attack）與 IOC（Indicator of\n Compromise）警告偵測機制\n (C) 員工電腦應該建立軟體白名單系統，嚴格管控執行\n 程式的安裝執行\n (D) 員工所配發個人電腦，相關資料備份工作由員工自\n 備外接儲存媒體自行備份處置"
+      },
+      {
+        "question_id": "Q21",
+        "number": 21,
+        "type": "single_select",
+        "stem": "ISO/IEC 27001 是資訊安全管理的國際標準，ISO 27001 認證 是在確保公司擁有一套安全穩固的資訊管理系統來保護公 司內部重要的資訊財產。下列敘述何者錯誤？",
+        "stem_html": "21. ISO/IEC 27001 是資訊安全管理的國際標準，ISO 27001 認證\n 是在確保公司擁有一套安全穩固的資訊管理系統來保護公\n 司內部重要的資訊財產。下列敘述何者錯誤？\n (A) ISO/IEC 27001 設計是針對 IT 部門進行管理\n (B) 建構資訊安全管理系統（Information Security\n Management System, ISMS）是以具系統性的方法來\n 保護資訊安全。取得 ISMS 的認證也能增加企業或\n 組織的可信度，並且為公司帶來正面的影響及信任\n (C) 組織應架構一項風險處理計畫以鑑別適當管理措\n 施、資源、職責及優先順序，以便管理資訊安全風\n 險\n (D) 組織應依規劃之期間施行內部稽核，以提供資訊安\n 全管理系統相關資訊，最後階段必須保存文件化資\n 訊作為稽核計畫及稽核結果之證據",
+        "options": [
+          {
+            "key": "A",
+            "text": "ISO/IEC 27001 設計是針對 IT 部門進行管理"
+          },
+          {
+            "key": "B",
+            "text": "建構資訊安全管理系統（Information Security Management System, ISMS）是以具系統性的方法來 保護資訊安全。取得 ISMS 的認證也能增加企業或 組織的可信度，並且為公司帶來正面的影響及信任"
+          },
+          {
+            "key": "C",
+            "text": "組織應架構一項風險處理計畫以鑑別適當管理措 施、資源、職責及優先順序，以便管理資訊安全風 險"
+          },
+          {
+            "key": "D",
+            "text": "組織應依規劃之期間施行內部稽核，以提供資訊安 全管理系統相關資訊，最後階段必須保存文件化資 訊作為稽核計畫及稽核結果之證據"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 23,
+        "raw_text": "21. ISO/IEC 27001 是資訊安全管理的國際標準，ISO 27001 認證\n 是在確保公司擁有一套安全穩固的資訊管理系統來保護公\n 司內部重要的資訊財產。下列敘述何者錯誤？\n (A) ISO/IEC 27001 設計是針對 IT 部門進行管理\n (B) 建構資訊安全管理系統（Information Security\n Management System, ISMS）是以具系統性的方法來\n 保護資訊安全。取得 ISMS 的認證也能增加企業或\n 組織的可信度，並且為公司帶來正面的影響及信任\n (C) 組織應架構一項風險處理計畫以鑑別適當管理措\n 施、資源、職責及優先順序，以便管理資訊安全風\n 險\n (D) 組織應依規劃之期間施行內部稽核，以提供資訊安\n 全管理系統相關資訊，最後階段必須保存文件化資\n 訊作為稽核計畫及稽核結果之證據"
+      },
+      {
+        "question_id": "Q22",
+        "number": 22,
+        "type": "single_select",
+        "stem": "依照我國「資通安全事件通報及應變辦法」的規定，公務機 關知悉資通安全事件後，應於多少時間之內，依主管機關指 定之方式及對象，進行資通安全事件之通報？",
+        "stem_html": "22. 依照我國「資通安全事件通報及應變辦法」的規定，公務機\n 關知悉資通安全事件後，應於多少時間之內，依主管機關指\n 定之方式及對象，進行資通安全事件之通報？\n (A) 1 小時內\n (B) 8 小時內\n (C) 24 小時內\n (D) 72 小時內",
+        "options": [
+          {
+            "key": "A",
+            "text": "1 小時內"
+          },
+          {
+            "key": "B",
+            "text": "8 小時內"
+          },
+          {
+            "key": "C",
+            "text": "24 小時內"
+          },
+          {
+            "key": "D",
+            "text": "72 小時內"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 24,
+        "raw_text": "22. 依照我國「資通安全事件通報及應變辦法」的規定，公務機\n 關知悉資通安全事件後，應於多少時間之內，依主管機關指\n 定之方式及對象，進行資通安全事件之通報？\n (A) 1 小時內\n (B) 8 小時內\n (C) 24 小時內\n (D) 72 小時內"
+      },
+      {
+        "question_id": "Q23",
+        "number": 23,
+        "type": "single_select",
+        "stem": "關於備份 3-2-1 原則的敘述，下列何者正確？",
+        "stem_html": "23. 關於備份 3-2-1 原則的敘述，下列何者正確？\n (A) 以儲存媒體而言，分開存放在兩種不同儲存媒體\n (B) 至少三份，分別放到硬碟的Ｃ槽跟Ｄ槽\n (C) 資料分別存放在辦公室不同樓層\n (D) 備份資料不需備份加密金鑰",
+        "options": [
+          {
+            "key": "A",
+            "text": "以儲存媒體而言，分開存放在兩種不同儲存媒體"
+          },
+          {
+            "key": "B",
+            "text": "至少三份，分別放到硬碟的Ｃ槽跟Ｄ槽"
+          },
+          {
+            "key": "C",
+            "text": "資料分別存放在辦公室不同樓層"
+          },
+          {
+            "key": "D",
+            "text": "備份資料不需備份加密金鑰"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 25,
+        "raw_text": "23. 關於備份 3-2-1 原則的敘述，下列何者正確？\n (A) 以儲存媒體而言，分開存放在兩種不同儲存媒體\n (B) 至少三份，分別放到硬碟的Ｃ槽跟Ｄ槽\n (C) 資料分別存放在辦公室不同樓層\n (D) 備份資料不需備份加密金鑰"
+      },
+      {
+        "question_id": "Q24",
+        "number": 24,
+        "type": "multiple_select",
+        "stem": "24. 在組織 ISMS 制度中之服務級別協定（ Service-Level Agreement, SLA）要求妥善率達到5個9的標準下，請問在 一年中，下列哪些停機時間在容許的範圍內？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>24. 在組織 ISMS 制度中之服務級別協定（ Service-Level\n Agreement, SLA）要求妥善率達到5個9的標準下，請問在\n 一年中，下列哪些停機時間在容許的範圍內？\n (A) 30 秒\n (B) 5 分鐘\n (C) 1 小時\n (D) 1 天",
+        "options": [
+          {
+            "key": "A",
+            "text": "30 秒"
+          },
+          {
+            "key": "B",
+            "text": "5 分鐘"
+          },
+          {
+            "key": "C",
+            "text": "1 小時"
+          },
+          {
+            "key": "D",
+            "text": "1 天"
+          }
+        ],
+        "answer": [
+          "A",
+          "B"
+        ],
+        "answer_raw": "A,B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 26,
+        "raw_text": "複選題 24. 在組織 ISMS 制度中之服務級別協定（ Service-Level\n Agreement, SLA）要求妥善率達到5個9的標準下，請問在\n 一年中，下列哪些停機時間在容許的範圍內？\n (A) 30 秒\n (B) 5 分鐘\n (C) 1 小時\n (D) 1 天"
+      },
+      {
+        "question_id": "Q25",
+        "number": 25,
+        "type": "single_select",
+        "stem": "【題組 3 背景描述如附圖】勒索軟體除了加密資料進行勒索 之外，還可能有許多危害，請問下列何項「不」是勒索軟體 可能造成的危害？",
+        "stem_html": "25. 【題組 3 背景描述如附圖】勒索軟體除了加密資料進行勒索\n 之外，還可能有許多危害，請問下列何項「不」是勒索軟體\n 可能造成的危害？\n (A) 資料外洩\n (B) 系統入侵造成供應鏈破口\n (C) 再被利用去攻擊他人\n (D) 自動完成備份及更新",
+        "options": [
+          {
+            "key": "A",
+            "text": "資料外洩"
+          },
+          {
+            "key": "B",
+            "text": "系統入侵造成供應鏈破口"
+          },
+          {
+            "key": "C",
+            "text": "再被利用去攻擊他人"
+          },
+          {
+            "key": "D",
+            "text": "自動完成備份及更新"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 27,
+        "raw_text": "25. 【題組 3 背景描述如附圖】勒索軟體除了加密資料進行勒索\n 之外，還可能有許多危害，請問下列何項「不」是勒索軟體\n 可能造成的危害？\n (A) 資料外洩\n (B) 系統入侵造成供應鏈破口\n (C) 再被利用去攻擊他人\n (D) 自動完成備份及更新"
+      },
+      {
+        "question_id": "Q26",
+        "number": 26,
+        "type": "single_select",
+        "stem": "【題組 3 背景描述如附圖】本事件可能遭成的後續影響，針 對資料被加密，請問主要是破壞了下列哪一項的資安原則？",
+        "stem_html": "26. 【題組 3 背景描述如附圖】本事件可能遭成的後續影響，針\n 對資料被加密，請問主要是破壞了下列哪一項的資安原則？\n (A) 可用性\n (B) 機密性\n (C) 完整性\n (D) 可歸責性",
+        "options": [
+          {
+            "key": "A",
+            "text": "可用性"
+          },
+          {
+            "key": "B",
+            "text": "機密性"
+          },
+          {
+            "key": "C",
+            "text": "完整性"
+          },
+          {
+            "key": "D",
+            "text": "可歸責性"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 29,
+        "raw_text": "26. 【題組 3 背景描述如附圖】本事件可能遭成的後續影響，針\n 對資料被加密，請問主要是破壞了下列哪一項的資安原則？\n (A) 可用性\n (B) 機密性\n (C) 完整性\n (D) 可歸責性"
+      },
+      {
+        "question_id": "Q27",
+        "number": 27,
+        "type": "single_select",
+        "stem": "【題組 3 背景描述如附圖】經過調查後，最「不」可能取得網 域伺服器的最高權限為下列何項？",
+        "stem_html": "27. 【題組 3 背景描述如附圖】經過調查後，最「不」可能取得網\n 域伺服器的最高權限為下列何項？\n (A) 防火牆本身的漏洞\n \n (B) 郵件伺服器漏洞\n (C) 社交工程\n (D) 入侵供應鏈廠商",
+        "options": [
+          {
+            "key": "A",
+            "text": "防火牆本身的漏洞"
+          },
+          {
+            "key": "B",
+            "text": "郵件伺服器漏洞"
+          },
+          {
+            "key": "C",
+            "text": "社交工程"
+          },
+          {
+            "key": "D",
+            "text": "入侵供應鏈廠商"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 30,
+        "raw_text": "27. 【題組 3 背景描述如附圖】經過調查後，最「不」可能取得網\n 域伺服器的最高權限為下列何項？\n (A) 防火牆本身的漏洞\n \n (B) 郵件伺服器漏洞\n (C) 社交工程\n (D) 入侵供應鏈廠商"
+      },
+      {
+        "question_id": "Q28",
+        "number": 28,
+        "type": "multiple_select",
+        "stem": "28. 【題組 3 背景描述如附圖】請問下列哪些是組織可掌握的復原 或處理方式？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>28. 【題組 3 背景描述如附圖】請問下列哪些是組織可掌握的復原\n 或處理方式？\n (A) 還原關鍵系統與其資料\n (B) 確認是否還有潛藏惡意程式\n (C) 調查攻擊手法及路徑\n (D) 直接付款取回加密金鑰",
+        "options": [
+          {
+            "key": "A",
+            "text": "還原關鍵系統與其資料"
+          },
+          {
+            "key": "B",
+            "text": "確認是否還有潛藏惡意程式"
+          },
+          {
+            "key": "C",
+            "text": "調查攻擊手法及路徑"
+          },
+          {
+            "key": "D",
+            "text": "直接付款取回加密金鑰"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": "G3",
+        "images": [],
+        "source_block_index": 31,
+        "raw_text": "複選題 28. 【題組 3 背景描述如附圖】請問下列哪些是組織可掌握的復原\n 或處理方式？\n (A) 還原關鍵系統與其資料\n (B) 確認是否還有潛藏惡意程式\n (C) 調查攻擊手法及路徑\n (D) 直接付款取回加密金鑰"
+      },
+      {
+        "question_id": "Q29",
+        "number": 29,
+        "type": "single_select",
+        "stem": "資訊系統常透過組態檔案提供初始參數或是預設功能設定值，當系統組態被不當或是錯誤的設定就容易產生安全漏洞。下列敘述何者錯誤？",
+        "stem_html": "29. 資訊系統常透過組態檔案提供初始參數或是預設功能設定值，當系統組態被不當或是錯誤的設定就容易產生安全漏洞。下列敘述何者錯誤？ (A) 啟用預設帳號密碼是最常見的設定缺陷，像是有些軟體元件為了設定上的方便，允許使用空白密碼或 是預設密碼進行登入，故駭客容易藉此入侵系統 (B) 站台目錄列表（Directory Listing）功能除了像是檔案伺服器等特定需求以外，建議將此項功能開放， 方便使用者檢索目錄列表 (C) 當系統發生異常時，盡量避免將相關詳細的錯誤訊 息直接呈現在頁面上 (D) 充分掌握環境中的各項元件與組態，隨時進行維護 與改善以確保資訊系統部屬與運作的安全與持續",
+        "options": [
+          {
+            "key": "A",
+            "text": "啟用預設帳號密碼是最常見的設定缺陷，像是有些軟體元件為了設定上的方便，允許使用空白密碼或 是預設密碼進行登入，故駭客容易藉此入侵系統"
+          },
+          {
+            "key": "B",
+            "text": "站台目錄列表（Directory Listing）功能除了像是檔案伺服器等特定需求以外，建議將此項功能開放， 方便使用者檢索目錄列表"
+          },
+          {
+            "key": "C",
+            "text": "當系統發生異常時，盡量避免將相關詳細的錯誤訊 息直接呈現在頁面上"
+          },
+          {
+            "key": "D",
+            "text": "充分掌握環境中的各項元件與組態，隨時進行維護 與改善以確保資訊系統部屬與運作的安全與持續"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 32,
+        "raw_text": "29. 資訊系統常透過組態檔案提供初始參數或是預設功能設定值，當系統組態被不當或是錯誤的設定就容易產生安全漏洞。下列敘述何者錯誤？ (A) 啟用預設帳號密碼是最常見的設定缺陷，像是有些軟體元件為了設定上的方便，允許使用空白密碼或 是預設密碼進行登入，故駭客容易藉此入侵系統 (B) 站台目錄列表（Directory Listing）功能除了像是檔案伺服器等特定需求以外，建議將此項功能開放， 方便使用者檢索目錄列表 (C) 當系統發生異常時，盡量避免將相關詳細的錯誤訊 息直接呈現在頁面上 (D) 充分掌握環境中的各項元件與組態，隨時進行維護 與改善以確保資訊系統部屬與運作的安全與持續"
+      },
+      {
+        "question_id": "Q30",
+        "number": 30,
+        "type": "single_select",
+        "stem": "下面何項「不」是源碼檢測工具？",
+        "stem_html": "30. 下面何項「不」是源碼檢測工具？\n (A) SonarQube\n (B) Checkmarx\n (C) Fortify\n (D) Nexpose",
+        "options": [
+          {
+            "key": "A",
+            "text": "SonarQube"
+          },
+          {
+            "key": "B",
+            "text": "Checkmarx"
+          },
+          {
+            "key": "C",
+            "text": "Fortify"
+          },
+          {
+            "key": "D",
+            "text": "Nexpose"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 33,
+        "raw_text": "30. 下面何項「不」是源碼檢測工具？\n (A) SonarQube\n (B) Checkmarx\n (C) Fortify\n (D) Nexpose"
+      },
+      {
+        "question_id": "Q31",
+        "number": 31,
+        "type": "single_select",
+        "stem": "為避免人員舞弊與資訊安全系統監控相關議題的敘述，下列 何項「不」正確？",
+        "stem_html": "31. 為避免人員舞弊與資訊安全系統監控相關議題的敘述，下列 何項「不」正確？ (A) 資訊安全監控時，系統留存稽核日誌應保存完整，  以防止未經授權的存取 (B) 資訊安全事故發生時，應由責任負責同仁盡速通報 (C) 資訊系統日誌都會包含大量資訊，且內容多數與資訊安全監視無關。宜考量以工具識別重要事件作為 審查資訊 (D)由系統或網路管理者管理稽核日誌",
+        "options": [
+          {
+            "key": "A",
+            "text": "資訊安全監控時，系統留存稽核日誌應保存完整， 以防止未經授權的存取"
+          },
+          {
+            "key": "B",
+            "text": "資訊安全事故發生時，應由責任負責同仁盡速通報"
+          },
+          {
+            "key": "C",
+            "text": "資訊系統日誌都會包含大量資訊，且內容多數與資訊安全監視無關。宜考量以工具識別重要事件作為 審查資訊"
+          },
+          {
+            "key": "D",
+            "text": "由系統或網路管理者管理稽核日誌"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 34,
+        "raw_text": "31. 為避免人員舞弊與資訊安全系統監控相關議題的敘述，下列 何項「不」正確？ (A) 資訊安全監控時，系統留存稽核日誌應保存完整，  以防止未經授權的存取 (B) 資訊安全事故發生時，應由責任負責同仁盡速通報 (C) 資訊系統日誌都會包含大量資訊，且內容多數與資訊安全監視無關。宜考量以工具識別重要事件作為 審查資訊 (D)由系統或網路管理者管理稽核日誌"
+      },
+      {
+        "question_id": "Q32",
+        "number": 32,
+        "type": "multiple_select",
+        "stem": "32. 網路安全滲透測試的目標包括一切與網路相關的基礎設施， 包含網路裝置、作業系統、實體安全、應用程式、管理制度等。下列敘述哪些錯誤？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>32. 網路安全滲透測試的目標包括一切與網路相關的基礎設施， 包含網路裝置、作業系統、實體安全、應用程式、管理制度等。下列敘述哪些錯誤？ (A) 網路裝置是包含所有能夠連接到網路的各種實體， 像是路由器、交換機、防火牆、個人電腦等 (B) 實體安全主要指的是機房環境、通訊設備等，是資 訊安全中最重要的目標 (C) 應用程式是管理與控制電腦軟硬體資源的電腦程式 (D) 管理制度指的是為了保障資訊安全對使用者提出的 要求與限制",
+        "options": [
+          {
+            "key": "A",
+            "text": "網路裝置是包含所有能夠連接到網路的各種實體， 像是路由器、交換機、防火牆、個人電腦等"
+          },
+          {
+            "key": "B",
+            "text": "實體安全主要指的是機房環境、通訊設備等，是資 訊安全中最重要的目標"
+          },
+          {
+            "key": "C",
+            "text": "應用程式是管理與控制電腦軟硬體資源的電腦程式"
+          },
+          {
+            "key": "D",
+            "text": "管理制度指的是為了保障資訊安全對使用者提出的 要求與限制"
+          }
+        ],
+        "answer": [
+          "B",
+          "C"
+        ],
+        "answer_raw": "B,C",
+        "group_id": null,
+        "images": [],
+        "source_block_index": 35,
+        "raw_text": "複選題 32. 網路安全滲透測試的目標包括一切與網路相關的基礎設施， 包含網路裝置、作業系統、實體安全、應用程式、管理制度等。下列敘述哪些錯誤？ (A) 網路裝置是包含所有能夠連接到網路的各種實體， 像是路由器、交換機、防火牆、個人電腦等 (B) 實體安全主要指的是機房環境、通訊設備等，是資 訊安全中最重要的目標 (C) 應用程式是管理與控制電腦軟硬體資源的電腦程式 (D) 管理制度指的是為了保障資訊安全對使用者提出的 要求與限制"
+      },
+      {
+        "question_id": "Q33",
+        "number": 33,
+        "type": "single_select",
+        "stem": "關於範圍（Scope）的敘述，下列何項錯誤？",
+        "stem_html": "33. 關於範圍（Scope）的敘述，下列何項錯誤？\n (A) PHYSSEC 實體安全（Physical Security）包含人員\n （Human）管道\n (B) PHYSSEC 實體安全（Physical Security）包含實體\n （Physical）管道\n (C) SPECSEC 頻譜安全（Spectrum Security）包含有線\n （Wired）管道\n (D) COMSEC 通訊安全（Communications Security）包含\n 資料網路（Data Networks）管道",
+        "options": [
+          {
+            "key": "A",
+            "text": "PHYSSEC 實體安全（Physical Security）包含人員 （Human）管道"
+          },
+          {
+            "key": "B",
+            "text": "PHYSSEC 實體安全（Physical Security）包含實體 （Physical）管道"
+          },
+          {
+            "key": "C",
+            "text": "SPECSEC 頻譜安全（Spectrum Security）包含有線 （Wired）管道"
+          },
+          {
+            "key": "D",
+            "text": "COMSEC 通訊安全（Communications Security）包含 資料網路（Data Networks）管道"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 36,
+        "raw_text": "33. 關於範圍（Scope）的敘述，下列何項錯誤？\n (A) PHYSSEC 實體安全（Physical Security）包含人員\n （Human）管道\n (B) PHYSSEC 實體安全（Physical Security）包含實體\n （Physical）管道\n (C) SPECSEC 頻譜安全（Spectrum Security）包含有線\n （Wired）管道\n (D) COMSEC 通訊安全（Communications Security）包含\n 資料網路（Data Networks）管道"
+      },
+      {
+        "question_id": "Q34",
+        "number": 34,
+        "type": "single_select",
+        "stem": "【題組 4】如附圖所示，OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於常見的安全測試類型，下列敘述何項錯誤？",
+        "stem_html": "<p>34. 【題組 4】如附圖所示，OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於常見的安全測試類型，下列敘述何項錯誤？<br/><img data-filename=\"\" src=\"https://img.yamol.tw/file/6462e26db02d9.jpg#s-391,296\" style=\"width: 391px;\"/>(A)盲測（Blind Test）通常也稱為藍隊演練（Blue Team Exercise） (B) 雙盲測試（Double Blind Test）通常也稱為滲透測試 （Penetration Test） (C) 灰箱測試（Gray Box Test）常被稱為弱點測試 （Vulnerability Test） (D) 反向測試（Reversal Test）通常也稱為紅隊演練 （Red Team Exercise）</p>",
+        "options": [
+          {
+            "key": "A",
+            "text": "盲測（Blind Test）通常也稱為藍隊演練（Blue Team Exercise）"
+          },
+          {
+            "key": "B",
+            "text": "雙盲測試（Double Blind Test）通常也稱為滲透測試 （Penetration Test）"
+          },
+          {
+            "key": "C",
+            "text": "灰箱測試（Gray Box Test）常被稱為弱點測試 （Vulnerability Test）"
+          },
+          {
+            "key": "D",
+            "text": "反向測試（Reversal Test）通常也稱為紅隊演練 （Red Team Exercise）"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G4",
+        "images": [
+          {
+            "src": "https://img.yamol.tw/file/6462e26db02d9.jpg#s-391,296",
+            "alt": null,
+            "belongs_to": "question",
+            "local_name": "img_1"
+          }
+        ],
+        "source_block_index": 38,
+        "raw_text": "34. 【題組 4】如附圖所示，OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於常見的安全測試類型，下列敘述何項錯誤？ (A)盲測（Blind Test）通常也稱為藍隊演練（Blue Team Exercise） (B) 雙盲測試（Double Blind Test）通常也稱為滲透測試 （Penetration Test） (C) 灰箱測試（Gray Box Test）常被稱為弱點測試 （Vulnerability Test） (D) 反向測試（Reversal Test）通常也稱為紅隊演練 （Red Team Exercise）"
+      },
+      {
+        "question_id": "Q35",
+        "number": 35,
+        "type": "single_select",
+        "stem": "【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安 全性前應適當定義安全測試（Security Test）以妥善管理複雜 性。關於錯誤類型（Error Type）之描述，下列何項錯誤？",
+        "stem_html": "35. 【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source\n Security Testing Methodology Manual）其中所述，於測試安\n 全性前應適當定義安全測試（Security Test）以妥善管理複雜\n 性。關於錯誤類型（Error Type）之描述，下列何項錯誤？\n (A) 假陽性（False Positive）：測試結果被判斷為真實，\n 但實際證明其為虛假\n (B) 假陰性（False Negative）：測試結果被判斷為虛假，\n 但實際證明其為真實\n \n (C) 抽樣誤差（Sampling Error）：測試結果不具代表性，\n 因為範圍被改變\n (D) 人為錯誤（Human Error）：測試結果因受測者的行\n 為舉止而受到改變",
+        "options": [
+          {
+            "key": "A",
+            "text": "假陽性（False Positive）：測試結果被判斷為真實， 但實際證明其為虛假"
+          },
+          {
+            "key": "B",
+            "text": "假陰性（False Negative）：測試結果被判斷為虛假， 但實際證明其為真實"
+          },
+          {
+            "key": "C",
+            "text": "抽樣誤差（Sampling Error）：測試結果不具代表性， 因為範圍被改變"
+          },
+          {
+            "key": "D",
+            "text": "人為錯誤（Human Error）：測試結果因受測者的行 為舉止而受到改變"
+          }
+        ],
+        "answer": [
+          "D"
+        ],
+        "answer_raw": "D",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 39,
+        "raw_text": "35. 【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source\n Security Testing Methodology Manual）其中所述，於測試安\n 全性前應適當定義安全測試（Security Test）以妥善管理複雜\n 性。關於錯誤類型（Error Type）之描述，下列何項錯誤？\n (A) 假陽性（False Positive）：測試結果被判斷為真實，\n 但實際證明其為虛假\n (B) 假陰性（False Negative）：測試結果被判斷為虛假，\n 但實際證明其為真實\n \n (C) 抽樣誤差（Sampling Error）：測試結果不具代表性，\n 因為範圍被改變\n (D) 人為錯誤（Human Error）：測試結果因受測者的行\n 為舉止而受到改變"
+      },
+      {
+        "question_id": "Q36",
+        "number": 36,
+        "type": "multiple_select",
+        "stem": "36. 【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於定義安全測試（Defining a Security Test）的描述， 下列哪些正確？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>36. 【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於定義安全測試（Defining a Security Test）的描述， 下列哪些正確？ (A) 定義所需保護的資產，找出其控制（Control）機制 之侷限（Limitations） (B) 識別資產所處區域（Engagement Zone），包含相關 保護機制、程序與服務 (C) 定義測試範圍媒介（Vectors）如何內外交互，如： 內到內、內到外、A 到 B 單位 (D) 確保安全測試定義符合教戰守則（Role of Engagement）以避免誤解或錯誤期待",
+        "options": [
+          {
+            "key": "A",
+            "text": "定義所需保護的資產，找出其控制（Control）機制 之侷限（Limitations）"
+          },
+          {
+            "key": "B",
+            "text": "識別資產所處區域（Engagement Zone），包含相關 保護機制、程序與服務"
+          },
+          {
+            "key": "C",
+            "text": "定義測試範圍媒介（Vectors）如何內外交互，如： 內到內、內到外、A 到 B 單位"
+          },
+          {
+            "key": "D",
+            "text": "確保安全測試定義符合教戰守則（Role of Engagement）以避免誤解或錯誤期待"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer_raw": "A,B,C,D",
+        "group_id": "G4",
+        "images": [],
+        "source_block_index": 40,
+        "raw_text": "複選題 36. 【題組 4】OSSTMM 開源安全測試方法手冊（The Open Source Security Testing Methodology Manual）其中所述，於測試安全性前應適當定義安全測試（Security Test）以妥善管理複雜性。關於定義安全測試（Defining a Security Test）的描述， 下列哪些正確？ (A) 定義所需保護的資產，找出其控制（Control）機制 之侷限（Limitations） (B) 識別資產所處區域（Engagement Zone），包含相關 保護機制、程序與服務 (C) 定義測試範圍媒介（Vectors）如何內外交互，如： 內到內、內到外、A 到 B 單位 (D) 確保安全測試定義符合教戰守則（Role of Engagement）以避免誤解或錯誤期待"
+      },
+      {
+        "question_id": "Q37",
+        "number": 37,
+        "type": "single_select",
+        "stem": "【題組 5 背景描述如附圖】關於網路資源的敘述，下列何者 錯誤？",
+        "stem_html": "37. 【題組 5 背景描述如附圖】關於網路資源的敘述，下列何者\n 錯誤？\n (A) FOFA 是覆蓋全球資料頗為完整的 IT 設備搜尋引\n 擎，非中國創立資料庫\n (B) Shodan 是世界上第一個用於聯網與 IoT 設備的搜尋\n 引擎，可以查找到電子門鎖相關資訊\n (C) ZoomEye 是由中國創宇 404 實驗室所搭建網路空間\n 搜尋引擎\n (D) Censys 也是蒐集全球最新的 Internet 掃描數據源",
+        "options": [
+          {
+            "key": "A",
+            "text": "FOFA 是覆蓋全球資料頗為完整的 IT 設備搜尋引 擎，非中國創立資料庫"
+          },
+          {
+            "key": "B",
+            "text": "Shodan 是世界上第一個用於聯網與 IoT 設備的搜尋 引擎，可以查找到電子門鎖相關資訊"
+          },
+          {
+            "key": "C",
+            "text": "ZoomEye 是由中國創宇 404 實驗室所搭建網路空間 搜尋引擎"
+          },
+          {
+            "key": "D",
+            "text": "Censys 也是蒐集全球最新的 Internet 掃描數據源"
+          }
+        ],
+        "answer": [
+          "A"
+        ],
+        "answer_raw": "A",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 41,
+        "raw_text": "37. 【題組 5 背景描述如附圖】關於網路資源的敘述，下列何者\n 錯誤？\n (A) FOFA 是覆蓋全球資料頗為完整的 IT 設備搜尋引\n 擎，非中國創立資料庫\n (B) Shodan 是世界上第一個用於聯網與 IoT 設備的搜尋\n 引擎，可以查找到電子門鎖相關資訊\n (C) ZoomEye 是由中國創宇 404 實驗室所搭建網路空間\n 搜尋引擎\n (D) Censys 也是蒐集全球最新的 Internet 掃描數據源"
+      },
+      {
+        "question_id": "Q38",
+        "number": 38,
+        "type": "single_select",
+        "stem": "【題組 5 背景描述如附圖】子網域資訊的取得是滲透前重要 的 Footprint 程序，下列何項「不」是子網域查找工具？",
+        "stem_html": "38. 【題組 5 背景描述如附圖】子網域資訊的取得是滲透前重要\n 的 Footprint 程序，下列何項「不」是子網域查找工具？\n (A) subfinder\n (B) SubDomainizer\n (C) Virustotal\n (D) SubBrute",
+        "options": [
+          {
+            "key": "A",
+            "text": "subfinder"
+          },
+          {
+            "key": "B",
+            "text": "SubDomainizer"
+          },
+          {
+            "key": "C",
+            "text": "Virustotal"
+          },
+          {
+            "key": "D",
+            "text": "SubBrute"
+          }
+        ],
+        "answer": [
+          "C"
+        ],
+        "answer_raw": "C",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 43,
+        "raw_text": "38. 【題組 5 背景描述如附圖】子網域資訊的取得是滲透前重要\n 的 Footprint 程序，下列何項「不」是子網域查找工具？\n (A) subfinder\n (B) SubDomainizer\n (C) Virustotal\n (D) SubBrute"
+      },
+      {
+        "question_id": "Q39",
+        "number": 39,
+        "type": "single_select",
+        "stem": "【題組 5 背景描述如附圖】身為一個滲透測試人員，必須善 用網際網路有用資料庫或搜尋引擎，下列各類資料庫系統的 敘述，何者錯誤？",
+        "stem_html": "39. 【題組 5 背景描述如附圖】身為一個滲透測試人員，必須善\n 用網際網路有用資料庫或搜尋引擎，下列各類資料庫系統的\n 敘述，何者錯誤？\n (A) shodan.io 是世界上用於聯網設備查找的搜索引擎\n (B) censys.io 是一個免費資料庫，累積許多無線網路重\n 要刺探資訊\n (C) pulsedive.com 蒐集許多威脅情報\n (D) intelx.io 可處理加密貨幣搜尋與暗網搜尋",
+        "options": [
+          {
+            "key": "A",
+            "text": "shodan.io 是世界上用於聯網設備查找的搜索引擎"
+          },
+          {
+            "key": "B",
+            "text": "censys.io 是一個免費資料庫，累積許多無線網路重 要刺探資訊"
+          },
+          {
+            "key": "C",
+            "text": "pulsedive.com 蒐集許多威脅情報"
+          },
+          {
+            "key": "D",
+            "text": "intelx.io 可處理加密貨幣搜尋與暗網搜尋"
+          }
+        ],
+        "answer": [
+          "B"
+        ],
+        "answer_raw": "B",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 44,
+        "raw_text": "39. 【題組 5 背景描述如附圖】身為一個滲透測試人員，必須善\n 用網際網路有用資料庫或搜尋引擎，下列各類資料庫系統的\n 敘述，何者錯誤？\n (A) shodan.io 是世界上用於聯網設備查找的搜索引擎\n (B) censys.io 是一個免費資料庫，累積許多無線網路重\n 要刺探資訊\n (C) pulsedive.com 蒐集許多威脅情報\n (D) intelx.io 可處理加密貨幣搜尋與暗網搜尋"
+      },
+      {
+        "question_id": "Q40",
+        "number": 40,
+        "type": "multiple_select",
+        "stem": "40. 【題組 5 背景描述如附圖】成功滲透到某個網站後，為了避 免觸發相關警示而通知 IT 人員，於是採用「免殺（迴避防 毒軟體的偵測）」的手法。發現該主機為一台 Windows 10 所 搭建網站系統，決定使用 Windows 作業系統中相關工具程 式來進行 Command & Control，下面哪些 Windows 作業系統 「原生」指令可以使用在遠端下載？",
+        "stem_html": "<b style=\"color:red\">複選題</b><br/>40. 【題組 5 背景描述如附圖】成功滲透到某個網站後，為了避\n 免觸發相關警示而通知 IT 人員，於是採用「免殺（迴避防\n 毒軟體的偵測）」的手法。發現該主機為一台 Windows 10 所\n 搭建網站系統，決定使用 Windows 作業系統中相關工具程\n 式來進行 Command &amp; Control，下面哪些 Windows 作業系統\n 「原生」指令可以使用在遠端下載？\n (A) Bitsadmin.exe\n (B) Certutil.exe\n (C) HH.exe\n (D) Update.exe",
+        "options": [
+          {
+            "key": "A",
+            "text": "Bitsadmin.exe"
+          },
+          {
+            "key": "B",
+            "text": "Certutil.exe"
+          },
+          {
+            "key": "C",
+            "text": "HH.exe"
+          },
+          {
+            "key": "D",
+            "text": "Update.exe"
+          }
+        ],
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer_raw": "A,B,C",
+        "group_id": "G5",
+        "images": [],
+        "source_block_index": 45,
+        "raw_text": "複選題 40. 【題組 5 背景描述如附圖】成功滲透到某個網站後，為了避\n 免觸發相關警示而通知 IT 人員，於是採用「免殺（迴避防\n 毒軟體的偵測）」的手法。發現該主機為一台 Windows 10 所\n 搭建網站系統，決定使用 Windows 作業系統中相關工具程\n 式來進行 Command & Control，下面哪些 Windows 作業系統\n 「原生」指令可以使用在遠端下載？\n (A) Bitsadmin.exe\n (B) Certutil.exe\n (C) HH.exe\n (D) Update.exe"
+      }
+    ],
+    "stats": {
+      "question_count": 40,
+      "group_count": 5
+    }
+  }
+}
