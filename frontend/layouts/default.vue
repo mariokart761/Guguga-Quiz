@@ -25,7 +25,7 @@ watch(() => route.fullPath, () => {
         <div class="flex items-center justify-between h-16">
           <!-- Logo -->
           <NuxtLink to="/" class="flex items-center gap-2 font-bold text-xl text-primary-600" @click="closeMobileMenu">
-            <span class="text-2xl">📚</span>
+            <img src="/apple-touch-icon.png" alt="Logo" class="w-10 h-10" />
             <span>Guguga Quiz</span>
           </NuxtLink>
 

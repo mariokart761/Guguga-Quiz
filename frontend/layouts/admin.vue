@@ -18,7 +18,7 @@ const navItems = [
     <aside class="w-56 bg-gray-900 text-white flex flex-col shrink-0">
       <div class="p-5 border-b border-gray-700">
         <NuxtLink to="/" class="text-xl font-bold text-white flex items-center gap-2">
-          <span>📚</span>
+          <img src="/apple-touch-icon.png" alt="Logo" class="w-8 h-8" />
           <span>Quiz 後台</span>
         </NuxtLink>
       </div>

@@ -49,7 +49,7 @@ async function handleGoogleLogin() {
     <div class="w-full max-w-md">
       <!-- Logo -->
       <div class="text-center mb-8">
-        <div class="text-6xl mb-4">📚</div>
+        <div class="mb-4"><img src="/apple-touch-icon.png" alt="Logo" class="w-32 h-32 mx-auto" /></div>
         <h1 class="text-3xl font-bold text-gray-900">Guguga Quiz</h1>
         <p class="mt-2 text-gray-500">線上測驗練習平台</p>
       </div>

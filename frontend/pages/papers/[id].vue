@@ -99,7 +99,7 @@ async function startPractice(mode: 'practice' | 'mock_exam') {
         <h3 class="font-semibold text-gray-800 mb-1">模擬考模式</h3>
         <p class="text-sm text-gray-500 mb-4">整份作答，倒數計時，交卷後才顯示結果</p>
         <div class="text-sm text-gray-500 mb-4">
-          共 {{ paper.total_questions }} 題 · 建議時間 {{ Math.ceil(paper.total_questions * 1.5) }} 分鐘
+          共 {{ paper.total_questions }} 題 · 建議時間 {{ Math.ceil(paper.total_questions * 2) }} 分鐘
         </div>
 
         <button
