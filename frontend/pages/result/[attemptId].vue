@@ -317,6 +317,12 @@ function scoreColor(score: number) {
                 <div class="text-xs font-semibold text-blue-600 mb-1.5">解析</div>
                 <div class="prose prose-sm max-w-none text-gray-700" v-html="(item as any).questions?.explanation_html" />
               </div>
+
+              <!-- AI 詳解 -->
+              <AiExplainPanel
+                v-if="(item as any).questions?.id"
+                :question-id="(item as any).questions.id"
+              />
             </div>
           </Transition>
         </div>

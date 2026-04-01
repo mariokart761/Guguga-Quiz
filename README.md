@@ -146,6 +146,9 @@ npm run dev
 cd frontend
 # 在 Vercel Dashboard 設定環境變數：
 # SUPABASE_URL, SUPABASE_ANON_KEY, NUXT_PUBLIC_API_BASE
+
+# 若需要AI詳解功能，可以在 Supabase Edge Functions 部署函示(範例在`supabase/functions/ai-explain`)
+# 並在 Edge Functions 建立和設定 Scrects (`GUGUGA_OPEN_AI_KEY`)
 ```
 
 ### 後端（Railway / Render）

@@ -174,5 +174,11 @@ const cleanStemHtml = computed(() => {
       <div class="text-xs font-semibold text-blue-600 mb-2">解析</div>
       <div class="prose prose-sm max-w-none text-gray-700" v-html="question.explanation_html" />
     </div>
+
+    <!-- AI 詳解 -->
+    <AiExplainPanel
+      v-if="showAnswer"
+      :question-id="question.id"
+    />
   </div>
 </template>
