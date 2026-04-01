@@ -1,4 +1,4 @@
-// @deprecated: v2版本：改用多模態（文字+圖片），純文字題目使用gpt-4o-mini，有圖片題目使用gpt-4.1-mini。
+// @deprecated: v1已不再使用，僅供參考。v2 版已經改用多模態（文字+圖片）。
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
 const CORS_HEADERS = {
@@ -7,30 +7,10 @@ const CORS_HEADERS = {
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 }
 
-// 加入圖片支援後升版，自然與舊 v1 快取隔離
-const PROMPT_VERSION = 'v2'
+const PROMPT_VERSION = 'v1'
 const MODEL_PROVIDER = 'openai'
-const MODEL_NAME_TEXT = 'gpt-4o-mini'
-const MODEL_NAME_VISION = 'gpt-4.1-mini'
+const MODEL_NAME = 'gpt-4o-mini'
 const ALLOWED_LANGUAGES = ['zh-TW', 'en']
-
-// OpenAI image_url 內容塊型別
-interface ImageUrlContent {
-  type: 'image_url'
-  image_url: { url: string; detail: 'high' | 'low' | 'auto' }
-}
-interface TextContent {
-  type: 'text'
-  text: string
-}
-type MessageContent = TextContent | ImageUrlContent
-
-interface AssetRow {
-  id: string
-  bucket_name: string
-  object_path: string
-  asset_type: string
-}
 
 function jsonResponse(data: unknown, status = 200): Response {
   return new Response(JSON.stringify(data), {
@@ -49,32 +29,11 @@ async function sha256Hex(input: string): Promise<string> {
     .join('')
 }
 
-/**
- * 為一批 asset 產生 signed URL；失敗的項目靜默跳過。
- */
-async function getSignedUrls(
-  adminClient: ReturnType<typeof createClient>,
-  assets: AssetRow[],
-  expiresIn = 3600,
-): Promise<string[]> {
-  const urls: string[] = []
-  for (const asset of assets) {
-    const { data, error } = await adminClient.storage
-      .from(asset.bucket_name)
-      .createSignedUrl(asset.object_path, expiresIn)
-    if (!error && data?.signedUrl) {
-      urls.push(data.signedUrl)
-    } else {
-      console.warn(`Failed to sign URL for ${asset.object_path}:`, error?.message)
-    }
-  }
-  return urls
-}
-
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: CORS_HEADERS })
   }
+
   if (req.method !== 'POST') {
     return jsonResponse({ error: 'Method not allowed' }, 405)
   }
@@ -120,16 +79,10 @@ Deno.serve(async (req) => {
     Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,
   )
 
-  // 一次取得：題目、選項、題目附圖、所屬題組 id
   const { data: question, error: qError } = await adminClient
     .schema('quiz')
     .from('questions')
-    .select(`
-      id, stem_text, stem_html, explanation_html,
-      question_type, difficulty, group_id,
-      question_options(option_key, option_text, sort_order, is_correct),
-      question_assets(id, bucket_name, object_path, asset_type)
-    `)
+    .select('id, stem_text, stem_html, explanation_html, question_type, difficulty, question_options(option_key, option_text, option_html, sort_order, is_correct)')
     .eq('id', questionId)
     .single()
 
@@ -137,59 +90,17 @@ Deno.serve(async (req) => {
     return jsonResponse({ error: 'Question not found' }, 404)
   }
 
-  // ── 若屬題組，額外取得題組的導言文字與圖片 ────────────────
-  let groupIntroText: string | null = null
-  let groupAssets: AssetRow[] = []
-
-  if (question.group_id) {
-    const { data: group } = await adminClient
-      .schema('quiz')
-      .from('question_groups')
-      .select('intro_text, question_assets(id, bucket_name, object_path, asset_type)')
-      .eq('id', question.group_id)
-      .single()
-
-    if (group) {
-      groupIntroText = group.intro_text ?? null
-      groupAssets = (group.question_assets ?? []) as AssetRow[]
-    }
-  }
-
-  const questionAssets: AssetRow[] = (question.question_assets ?? []) as AssetRow[]
-
-  // ── 產生所有圖片的 signed URL ─────────────────────────────
-  // 題組圖片先於題目圖片（呈現順序：導言 → 題目）
-  const [groupImageUrls, questionImageUrls] = await Promise.all([
-    getSignedUrls(adminClient, groupAssets),
-    getSignedUrls(adminClient, questionAssets),
-  ])
-
-  const allImageUrls = [...groupImageUrls, ...questionImageUrls]
-  const hasImages = allImageUrls.length > 0
-
-  // 有圖片時使用視覺模型，否則用純文字模型
-  const modelName = hasImages ? MODEL_NAME_VISION : MODEL_NAME_TEXT
-
-  // ── 整理選項 ──────────────────────────────────────────────
   const options: Array<{ option_key: string; option_text: string | null; sort_order: number; is_correct: boolean }> =
     [...(question.question_options as any[])].sort((a, b) => a.sort_order - b.sort_order)
 
   const correctKeys = options.filter((o) => o.is_correct).map((o) => o.option_key)
 
   // ── 計算 question_content_hash ────────────────────────────
-  // 把所有影響輸出的因素都納入 hash，包含圖片路徑（有圖換圖要重新生成）
-  const allAssetPaths = [
-    ...groupAssets.map((a) => a.object_path),
-    ...questionAssets.map((a) => a.object_path),
-  ].sort()
-
   const promptInput = {
     stem: question.stem_text ?? '',
     options: options.map((o) => `${o.option_key}. ${o.option_text ?? ''}`),
     correct_answers: correctKeys.sort(),
     question_type: question.question_type ?? 'single',
-    group_intro: groupIntroText ?? '',
-    asset_paths: allAssetPaths,
     language,
     prompt_version: PROMPT_VERSION,
   }
@@ -203,17 +114,17 @@ Deno.serve(async (req) => {
     .eq('question_id', questionId)
     .eq('prompt_version', PROMPT_VERSION)
     .eq('model_provider', MODEL_PROVIDER)
-    .eq('model_name', modelName)
+    .eq('model_name', MODEL_NAME)
     .eq('language', language)
     .eq('question_content_hash', contentHash)
     .eq('status', 'completed')
     .maybeSingle()
 
   if (cached?.explanation_text) {
-    return jsonResponse({ explanation: cached.explanation_text, cached: true, model: modelName })
+    return jsonResponse({ explanation: cached.explanation_text, cached: true })
   }
 
-  // ── 組裝 OpenAI prompt ────────────────────────────────────
+  // ── 呼叫 OpenAI ───────────────────────────────────────────
   const openaiKey = Deno.env.get('GUGUGA_OPENAI_API_KEY')
   if (!openaiKey) {
     return jsonResponse({ error: 'AI service not configured' }, 503)
@@ -223,63 +134,36 @@ Deno.serve(async (req) => {
 
   const systemPrompt = isTw
     ? `你是一個專業的教學助理，協助學生理解測驗題目。
-請根據提供的題目、選項、正確答案${hasImages ? '及相關圖片' : ''}，撰寫清楚、深入且適合學生閱讀的詳解。
+請根據提供的題目、選項與正確答案，撰寫清楚、深入且適合學生閱讀的詳解。
 詳解應包含：
 1. 正確答案的完整說明（為什麼這個答案是對的）
 2. 錯誤選項的辨析（說明為什麼其他選項不正確）
 3. 相關知識點的補充說明
-${hasImages ? '若題目附有圖片或題組說明圖，請配合圖片內容進行解析。\n' : ''}請用繁體中文回應，語氣親切、條理清晰。不要重複題目原文，直接提供深入的解析。`
+請用繁體中文回應，語氣親切、條理清晰。不要重複題目原文，直接提供深入的解析。`
     : `You are a professional educational assistant helping students understand quiz questions.
-Based on the question, options, correct answer${hasImages ? ', and any provided images' : ''}, write a clear and insightful explanation.
+Based on the question, options, and correct answer provided, write a clear and insightful explanation.
 Include: 1. Why the correct answer is right, 2. Why other options are incorrect, 3. Key concepts to remember.
-${hasImages ? 'If images or diagrams are provided, incorporate them into your analysis.\n' : ''}Be concise and student-friendly.`
-
-  // 題組導言（純文字）放在題目前
-  const groupIntroSection = groupIntroText
-    ? (isTw ? `【題組說明】\n${groupIntroText}\n\n` : `[Group Context]\n${groupIntroText}\n\n`)
-    : ''
+Be concise and student-friendly.`
 
   const optionLines = options.map((o) => `${o.option_key}. ${o.option_text ?? ''}`)
   const existingExplanation = question.explanation_html
-    ? (isTw
-      ? `\n\n參考解析：${(question.explanation_html as string).replace(/<[^>]*>/g, '')}`
-      : `\n\nReference: ${(question.explanation_html as string).replace(/<[^>]*>/g, '')}`)
+    ? `\n\n參考解析：${(question.explanation_html as string).replace(/<[^>]*>/g, '')}`
     : ''
 
-  const userText = isTw
-    ? `${groupIntroSection}題目：${question.stem_text ?? ''}
+  const userPrompt = isTw
+    ? `題目：${question.stem_text ?? ''}
 選項：
 ${optionLines.join('\n')}
 正確答案：${correctKeys.join('、')}${existingExplanation}
-${hasImages ? '\n（相關圖片已附於上方，請一併參考）' : ''}
+
 請提供完整詳解。`
-    : `${groupIntroSection}Question: ${question.stem_text ?? ''}
+    : `Question: ${question.stem_text ?? ''}
 Options:
 ${optionLines.join('\n')}
 Correct answer: ${correctKeys.join(', ')}${existingExplanation}
-${hasImages ? '\n(Related images are attached above. Please refer to them in your explanation.)' : ''}
+
 Please provide a complete explanation.`
 
-  // 有圖片時使用多模態 content 陣列，否則用純文字字串
-  let userMessageContent: string | MessageContent[]
-  if (hasImages) {
-    const contentParts: MessageContent[] = []
-
-    // 圖片優先放置（模型先看到圖再讀文字，較自然）
-    for (const url of allImageUrls) {
-      contentParts.push({
-        type: 'image_url',
-        image_url: { url, detail: 'high' },
-      })
-    }
-    contentParts.push({ type: 'text', text: userText })
-
-    userMessageContent = contentParts
-  } else {
-    userMessageContent = userText
-  }
-
-  // ── 呼叫 OpenAI ───────────────────────────────────────────
   let openaiRes: Response
   try {
     openaiRes = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -289,10 +173,10 @@ Please provide a complete explanation.`
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: modelName,
+        model: MODEL_NAME,
         messages: [
           { role: 'system', content: systemPrompt },
-          { role: 'user', content: userMessageContent },
+          { role: 'user', content: userPrompt },
         ],
         temperature: 0.3,
         max_tokens: 1200,
@@ -327,7 +211,7 @@ Please provide a complete explanation.`
         question_id: questionId,
         prompt_version: PROMPT_VERSION,
         model_provider: MODEL_PROVIDER,
-        model_name: modelName,
+        model_name: MODEL_NAME,
         language,
         question_content_hash: contentHash,
         prompt_input: promptInput,
@@ -343,7 +227,8 @@ Please provide a complete explanation.`
 
   if (upsertError) {
     console.error('Cache upsert error:', upsertError)
+    // 即使快取寫入失敗，仍回傳結果給使用者
   }
 
-  return jsonResponse({ explanation: explanationText, cached: false, model: modelName })
+  return jsonResponse({ explanation: explanationText, cached: false })
 })

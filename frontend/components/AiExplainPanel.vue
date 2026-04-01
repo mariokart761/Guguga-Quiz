@@ -14,7 +14,7 @@ const props = withDefaults(defineProps<Props>(), {
   language: 'zh-TW',
 })
 
-const { loading, error, explanation, cached, fetchExplanation, reset } = useAiExplain()
+const { loading, error, explanation, cached, model, fetchExplanation, reset } = useAiExplain()
 
 const isOpen = ref(false)
 
@@ -106,7 +106,7 @@ const renderedHtml = computed<string>(() => {
               class="px-1.5 py-0.5 bg-violet-200 text-violet-600 rounded-full font-medium"
             >快取命中</span>
           </div>
-          <span class="text-xs text-violet-400">GPT-4o mini</span>
+          <span class="text-xs text-violet-400">{{ model ?? '…' }}</span>
         </div>
 
         <!-- 內容區 -->

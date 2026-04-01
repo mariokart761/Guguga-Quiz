@@ -5,6 +5,7 @@ export interface AiExplainState {
   error: Ref<string | null>
   explanation: Ref<string | null>
   cached: Ref<boolean>
+  model: Ref<string | null>
   fetchExplanation: (questionId: string, language?: AiExplainLanguage) => Promise<void>
   reset: () => void
 }
@@ -16,6 +17,7 @@ export function useAiExplain(): AiExplainState {
   const error = ref<string | null>(null)
   const explanation = ref<string | null>(null)
   const cached = ref(false)
+  const model = ref<string | null>(null)
 
   async function fetchExplanation(
     questionId: string,
@@ -41,6 +43,7 @@ export function useAiExplain(): AiExplainState {
 
       explanation.value = data.explanation as string
       cached.value = data.cached === true
+      model.value = (data.model as string) ?? null
     } catch (e: unknown) {
       const msg = e instanceof Error ? e.message : 'AI 詳解載入失敗，請稍後再試'
       error.value = msg
@@ -54,7 +57,8 @@ export function useAiExplain(): AiExplainState {
     error.value = null
     explanation.value = null
     cached.value = false
+    model.value = null
   }
 
-  return { loading, error, explanation, cached, fetchExplanation, reset }
+  return { loading, error, explanation, cached, model, fetchExplanation, reset }
 }
