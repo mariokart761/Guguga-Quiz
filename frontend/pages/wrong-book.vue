@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useCopyQuestion } from '~/composables/useCopyQuestion'
+
 definePageMeta({ middleware: 'auth' })
 
 const quizStore = useQuizStore()
@@ -27,12 +29,40 @@ function paperLabel(q: any): string {
   return parts.join(' · ')
 }
 
+const supabase = useSupabaseClient()
+
 // 展開/收合
 const expandedIds = ref<string[]>([])
 const isExpanded = (id: string) => expandedIds.value.includes(id)
-function toggleExpand(id: string) {
-  if (isExpanded(id)) expandedIds.value = expandedIds.value.filter((x) => x !== id)
-  else expandedIds.value = [...expandedIds.value, id]
+
+// 題組圖片 signed URL 快取（key = question_id）
+const groupImageUrlsMap = ref<Record<string, string[]>>({})
+
+async function toggleExpand(questionId: string, item: any) {
+  if (isExpanded(questionId)) {
+    expandedIds.value = expandedIds.value.filter((x) => x !== questionId)
+    return
+  }
+  expandedIds.value = [...expandedIds.value, questionId]
+
+  if (groupImageUrlsMap.value[questionId] !== undefined) return
+
+  const assets: Array<{ id: string; bucket_name: string; object_path: string }> =
+    item?.questions?.question_groups?.question_assets ?? []
+
+  if (!assets.length) {
+    groupImageUrlsMap.value[questionId] = []
+    return
+  }
+
+  const urls: string[] = []
+  for (const asset of assets) {
+    const { data } = await supabase.storage
+      .from(asset.bucket_name)
+      .createSignedUrl(asset.object_path, 3600)
+    if (data?.signedUrl) urls.push(data.signedUrl)
+  }
+  groupImageUrlsMap.value[questionId] = urls
 }
 
 // 清理題幹 HTML（移除嵌入選項文字）
@@ -67,6 +97,19 @@ function cleanStemHtml(html: string): string {
 
 function getSortedOptions(opts: any[]) {
   return [...(opts ?? [])].sort((a, b) => a.sort_order - b.sort_order)
+}
+
+const { copiedId, copyQuestion } = useCopyQuestion()
+
+function handleCopy(item: any) {
+  const q = item.questions
+  copyQuestion(item.question_id, {
+    question_no: q?.question_no,
+    question_type: q?.question_type,
+    stem_text: q?.stem_text,
+    question_options: q?.question_options ?? [],
+    groupIntroText: q?.question_groups?.intro_text ?? null,
+  })
 }
 
 // 移除錯題
@@ -132,7 +175,7 @@ async function startWrongReview() {
         <!-- 摘要列（可點擊展開） -->
         <div
           class="flex items-start gap-3 p-4 cursor-pointer hover:bg-gray-50 transition-colors select-none"
-          @click="toggleExpand((item as any).question_id)"
+          @click="toggleExpand((item as any).question_id, item)"
         >
           <!-- 錯誤次數圓圈 -->
           <div class="shrink-0 w-10 h-10 rounded-full bg-red-100 text-red-600 font-bold text-sm flex items-center justify-center mt-0.5">
@@ -165,11 +208,27 @@ async function startWrongReview() {
             </div>
           </div>
 
-          <!-- 移除按鈕 -->
+          <!-- 操作按鈕 -->
           <div class="shrink-0 flex items-center gap-1" @click.stop>
+            <!-- 複製 -->
+            <button
+              class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors"
+              :class="copiedId === (item as any).question_id
+                ? 'text-green-500 bg-green-50'
+                : 'text-gray-300 hover:text-gray-500 hover:bg-gray-100'"
+              title="複製題目文本"
+              @click="handleCopy(item)"
+            >
+              <span v-if="copiedId === (item as any).question_id" class="text-sm">✓</span>
+              <svg v-else xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+              </svg>
+            </button>
+            <!-- 移除 -->
             <button
               :disabled="removingId === (item as any).question_id"
-              class="w-7 h-7 rounded-lg flex items-center justify-center text-gray-300 hover:text-red-400 hover:bg-red-50 transition-colors text-xs"
+              class="w-8 h-8 rounded-lg flex items-center justify-center text-gray-300 hover:text-red-400 hover:bg-red-50 transition-colors text-xs"
               title="從錯題本移除"
               @click="removeWrongStat((item as any).question_id)"
             >
@@ -199,6 +258,36 @@ async function startWrongReview() {
             v-if="isExpanded((item as any).question_id)"
             class="border-t border-gray-100 px-4 pb-4 pt-4 bg-gray-50/40"
           >
+            <!-- 題組說明 -->
+            <div
+              v-if="(item as any).questions?.question_groups?.intro_text || groupImageUrlsMap[(item as any).question_id]?.length"
+              class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-4"
+            >
+              <div class="text-xs font-semibold text-amber-700 mb-2 flex items-center gap-1">
+                <span>📋</span> 題組說明
+              </div>
+              <!-- 題組圖片 -->
+              <div
+                v-if="groupImageUrlsMap[(item as any).question_id]?.length"
+                class="flex flex-col gap-2 mb-3"
+              >
+                <img
+                  v-for="(url, i) in groupImageUrlsMap[(item as any).question_id]"
+                  :key="i"
+                  :src="url"
+                  class="max-w-full rounded-lg border border-amber-100"
+                  loading="lazy"
+                >
+              </div>
+              <!-- 題組文字 -->
+              <p
+                v-if="(item as any).questions?.question_groups?.intro_text"
+                class="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed"
+              >
+                {{ (item as any).questions.question_groups.intro_text }}
+              </p>
+            </div>
+
             <!-- 完整題幹 -->
             <div
               class="prose prose-sm max-w-none text-gray-800 mb-4"
@@ -229,6 +318,12 @@ async function startWrongReview() {
               <div class="text-xs font-semibold text-blue-600 mb-1.5">解析</div>
               <div class="prose prose-sm max-w-none text-gray-700" v-html="(item as any).questions?.explanation_html" />
             </div>
+
+            <!-- AI 詳解 -->
+            <AiExplainPanel
+              v-if="(item as any).questions?.id"
+              :question-id="(item as any).questions.id"
+            />
           </div>
         </Transition>
       </div>
