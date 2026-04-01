@@ -1,6 +1,14 @@
 # Guguga Quiz 線上測驗平台
 
+<p align="center">
+  <img src="frontend/public/android-chrome-192x192.png" alt="Demo" width="192"/>
+  <br>
+  <em>Guguga Quiz</em>
+</p><br><br>
+
 可自行快速搭建的測驗平台，可拓展多種格式試卷匯入。
+
+demo入口：https://guguga-quiz.vercel.app/
 
 ## 技術架構
 
