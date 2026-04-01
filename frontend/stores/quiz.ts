@@ -270,10 +270,10 @@ export const useQuizStore = defineStore('quiz', () => {
     const { data } = await supabase
       .schema('quiz')
       .from('bookmarks')
-      .select('question_id, created_at, questions(*, question_options(*), question_assets(*), papers(title, subject, exam_year))')
+      .select('question_id, created_at, questions(*, question_options(*), question_assets(*), papers(title, subject, exam_year), question_groups!group_id(intro_text, question_assets(id, bucket_name, object_path)))') 
       .eq('user_id', userId)
       .order('created_at', { ascending: false })
-    return (data ?? []) as Array<{ question_id: string; created_at: string; questions: Question }>
+    return (data ?? []) as unknown as Array<{ question_id: string; created_at: string; questions: Question }>
   }
 
   // ============================================================
@@ -284,7 +284,7 @@ export const useQuizStore = defineStore('quiz', () => {
     const { data } = await supabase
       .schema('quiz')
       .from('wrong_question_stats')
-      .select('*, questions(*, question_options(*), question_assets(*), papers(title, subject, exam_year))') 
+      .select('*, questions(*, question_options(*), question_assets(*), papers(title, subject, exam_year), question_groups!group_id(intro_text, question_assets(id, bucket_name, object_path)))')
       .eq('user_id', userId)
       .order('last_wrong_at', { ascending: false })
     return data ?? []

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useCopyQuestion } from '~/composables/useCopyQuestion'
+
 definePageMeta({ middleware: 'auth' })
 
 const route = useRoute()
@@ -90,6 +92,18 @@ async function toggleWrongBook(questionId: string) {
   } finally {
     wrongBookLoading.value = null
   }
+}
+
+const { copiedId, copyQuestion } = useCopyQuestion()
+
+function handleCopy(item: any) {
+  const q = item.questions
+  copyQuestion(item.id, {
+    question_no: q?.question_no,
+    question_type: q?.question_type,
+    stem_text: q?.stem_text,
+    question_options: q?.question_options ?? [],
+  })
 }
 
 // 清理題幹 HTML（移除嵌入的選項文字）
@@ -240,6 +254,21 @@ function scoreColor(score: number) {
 
             <!-- 右側：操作按鈕 + 展開指示 -->
             <div class="shrink-0 flex items-center gap-1.5" @click.stop>
+              <!-- 複製 -->
+              <button
+                class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors"
+                :class="copiedId === item.id
+                  ? 'text-green-500 bg-green-50'
+                  : 'text-gray-300 hover:text-gray-500 hover:bg-gray-100'"
+                title="複製題目文本"
+                @click="handleCopy(item)"
+              >
+                <span v-if="copiedId === item.id" class="text-sm">✓</span>
+                <svg v-else xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                </svg>
+              </button>
               <!-- 收藏 -->
               <button
                 :title="bookmarkedIds.includes((item as any).questions?.id) ? '取消收藏' : '加入收藏'"

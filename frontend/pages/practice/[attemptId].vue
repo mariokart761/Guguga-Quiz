@@ -216,6 +216,22 @@ function stripImgTags(html: string): string {
   return html.replace(/<img[^>]*\/?>/gi, '')
 }
 
+// 取題組純文字（供複製功能使用）
+function groupIntroPlainText(html: string): string {
+  if (!html) return ''
+  if (import.meta.client) {
+    const doc = new DOMParser().parseFromString(html, 'text/html')
+    return doc.body.textContent?.trim() ?? ''
+  }
+  return html.replace(/<[^>]*>/g, '').trim()
+}
+
+// 目前題目對應的題組純文字（傳給 QuestionCard）
+const currentGroupIntroText = computed(() => {
+  if (!currentGroup.value?.intro_html) return null
+  return groupIntroPlainText(currentGroup.value.intro_html) || null
+})
+
 </script>
 
 <template>
@@ -309,6 +325,7 @@ function stripImgTags(html: string): string {
       :selected-answers="answers[currentQuestion.id] ?? []"
       :bookmarked="bookmarks.has(currentQuestion.id)"
       :mode="attempt?.mode as any"
+      :group-intro-text="currentGroupIntroText"
       @select="(key) => handleSelect(currentQuestion.id, key, currentQuestion.question_type)"
       @toggle-bookmark="toggleBookmark(currentQuestion.id)"
     />

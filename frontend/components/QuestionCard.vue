@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+import { useCopyQuestion } from '~/composables/useCopyQuestion'
 import type { Question } from '~/stores/quiz'
 
 interface Props {
@@ -7,6 +9,7 @@ interface Props {
   selectedAnswers?: string[]
   bookmarked?: boolean
   mode?: 'practice' | 'mock_exam' | 'wrong_review'
+  groupIntroText?: string | null
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -14,12 +17,25 @@ const props = withDefaults(defineProps<Props>(), {
   selectedAnswers: () => [],
   bookmarked: false,
   mode: 'practice',
+  groupIntroText: null,
 })
 
 const emit = defineEmits<{
   select: [key: string]
   toggleBookmark: []
 }>()
+
+const { copiedId, copyQuestion } = useCopyQuestion()
+
+function handleCopy() {
+  copyQuestion(props.question.id, {
+    question_no: props.question.question_no,
+    question_type: props.question.question_type,
+    stem_text: props.question.stem_text,
+    question_options: props.question.question_options,
+    groupIntroText: props.groupIntroText,
+  })
+}
 
 const correctKeys = computed(() =>
   props.question.question_options
@@ -124,14 +140,32 @@ const cleanStemHtml = computed(() => {
         </span>
       </div>
 
-      <!-- 收藏按鈕 -->
-      <button
-        class="text-xl transition-transform hover:scale-110"
-        :class="bookmarked ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-300'"
-        @click="emit('toggleBookmark')"
-      >
-        {{ bookmarked ? '★' : '☆' }}
-      </button>
+      <!-- 右側工具列 -->
+      <div class="flex items-center gap-1.5">
+        <!-- 複製按鈕 -->
+        <button
+          class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors text-sm"
+          :class="copiedId === question.id
+            ? 'text-green-500 bg-green-50'
+            : 'text-gray-300 hover:text-gray-500 hover:bg-gray-100'"
+          title="複製題目文本"
+          @click="handleCopy"
+        >
+          <span v-if="copiedId === question.id">✓</span>
+          <svg v-else xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+          </svg>
+        </button>
+        <!-- 收藏按鈕 -->
+        <button
+          class="text-xl transition-transform hover:scale-110"
+          :class="bookmarked ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-300'"
+          @click="emit('toggleBookmark')"
+        >
+          {{ bookmarked ? '★' : '☆' }}
+        </button>
+      </div>
     </div>
 
     <!-- 題幹 -->
