@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/supabase',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
+    '@vite-pwa/nuxt',
   ],
 
   supabase: {
@@ -18,6 +19,44 @@ export default defineNuxtConfig({
       supabaseUrl: process.env.SUPABASE_URL,
       supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
     },
+  },
+  //pwa設定
+  pwa: {
+    registerType: 'autoUpdate',
+    manifest: {
+      name: 'Guguga Quiz',
+      short_name: 'GuQuiz',
+      description: 'Guguga Quiz PWA on Android',
+      theme_color: '#111827',
+      background_color: '#ffffff',
+      display: 'standalone',
+      scope: '/',
+      start_url: '/',
+      icons: [
+        {
+          src: '/android-chrome-192x192.png',
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: '/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: '/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable'
+        }
+      ]
+    },
+    workbox: {
+      navigateFallback: '/'
+    },
+    devOptions: {
+      enabled: true
+    }
   },
 
   app: {
