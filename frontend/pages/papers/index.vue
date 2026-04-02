@@ -63,7 +63,7 @@ const years = computed(() => [
       <div class="flex flex-wrap gap-3">
         <select
           v-model="filterSubject"
-          class="text-sm border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
+          class="text-sm border border-gray-300 rounded-lg pl-3 px-8 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
         >
           <option value="">全部科目</option>
           <option v-for="s in subjects" :key="s" :value="s">{{ s }}</option>
@@ -71,7 +71,7 @@ const years = computed(() => [
 
         <select
           v-model="filterYear"
-          class="text-sm border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
+          class="text-sm border border-gray-300 rounded-lg pl-3 px-8 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
         >
           <option :value="null">全部年份</option>
           <option v-for="y in years" :key="y" :value="y">{{ y }} 年</option>
