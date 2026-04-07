@@ -181,3 +181,5 @@ docker-compose.override.yml
 # =========================================================
 quiz_html/
 功能草案/
+json_folder/
+output/
